@@ -1,7 +1,9 @@
-# 🔒 VPN подписки без лагов — обход блокировок
+# 🔒 机场3 — VPN подписки без лагов — обход блокировок
+
+> 这是个人部署“机场3”（[chaoslex/airport3](https://github.com/chaoslex/airport3)），基于上游项目 [https://github.com/Hidashimora/free-vpn-anti-rkn](https://github.com/Hidashimora/free-vpn-anti-rkn)。节点来自第三方；上游作者不保证其安全或可用。
 
 <p align="center">
-  <a href="https://hidashimora.github.io/free-vpn-anti-rkn/">
+  <a href="https://chaoslex.github.io/airport3/">
     <img src="https://img.shields.io/badge/Перейти_на_сайт—подписки_без_лагов-06b6d4?style=for-the-badge&labelColor=0c4a6e" alt="Перейти на сайт" height="120" />
   </a>
 </p>
@@ -110,7 +112,7 @@ README.en.md           # English version
 <a id="s-quickstart"></a>
 ## 🚀 Быстрый старт
 
-1. Откройте [страницу проекта](https://hidashimora.github.io/free-vpn-anti-rkn/) или скопируйте нужную
+1. Откройте [страницу проекта](https://chaoslex.github.io/airport3/) или скопируйте нужную
    ссылку из таблицы [«Ссылки на подписки»](#s-links).
 2. В VPN-клиенте добавьте подписку по URL (меню «Подписка» / «Subscription» / «Импорт по ссылке»).
 3. Выполните обновление списка, при необходимости запустите проверку задержки (пинга).
@@ -122,44 +124,44 @@ README.en.md           # English version
 <a id="ссылки-на-подписки-1-34"></a>
 ## 📋 Ссылки на подписки (1–34)
 
-Базовый URL: `https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/`
+Базовый URL: `https://raw.githubusercontent.com/chaoslex/airport3/main/configs/`
 
 | № | Источник | Короткий (≤300) | Расширенный (≤500) |
 |---|----------|-----------------|--------------------|
-| 1 | sakha1370/OpenRay | [1.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/1.1.txt) | [1.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/1.2.txt) |
-| 2 | sevcator/5ubscrpt10n | [2.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/2.1.txt) | [2.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/2.2.txt) |
-| 3 | yitong2333/proxy-minging | [3.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/3.1.txt) | [3.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/3.2.txt) |
-| 4 | acymz/AutoVPN | [4.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/4.1.txt) | [4.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/4.2.txt) |
-| 5 | miladtahanian/V2RayCFGDumper | [5.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/5.1.txt) | [5.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/5.2.txt) |
-| 6 | roosterkid/openproxylist | [6.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/6.1.txt) | [6.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/6.2.txt) |
-| 7 | Epodonios/v2ray-configs | [7.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/7.1.txt) | [7.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/7.2.txt) |
-| 8 | ShatakVPN/ConfigForge-V2Ray | [8.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/8.1.txt) | [8.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/8.2.txt) |
-| 9 | mohamadfg-dev/telegram-v2ray-configs-collector | [9.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/9.1.txt) | [9.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/9.2.txt) |
-| 10 | mheidari98/.proxy | [10.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/10.1.txt) | [10.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/10.2.txt) |
-| 11 | youfoundamin/V2rayCollector | [11.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/11.1.txt) | [11.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/11.2.txt) |
-| 12 | VOID-Anonymity/V.O.I.D-VPN_Bypass | [12.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/12.1.txt) | [12.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/12.2.txt) |
-| 13 | cbusifabcap/daily_free_vpn | [13.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/13.1.txt) | [13.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/13.2.txt) |
-| 14 | LalatinaHub/Mineral | [14.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/14.1.txt) | [14.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/14.2.txt) |
-| 15 | miladtahanian/Config-Collector | [15.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/15.1.txt) | [15.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/15.2.txt) |
-| 16 | Pawdroid/Free-servers | [16.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/16.1.txt) | [16.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/16.2.txt) |
-| 17 | MhdiTaheri/V2rayCollector_Py | [17.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/17.1.txt) | [17.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/17.2.txt) |
-| 18 | free18/v2ray | [18.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/18.1.txt) | [18.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/18.2.txt) |
-| 19 | MhdiTaheri/V2rayCollector | [19.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/19.1.txt) | [19.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/19.2.txt) |
-| 20 | Argh94/Proxy-List | [20.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/20.1.txt) | [20.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/20.2.txt) |
-| 21 | shabane/kamaji | [21.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/21.1.txt) | [21.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/21.2.txt) |
-| 22 | wuqb2i4f/xray-config-toolkit | [22.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/22.1.txt) | [22.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/22.2.txt) |
-| 23 | igareck BLACK_VLESS_RUS | [23.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/23.1.txt) | [23.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/23.2.txt) |
-| 24 | Mr-Meshky/vify | [24.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/24.1.txt) | [24.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/24.2.txt) |
-| 25 | V2RayRoot/V2RayConfig | [25.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/25.1.txt) | [25.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/25.2.txt) |
-| 26 | Обход SNI/CIDR (без `.ru`) | [26.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/26.1.txt) | [26.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/26.2.txt) |
-| 27 | Shadowsocks + All (чёрный) | [27](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/27.txt) | — |
-| 28 | VLESS все (чёрный) | [28.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt) | [28.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.2.txt) |
-| 29 | VLESS mobile (чёрный) | [29](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/29.txt) | — |
-| 30 | VLESS Reality white mobile | [30](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/30.txt) | — |
-| 31 | VLESS Reality white mobile 2 | [31](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/31.txt) ⚠️ **stale** | — |
-| 32 | WHITE-CIDR-RU-all | [32.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/32.1.txt) | [32.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/32.2.txt) |
-| 33 | WHITE-CIDR-RU-checked | [33.1](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/33.1.txt) | [33.2](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/33.2.txt) |
-| 34 | WHITE-SNI-RU-all | [34](https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/34.txt) | — |
+| 1 | sakha1370/OpenRay | [1.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/1.1.txt) | [1.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/1.2.txt) |
+| 2 | sevcator/5ubscrpt10n | [2.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/2.1.txt) | [2.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/2.2.txt) |
+| 3 | yitong2333/proxy-minging | [3.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/3.1.txt) | [3.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/3.2.txt) |
+| 4 | acymz/AutoVPN | [4.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/4.1.txt) | [4.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/4.2.txt) |
+| 5 | miladtahanian/V2RayCFGDumper | [5.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/5.1.txt) | [5.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/5.2.txt) |
+| 6 | roosterkid/openproxylist | [6.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/6.1.txt) | [6.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/6.2.txt) |
+| 7 | Epodonios/v2ray-configs | [7.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/7.1.txt) | [7.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/7.2.txt) |
+| 8 | ShatakVPN/ConfigForge-V2Ray | [8.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/8.1.txt) | [8.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/8.2.txt) |
+| 9 | mohamadfg-dev/telegram-v2ray-configs-collector | [9.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/9.1.txt) | [9.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/9.2.txt) |
+| 10 | mheidari98/.proxy | [10.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/10.1.txt) | [10.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/10.2.txt) |
+| 11 | youfoundamin/V2rayCollector | [11.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/11.1.txt) | [11.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/11.2.txt) |
+| 12 | VOID-Anonymity/V.O.I.D-VPN_Bypass | [12.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/12.1.txt) | [12.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/12.2.txt) |
+| 13 | cbusifabcap/daily_free_vpn | [13.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/13.1.txt) | [13.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/13.2.txt) |
+| 14 | LalatinaHub/Mineral | [14.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/14.1.txt) | [14.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/14.2.txt) |
+| 15 | miladtahanian/Config-Collector | [15.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/15.1.txt) | [15.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/15.2.txt) |
+| 16 | Pawdroid/Free-servers | [16.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/16.1.txt) | [16.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/16.2.txt) |
+| 17 | MhdiTaheri/V2rayCollector_Py | [17.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/17.1.txt) | [17.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/17.2.txt) |
+| 18 | free18/v2ray | [18.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/18.1.txt) | [18.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/18.2.txt) |
+| 19 | MhdiTaheri/V2rayCollector | [19.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/19.1.txt) | [19.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/19.2.txt) |
+| 20 | Argh94/Proxy-List | [20.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/20.1.txt) | [20.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/20.2.txt) |
+| 21 | shabane/kamaji | [21.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/21.1.txt) | [21.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/21.2.txt) |
+| 22 | wuqb2i4f/xray-config-toolkit | [22.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/22.1.txt) | [22.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/22.2.txt) |
+| 23 | igareck BLACK_VLESS_RUS | [23.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/23.1.txt) | [23.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/23.2.txt) |
+| 24 | Mr-Meshky/vify | [24.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/24.1.txt) | [24.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/24.2.txt) |
+| 25 | V2RayRoot/V2RayConfig | [25.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/25.1.txt) | [25.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/25.2.txt) |
+| 26 | Обход SNI/CIDR (без `.ru`) | [26.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/26.1.txt) | [26.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/26.2.txt) |
+| 27 | Shadowsocks + All (чёрный) | [27](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/27.txt) | — |
+| 28 | VLESS все (чёрный) | [28.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/28.1.txt) | [28.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/28.2.txt) |
+| 29 | VLESS mobile (чёрный) | [29](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/29.txt) | — |
+| 30 | VLESS Reality white mobile | [30](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/30.txt) | — |
+| 31 | VLESS Reality white mobile 2 | [31](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/31.txt) ⚠️ **stale** | — |
+| 32 | WHITE-CIDR-RU-all | [32.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/32.1.txt) | [32.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/32.2.txt) |
+| 33 | WHITE-CIDR-RU-checked | [33.1](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/33.1.txt) | [33.2](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/33.2.txt) |
+| 34 | WHITE-SNI-RU-all | [34](https://raw.githubusercontent.com/chaoslex/airport3/main/configs/34.txt) | — |
 
 **Что выбрать.** Для обычного использования берите **короткие** списки (`N.1`) — они легче для
 клиента. Списки **27–31** относятся к «чёрному» (обход блокировок), **32–34** — к «белому» списку
@@ -264,8 +266,8 @@ README.en.md           # English version
 ## 🤝 Как помочь проекту
 
 - **Issues.** Сообщайте о нерабочих серверах и о упавших источниках в
-  [Issues](https://github.com/Hidashimora/free-vpn-anti-rkn/issues). Обратите внимание: серверы
-  сторонние, часть из них недоступна всегда — это ожидаемо, см. [issue #5](https://github.com/Hidashimora/free-vpn-anti-rkn/issues/5).
+  [Issues](https://github.com/chaoslex/airport3/issues). Обратите внимание: серверы
+  сторонние, часть из них недоступна всегда — это ожидаемо, см. [issue #5](https://github.com/chaoslex/airport3/issues/5).
 - **Pull requests.** Правки README, клиентов, скриптов и списков приветствуются.
   Перед PR запустите проверку:
 

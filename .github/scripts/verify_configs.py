@@ -96,7 +96,7 @@ def check_index_html(published: dict[str, int]) -> None:
 
     # the raw base URL used by the site must point at this repository
     base_match = re.search(r"base:\s*'([^']+)'", html)
-    if base_match and "Hidashimora/free-vpn-anti-rkn" not in base_match.group(1):
+    if base_match and "chaoslex/airport3" not in base_match.group(1):
         errors.append(f"index.html uses an unexpected base URL: {base_match.group(1)}")
 
     # the removed upstream must not be linked as a live source any more

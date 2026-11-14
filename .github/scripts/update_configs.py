@@ -54,7 +54,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_DIR = REPO_ROOT / "configs"
 
-USER_AGENT = "free-vpn-anti-rkn-updater/2.0 (+https://github.com/Hidashimora/free-vpn-anti-rkn)"
+USER_AGENT = "airport3-updater/1.0 (+https://github.com/chaoslex/airport3)"
 
 # Only lines starting with a supported scheme are published.
 SCHEME_RE = re.compile(r"^(vless|trojan|vmess|ss|hy2)://")

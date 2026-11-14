@@ -4,163 +4,46 @@ on:
   push:
     branches: [main]
   schedule:
-    # Максимальная частота в GitHub Actions — раз в минуту (30 сек cron не поддерживает)
-    - cron: '* * * * *'
+    # Refresh every four hours, as the project page describes.
+    - cron: '17 */4 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: airport3-config-refresh
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     permissions:
       contents: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
-      - name: Fetch and reduce all 26 lists (1/4 configs each, max 300)
-        run: |
-          mkdir -p configs
-          BASE="https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror"
-          MAX=300
-          printf 'OpenRay\n5ubscrpt10n\nproxy-minging\nAutoVPN\nV2RayCFGDumper\nopenproxylist\nv2ray-configs\ncid-vpn-config\ntelegram-v2ray-configs\n.proxy\nV2rayCollector\n.proxy\nconfig\nMineral\nConfig-Collector\nFree-servers\nV2rayCollector_Py\nv2ray\nV2rayCollector\nProxy-List\nkamaji\nxray-config-toolkit\nXray\nSTRUGOV\nV2RayConfig\nОбход SNI/CIDR\n' > names_aven.txt
-          for i in $(seq 1 26); do
-            curl -sLf "${BASE}/${i}.txt" -o full.txt || true
-            touch full.txt
-            grep -E '^(vless|trojan|vmess|ss|hy2)://' full.txt > filtered.txt || true
-            if [ "$i" -eq 26 ]; then grep -v '\.ru' filtered.txt > filtered2.txt && mv filtered2.txt filtered.txt; fi
-            N=$(wc -l < filtered.txt)
-            if [ "$N" -eq 0 ]; then
-              cp filtered.txt new.txt
-            elif [ "$N" -lt "$MAX" ]; then
-              cp filtered.txt new.txt
-            else
-              quarter=$((N / 4))
-              if [ "$quarter" -le "$MAX" ]; then
-                awk 'NR % 4 == 1' filtered.txt > new.txt
-              else
-                awk -v T="$N" -v target="$MAX" 'int((NR-1)*target/T) != int((NR-2)*target/T)' filtered.txt > new.txt
-              fi
-            fi
-            if [ ! -s new.txt ] && [ -s filtered.txt ]; then
-              cp filtered.txt new.txt
-            fi
-            if [ -s new.txt ]; then
-              name=$(sed -n "${i}p" names_aven.txt)
-              f="${i}.1.txt"
-              echo "# Подписка $f | $name (короткий)" > "configs/$f"
-              cat new.txt >> "configs/$f"
-              echo "  configs/$f: $(wc -l < new.txt) servers"
-            else
-              echo "  configs/${i}.1.txt: no configs, skipped"
-            fi
-          done
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Fetch igareck/vpn-configs-for-russia (27–34); 28/32/33 as N.1+N.2
-        run: |
-          BASE="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main"
-          MAX=300
-          n=27
-          titles='Shadowsocks+All (чёрный)|VLESS все (чёрный)|VLESS 150 (чёрный)|CIDR белый mobile 1|CIDR белый mobile 2|CIDR белый все|CIDR VK/Ya/CDN/Beeline|SNI белый список'
-          for name in "BLACK_SS%2BAll_RUS.txt" "BLACK_VLESS_RUS.txt" "BLACK_VLESS_RUS_mobile.txt" \
-                      "Vless-Reality-White-Lists-Rus-Mobile.txt" "Vless-Reality-White-Lists-Rus-Mobile-2.txt" \
-                      "WHITE-CIDR-RU-all.txt" "WHITE-CIDR-RU-checked.txt" "WHITE-SNI-RU-all.txt"; do
-            curl -sLf "${BASE}/${name}" -o full.txt || true
-            touch full.txt
-            grep -E '^(vless|trojan|vmess|ss|hy2)://' full.txt > filtered.txt || true
-            N=$(wc -l < filtered.txt)
-            if [ "$N" -eq 0 ]; then
-              cp filtered.txt new.txt
-            elif [ "$N" -lt "$MAX" ]; then
-              cp filtered.txt new.txt
-            else
-              quarter=$((N / 4))
-              if [ "$quarter" -le "$MAX" ]; then
-                awk 'NR % 4 == 1' filtered.txt > new.txt
-              else
-                awk -v T="$N" -v target="$MAX" 'int((NR-1)*target/T) != int((NR-2)*target/T)' filtered.txt > new.txt
-              fi
-            fi
-            if [ ! -s new.txt ] && [ -s filtered.txt ]; then cp filtered.txt new.txt; fi
-            title=$(echo "$titles" | cut -d'|' -f$((n-26)))
-            if [ "$n" -eq 28 ] || [ "$n" -eq 32 ] || [ "$n" -eq 33 ]; then
-              if [ -s new.txt ]; then
-                echo "# Подписка ${n}.1 | $title (igareck, короткий)" > "configs/${n}.1.txt"
-                cat new.txt >> "configs/${n}.1.txt"
-                echo "  configs/${n}.1.txt: $(wc -l < new.txt) servers (from ${name})"
-              fi
-              if [ -s filtered.txt ]; then
-                echo "# Подписка ${n}.2 | $title (igareck, полный)" > "configs/${n}.2.txt"
-                cat filtered.txt >> "configs/${n}.2.txt"
-                echo "  configs/${n}.2.txt: $(wc -l < filtered.txt) servers (full)"
-              fi
-            else
-              if [ -s new.txt ]; then
-                echo "# Подписка $n | $title (igareck)" > "configs/${n}.txt"
-                cat new.txt >> "configs/${n}.txt"
-                echo "  configs/${n}.txt: $(wc -l < new.txt) servers (from ${name})"
-              else
-                echo "  configs/${n}.txt: no configs, skipped (${name})"
-              fi
-            fi
-            n=$((n + 1))
-          done
+      - name: Refresh public subscription lists
+        run: python3 .github/scripts/update_configs.py
 
-      - name: Fetch full lists (1.2, 2.2, …, 26.2) from AvenCores — только для 1–26
-        run: |
-          BASE="https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror"
-          printf 'OpenRay\n5ubscrpt10n\nproxy-minging\nAutoVPN\nV2RayCFGDumper\nopenproxylist\nv2ray-configs\ncid-vpn-config\ntelegram-v2ray-configs\n.proxy\nV2rayCollector\n.proxy\nconfig\nMineral\nConfig-Collector\nFree-servers\nV2rayCollector_Py\nv2ray\nV2rayCollector\nProxy-List\nkamaji\nxray-config-toolkit\nXray\nSTRUGOV\nV2RayConfig\nОбход\n' > names_aven.txt
-          for i in $(seq 1 26); do
-            curl -sLf "${BASE}/${i}.txt" -o full.txt || true
-            touch full.txt
-            grep -E '^(vless|trojan|vmess|ss|hy2)://' full.txt > filtered.txt || true
-            if [ "$i" -eq 26 ]; then grep -v '\.ru' filtered.txt > filtered2.txt && mv filtered2.txt filtered.txt; fi
-            name=$(sed -n "${i}p" names_aven.txt)
-            f="${i}.2.txt"
-            echo "# Подписка $f | $name (полный)" > "configs/$f"
-            cat filtered.txt >> "configs/$f"
-            echo "  configs/$f: $(wc -l < filtered.txt) servers"
-          done
+      - name: Validate generated lists and page links
+        run: python3 .github/scripts/verify_configs.py
 
-      - name: Generate counts.json (per-config and total unique servers)
-        run: |
-          echo '{' > configs/counts.json
-          for i in $(seq 1 26); do
-            for s in 1 2; do
-              key="${i}.${s}"
-              c=0
-              [ -f "configs/${key}.txt" ] && c=$(grep -cE '^(vless|trojan|vmess|ss|hy2)://' "configs/${key}.txt" 2>/dev/null || true)
-              echo "  \"$key\": ${c:-0}," >> configs/counts.json
-            done
-          done
-          for i in 27 29 30 31 34; do
-            c=0
-            [ -f "configs/${i}.txt" ] && c=$(grep -cE '^(vless|trojan|vmess|ss|hy2)://' "configs/${i}.txt" 2>/dev/null || true)
-            echo "  \"$i\": ${c:-0}," >> configs/counts.json
-          done
-          for i in 28 32 33; do
-            for s in 1 2; do
-              key="${i}.${s}"
-              c=0
-              [ -f "configs/${key}.txt" ] && c=$(grep -cE '^(vless|trojan|vmess|ss|hy2)://' "configs/${key}.txt" 2>/dev/null || true)
-              echo "  \"$key\": ${c:-0}," >> configs/counts.json
-            done
-          done
-          total=$( ( for i in $(seq 1 26); do for s in 1 2; do [ -f "configs/${i}.${s}.txt" ] && grep -E '^(vless|trojan|vmess|ss|hy2)://' "configs/${i}.${s}.txt"; done; done; for i in 27 29 30 31 34; do [ -f "configs/${i}.txt" ] && grep -E '^(vless|trojan|vmess|ss|hy2)://' "configs/${i}.txt"; done; for i in 28 32 33; do for s in 1 2; do [ -f "configs/${i}.${s}.txt" ] && grep -E '^(vless|trojan|vmess|ss|hy2)://' "configs/${i}.${s}.txt"; done; done ) 2>/dev/null | sort -u | wc -l)
-          echo "  \"totalUnique\": $total" >> configs/counts.json
-          echo '}' >> configs/counts.json
-          echo "  totalUnique: $total servers (no duplicates)"
-
-      - name: Commit and push if changed
+      - name: Commit changes when needed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add configs/
-          git add -u
-          if git diff --staged --quiet; then
-            echo "No changes"
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
           else
-            git status --short
-            git commit -m "chore: update VPN configs ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
+            git commit -m "chore: refresh VPN configs ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push origin HEAD:main
           fi
