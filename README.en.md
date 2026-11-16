@@ -244,9 +244,8 @@ Snapshot from the most recent update (`2026-11-09T03:36:56Z`, taken from `counts
 
 GitHub Actions does the work — you do not need your own server.
 
-- **Schedule:** `23 */4 * * *` — **every 4 hours**. It used to be `* * * * *` ("every minute"), but
-  GitHub throttles such schedules heavily: in practice only ~6 runs per day happened, at random
-  times. Every 4 hours gives the same real frequency, but honestly and predictably.
+- **Schedule:** `0 23 * * *` — daily at **07:00 Beijing time (Asia/Shanghai)**.
+  If a run is missed, it can be triggered once manually and checked against the generated file's timestamp.
 - **Code:** [`.github/scripts/update_configs.py`](.github/scripts/update_configs.py) — no third-party
   dependencies; you can also run it locally: `python3 .github/scripts/update_configs.py`.
 - **Check:** [`.github/scripts/verify_configs.py`](.github/scripts/verify_configs.py) cross-checks the
