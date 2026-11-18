@@ -73,6 +73,7 @@ class Storage:
                 plugin_opts  TEXT,
                 raw_link     TEXT,
                 is_alive     INTEGER DEFAULT 0,
+                is_real_alive INTEGER DEFAULT 0,
                 latency_ms   REAL,
                 last_checked TEXT,
                 added_at     TEXT    NOT NULL DEFAULT (datetime('now')),
@@ -83,6 +84,10 @@ class Storage:
             CREATE INDEX IF NOT EXISTS idx_pr_alive   ON proxies(is_alive);
             CREATE INDEX IF NOT EXISTS idx_src_url    ON sources(url);
         """)
+        # Migrate databases restored from cache before real-check status existed.
+        columns = {row[1] for row in c.execute("PRAGMA table_info(proxies)")}
+        if "is_real_alive" not in columns:
+            c.execute("ALTER TABLE proxies ADD COLUMN is_real_alive INTEGER DEFAULT 0")
 
     def _init_db(self):
         """Ensure tables exist."""
@@ -140,7 +145,8 @@ class Storage:
         if existing:
             c.execute(
                 """UPDATE proxies SET source_id=?,name=?,cipher=?,uuid=?,
-                   password=?,plugin=?,plugin_opts=?,raw_link=?,extra=? WHERE id=?""",
+                   password=?,plugin=?,plugin_opts=?,raw_link=?,extra=?,
+                   is_real_alive=0 WHERE id=?""",
                 (p.get("source_id"), p.get("name"), p.get("cipher"),
                  p.get("uuid"), p.get("password"), p.get("plugin"),
                  p.get("plugin_opts"), p.get("raw_link"),
@@ -182,14 +188,36 @@ class Storage:
             c = self._conn()
             if alive:
                 c.execute(
-                    """UPDATE proxies SET is_alive=1,latency_ms=?,
+                    """UPDATE proxies SET is_alive=1,is_real_alive=0,latency_ms=?,
                        last_checked=datetime('now'),dead_count=0 WHERE id=?""",
                     (latency, pid))
             else:
                 c.execute(
-                    """UPDATE proxies SET is_alive=0,latency_ms=NULL,
+                    """UPDATE proxies SET is_alive=0,is_real_alive=0,latency_ms=NULL,
                        last_checked=datetime('now'),dead_count=dead_count+1 WHERE id=?""",
                     (pid,))
+
+    def update_real_proxy_status(self, pid: int, alive: bool,
+                                 latency: float | None = None):
+        """Record protocol-level validation separately from a TCP ping."""
+        with self._lock:
+            c = self._conn()
+            if alive:
+                c.execute(
+                    """UPDATE proxies SET is_alive=1,is_real_alive=1,latency_ms=?,
+                       last_checked=datetime('now'),dead_count=0 WHERE id=?""",
+                    (latency, pid))
+            else:
+                c.execute(
+                    """UPDATE proxies SET is_alive=0,is_real_alive=0,latency_ms=NULL,
+                       last_checked=datetime('now'),dead_count=dead_count+1 WHERE id=?""",
+                    (pid,))
+
+    def clear_real_proxy_status(self, pid: int):
+        """Exclude an untestable proxy from real-verified subscription output."""
+        with self._lock:
+            self._conn().execute(
+                "UPDATE proxies SET is_real_alive=0 WHERE id=?", (pid,))
 
     def get_proxies_by_type(self, proxy_type: str, limit=500) -> List[Dict]:
         """按类型取节点（存活优先、死亡次数少优先）。"""
@@ -213,6 +241,19 @@ class Storage:
                     (limit,)).fetchall()
         return [dict(r) for r in rows]
 
+    def get_real_alive_proxies(self, limit=200) -> List[Dict]:
+        """Return only nodes that passed protocol-level real validation."""
+        with self._lock:
+            c = self._conn()
+            if not limit or limit <= 0:
+                rows = c.execute(
+                    "SELECT * FROM proxies WHERE is_real_alive=1 ORDER BY latency_ms ASC NULLS LAST").fetchall()
+            else:
+                rows = c.execute(
+                    "SELECT * FROM proxies WHERE is_real_alive=1 ORDER BY latency_ms ASC NULLS LAST LIMIT ?",
+                    (limit,)).fetchall()
+        return [dict(r) for r in rows]
+
     def cleanup_dead(self, max_dead=3):
         with self._lock:
             c = self._conn()
@@ -229,6 +270,9 @@ class Storage:
             total = c.execute("SELECT COUNT(*) FROM proxies").fetchone()[0]
             alive = c.execute(
                 "SELECT COUNT(*) FROM proxies WHERE is_alive=1").fetchone()[0]
+            real_alive = c.execute(
+                "SELECT COUNT(*) FROM proxies WHERE is_real_alive=1").fetchone()[0]
             src = c.execute(
                 "SELECT COUNT(*) FROM sources WHERE is_active=1").fetchone()[0]
-        return {"total": total, "alive": alive, "sources": src}
+        return {"total": total, "alive": alive,
+                "real_alive": real_alive, "sources": src}

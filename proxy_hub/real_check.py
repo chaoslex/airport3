@@ -336,15 +336,17 @@ async def apply_real_check(config: dict, storage) -> Optional[int]:
                        len(candidates))
         return None
 
-    # 只对实际送测过的节点下结论；无法转成 clash 的节点（仍可能出现在
-    # b64/txt 订阅里）保持 TCP 判定的原状态
+    # 订阅只允许通过 Mihomo 协议级验证的节点。无法转换或未通过的节点
+    # 不得仅凭 TCP 连通性进入任何订阅输出。
     testable = {p["id"] for p in candidates if _proxy_to_clash(p)}
     for p in candidates:
         pid = p["id"]
         if pid in result:
-            storage.update_proxy_status(pid, True, result[pid])
+            storage.update_real_proxy_status(pid, True, result[pid])
         elif pid in testable:
-            storage.update_proxy_status(pid, False)
+            storage.update_real_proxy_status(pid, False)
+        else:
+            storage.clear_real_proxy_status(pid)
     return len(result)
 
 

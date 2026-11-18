@@ -53,7 +53,7 @@ def main():
         return 1
 
     # ── 获取存活节点 ──────────────────────────────────
-    all_alive = storage.get_alive_proxies(limit=max_p)
+    all_alive = storage.get_real_alive_proxies(limit=max_p)
 
     # ── 1) Clash 全量 ─────────────────────────────────
     yaml_str = generate_clash_yaml(cfg, storage)
@@ -95,7 +95,9 @@ def main():
     stats = result.get("stats", {})
     real = result.get("real_alive")
     checker = "mihomo 真实验证" if real is not None else "仅 TCP 粗筛（未找到 mihomo）"
-    print(f"✅ 完成: 总计 {stats.get('total',0)} 个节点, 存活 {stats.get('alive',0)} 个 [{checker}]")
+    alive_label = "实际测试可用" if real is not None else "TCP 存活"
+    alive_count = stats.get("real_alive", 0) if real is not None else stats.get("alive", 0)
+    print(f"✅ 完成: 总计 {stats.get('total',0)} 个节点, {alive_label} {alive_count} 个 [{checker}]")
     if real is None and os.environ.get("GITHUB_ACTIONS"):
         # CI 里 mihomo 缺席意味着发布的是未经协议验证的节点，必须显眼
         print("::warning::mihomo real check unavailable — published nodes are TCP-verified only")

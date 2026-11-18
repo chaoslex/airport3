@@ -396,7 +396,7 @@ def generate_clash_yaml(config: dict, storage: Storage) -> str:
     scfg = config.get("subscription", {})
     max_proxies = scfg.get("max_proxies", 200)
 
-    proxies = storage.get_alive_proxies(limit=max_proxies)
+    proxies = storage.get_real_alive_proxies(limit=max_proxies)
     clash_proxies = _build_clash_proxies(proxies)
     if not clash_proxies:
         return yaml.safe_dump({"proxies": []}, default_flow_style=False, allow_unicode=True)
@@ -431,7 +431,7 @@ def generate_clash_selected(config: dict, storage: Storage) -> str:
     scfg = config.get("subscription", {})
     count = scfg.get("selected_count", 30)
 
-    raw = storage.get_alive_proxies(limit=0)  # 已按延迟升序
+    raw = storage.get_real_alive_proxies(limit=0)  # 仅真实验证通过，按延迟升序
     counter: dict = {}
     clash_proxies: List[dict] = []
     seen = set()
@@ -474,7 +474,7 @@ def generate_clash_selected(config: dict, storage: Storage) -> str:
 def generate_json(config: dict, storage: Storage) -> dict:
     scfg = config.get("subscription", {})
     max_proxies = scfg.get("max_proxies", 200)
-    proxies = storage.get_alive_proxies(limit=max_proxies)
+    proxies = storage.get_real_alive_proxies(limit=max_proxies)
     return {
         "count": len(proxies),
         "proxies": [

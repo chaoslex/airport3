@@ -52,7 +52,7 @@ def get_clash_selected():
 
 def _alive(limit_key: str = "max_proxies"):
     scfg = config.get("subscription", {})
-    return storage.get_alive_proxies(limit=scfg.get(limit_key, 200))
+    return storage.get_real_alive_proxies(limit=scfg.get(limit_key, 200))
 
 
 @app.get("/sub.b64")
