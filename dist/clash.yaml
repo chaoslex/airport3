@@ -6,323 +6,370 @@ log-level: warning
 ipv6: false
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇺🇸US-167.88.62.203-0100
+- name: US-183 美国 246
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+- name: 133 shadowsocks-1827963904
+  type: ss
+  server: 138.199.43.159
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 'US-164 Channel id: @ShadowProxy66'
+  type: ss
+  server: 38.143.66.146
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US-169 US_519 950KB/s C002-260622 [713009936dcb]
+  type: trojan
+  server: 216.106.186.32
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: 🇺🇸US_47|349KB/s|C002-260622 [084e9512967f]
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🇺🇸US_38|658KB/s|M002-260618 [36f371846349]
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: vless-1853340437
+  type: vless
+  server: ww13.levikogjgfdd.ir
+  port: 23576
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: US-115 US_363 77KB/s M003-260806 [3de23dd74123]
+  type: ss
+  server: 137.184.89.151
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_109|169KB/s|M003-260806 [7d6eb581864e]
+  type: vmess
+  server: 107.150.19.24
+  port: 54321
+  udp: true
+  uuid: 2659ef8a-3456-48f8-95fe-08b82d3f4984
+  cipher: auto
+  alterId: 0
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /x
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+- name: 🇺🇸US-209.248.57.105-0224
+  type: ss
+  server: 209.248.57.105
+  port: 8388
+  cipher: aes-256-gcm
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+- name: 🇭🇰_香港 (8)
+  type: vmess
+  server: 206.237.11.17
+  port: 50376
+  udp: true
+  uuid: 9091fd64-7e8e-4b7a-8ae7-84474f234926
+  cipher: auto
+  alterId: 0
+- name: XX-005 @meliproxyy
+  type: ss
+  server: 38.145.220.193
+  port: 8443
+  cipher: 2022-blake3-aes-128-gcm
+  password: jUbDNsFamcyDfpm+rI3Zyw==
+- name: US 🇺🇸 | @Raydikalx | 835DF0
+  type: vmess
+  server: 49.51.179.155
+  port: 42022
+  uuid: 8ce7802c-019c-4568-f6ac-89f13c6d545d
+  cipher: auto
+  alterId: 0
+- name: US-151 US(AzadNet.t.me)
+  type: trojan
+  server: 167.88.61.175
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
+- name: US-170 US(AzadNet.t.me)
+  type: trojan
+  server: 167.88.61.193
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseseniorrolesandenhanceyourcareertoday.com
+- name: US-162 US_144 481KB/s M003-260806 [112d3ee5d9f2]
+  type: ss
+  server: 107.155.57.51
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-153 US_476 924KB/s A004-260618 [594337d2d6df]
+  type: trojan
+  server: 167.88.61.85
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.browseseniorrolesandenhanceyourcareertoday.com
+  client-fingerprint: chrome
+- name: 'Channel id: @ConfigV2RayNG 🇺🇸'
+  type: ss
+  server: 129.146.61.90
+  port: 50356
+  cipher: 2022-blake3-chacha20-poly1305
+  password: qG5HzrJO2OAzMFY6WDz991qHHonSP2ix6l6jKlHwokY=
+- name: US 🇺🇸 | @Raydikalx | 02181F
+  type: hysteria2
+  server: 47.89.232.46
+  port: 8443
+  password: 4afd4e1b1b0edd429b10d800a1cf64a7
+  sni: hysteria2.local
+  skip-cert-verify: true
+- name: US-076 US_243 927KB/s A004-260618 [d92318afee09]
+  type: ss
+  server: 79.110.54.250
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-063 US_63 926KB/s A004-260618 [0e40b52615aa]
+  type: ss
+  server: 107.151.182.197
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-178 US_480 822KB/s M003-260806 [6568f73d0636]
+  type: trojan
+  server: 167.88.61.198
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
+  client-fingerprint: chrome
+- name: 🇺🇸US_101|427KB/s|C002-260622 [3361835171c8]
+  type: trojan
+  server: 96.44.133.37
+  port: 2087
+  udp: true
+  password: 2e7sEZERnvGOlt35hf6rNg
+  sni: www.bing.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: 251 shadowsocks-1827146667
+  type: ss
+  server: 173.244.56.9
+  port: 443
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: TH-004 Other_69 586KB/s K001-260618 [5708f18d59b
+  type: vmess
+  server: 23.150.152.65
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: US-141 US-173.244.56.6-0254
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US_105|379KB/s|M003-260806
+  type: hysteria2
+  server: 38.76.150.108
+  port: 36712
+  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
+  sni: 38.76.150.108
+  skip-cert-verify: true
+- name: US-019 US_367 1.2MB/s M003-260806 [5762fa2cd8d3]
   type: ss
   server: 167.88.62.203
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | AEA668
-  type: ss
-  server: 167.17.67.171
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 041 shadowsocks-1827146549
-  type: ss
-  server: 156.146.38.170
+- name: 🇺🇸 SkyBit-46_2026-11-18_19-04
+  type: trojan
+  server: 66.163.114.132
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: US 🇺🇸 | @Raydikalx | F41438
-  type: ss
-  server: 167.88.62.56
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 7BB59B
-  type: ss
-  server: 67.220.73.178
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.167-0168
-  type: ss
-  server: 156.146.38.167
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0167
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: US-010 US_9 291KB/s [2b322b68c292]
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 042 shadowsocks-1827146815
-  type: ss
-  server: 156.146.38.168
+- name: 🇺🇸US_67|533KB/s|A004-260618 [55389c25f10d]
+  type: trojan
+  server: 66.163.114.245
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: US 🇺🇸 | @Raydikalx | 40DB1C
-  type: ss
-  server: 138.199.42.68
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 062 GB 🇬🇧 | @Raydikalx | 95E028
-  type: vless
-  server: 84.32.54.237
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  servername: rly-gw-cfg.galioncc.com
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 868419504747f6de
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: true
   client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | C3E30F
-  type: vmess
-  server: 162.251.60.97
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸US-216.106.178.169-0154
-  type: ss
-  server: 216.106.178.169
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 67B835
-  type: vmess
-  server: 167.88.62.134
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 275AFF
-  type: vmess
-  server: 38.68.135.131
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 64D2F8
-  type: vmess
-  server: 38.64.138.187
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | FC978E
-  type: vmess
-  server: 38.64.138.135
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: ❓Other_17|109KB/s|M003-260806
-  type: ss
-  server: 38.64.138.135
-  port: 19999
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.128.66.32-0165
-  type: ss
-  server: 38.128.66.32
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: ❓Other_8|148KB/s|A004-260618
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  udp: true
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸US-172.111.36.123-0086
-  type: ss
-  server: 172.111.36.123
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-167.88.63.99-0102
-  type: ss
-  server: 167.88.63.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_90|552KB/s|A004-260618 [0ccf6aebe480]
-  type: ss
-  server: 15.204.247.244
+- name: 🇺🇸_美国 (17)
+  type: trojan
+  server: 66.163.114.126
   port: 443
   udp: true
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: US 🇺🇸 | @Raydikalx | D57391
-  type: vmess
-  server: 167.88.62.51
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 6AB77E
-  type: ss
-  server: 185.215.132.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 054 🇺🇸US-38.22.17.129-0078 | 28.443MB
-  type: ss
-  server: 38.22.17.129
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.121.43.231-0091
-  type: ss
-  server: 38.121.43.231
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸 SkyBit-27_2026-11-17_20-09
-  type: ss
-  server: 185.215.132.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.22.17.219-0108
-  type: ss
-  server: 38.22.17.219
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_51|481KB/s|M003-260806
-  type: ss
-  server: 38.22.17.214
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.121.43.18-0087
-  type: ss
-  server: 38.121.43.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 541574
-  type: vmess
-  server: 167.88.62.56
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 572B79
-  type: vmess
-  server: 38.128.66.249
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸US-38.121.43.225-0103
-  type: ss
-  server: 38.121.43.225
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_24|237KB/s|A004-260618 [0d70475f53d8]
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: 🇺🇸_美国 (19)
+  type: trojan
+  server: 66.163.114.166
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: 🇺🇸US_29|546KB/s|A004-260618 [0bcb39e66b5e]
+  type: trojan
+  server: 66.163.114.114
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  client-fingerprint: chrome
+- name: US-126 美国_1118211601
   type: vless
-  server: 45.138.100.248
-  port: 10443
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-- name: US 🇺🇸 | @Raydikalx | 31EAE9
-  type: ss
-  server: 167.88.63.39
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 055 US 🇺🇸 | @Raydikalx | 82C99B
-  type: ss
-  server: 38.22.17.139
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 7DD8C0
-  type: vmess
-  server: 38.128.66.241
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
+  server: 104.168.109.213
+  port: 443
+  uuid: 74b86103-0a6e-4a0e-8430-2aa84af805fc
+  flow: xtls-rprx-vision
   tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 882A7F
-  type: vmess
-  server: 38.128.66.212
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: shadowsocks-1827964140
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: rU4-ii54LkmEWBaliTQHvi3jc0fDTlSmutVtzedMNRM
+    short-id: 6ba7b8
+  client-fingerprint: chrome
+- name: 🇺🇸_美国 (22)
+  type: trojan
+  server: 66.163.114.106
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: US-084 US-107.151.182.253-0869
   type: ss
-  server: 138.197.141.58
+  server: 107.151.182.253
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: CA 🇨🇦 | @Raydikalx | F06147
-  type: ss
-  server: 184.107.106.78
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: US 🇺🇸 | @Raydikalx | 841538
-  type: ss
-  server: 200.102.179.179
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇨🇦CA-137.184.174.93-0135
-  type: ss
-  server: 137.184.174.93
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: US 🇺🇸 | @Raydikalx | 9FAC2F
-  type: ss
-  server: 136.148.77.250
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: CA 🇨🇦 | @Raydikalx | 3E7C3F
-  type: vmess
-  server: 134.195.196.154
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: ❓Other_97|213KB/s|B007-260618
-  type: ss
-  server: 184.107.106.77
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 045 trojan-1929965354
+- name: 005 trojan-1929965354
   type: trojan
   server: 66.163.114.45
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: US 🇺🇸 | @Raydikalx | 072F29
+- name: US-155 US_253 990KB/s A004-260618 [26dae539cbdd]
+  type: ss
+  server: 107.155.57.11
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-187 US @Raydikalx 9B4F83
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 129.146.77.248
+- name: US-156 US_24 996KB/s M003-260806 [6364b2c615d5]
+  type: ss
+  server: 23.251.121.242
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-180 Join+Telegram:@Farah_VPN
+  type: vless
+  server: 143.246.62.191
+  port: 8443
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  tls: true
+  servername: github.githubassets.com
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub'
+  type: vless
+  server: 47.251.108.158
+  port: 443
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  client-fingerprint: qq
+- name: US 🇺🇸 | @Raydikalx | 5B619D
+  type: vless
+  server: 198.247.127.131
+  port: 443
+  uuid: 59548d2d-5d7c-4328-aa81-0d5614da0c1b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: vmHHRwA9ER6c8dfgtL-gh2HBMCvjySy1xLimqYpLiCI
+  client-fingerprint: firefox
+- name: US-002 US_371 289KB/s M003-260806 [34b27eebfe6b]
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US 🇺🇸 | @Raydikalx | 76D633
+  type: trojan
+  server: 34.94.152.229
+  port: 443
+  password: '123456'
+  sni: us.ctt25.uk
+  client-fingerprint: chrome
+- name: US-168 US_145 960KB/s M003-260806 [2d3c6b97d127]
+  type: ss
+  server: 79.110.53.169
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: US-020 US_514 1.1MB/s K001-260618 [238480393fde]
   type: vmess
   server: 162.251.61.46
   port: 1270
@@ -331,1114 +378,29 @@ proxies:
   alterId: 0
   tls: true
   servername: xmfhlpy.com
-- name: 053 trojan-1849374991
-  type: trojan
-  server: 66.23.203.21
-  port: 59689
-  password: ae7eb4dwyaz25pxwgq59
-  sni: 66.23.203.21
-  skip-cert-verify: true
-- name: US 🇺🇸 | @Raydikalx | 6AFD1A
-  type: vless
-  server: 195.211.98.43
-  port: 443
-  uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA
-    short-id: 9c56fddf237e8eaf
-  client-fingerprint: random
-- name: 🇺🇸US-149.40.57.138-0068
-  type: ss
-  server: 149.40.57.138
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 549B8B
-  type: ss
-  server: 15.204.246.111
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-- name: US 🇺🇸 | @Raydikalx | 8E9347
-  type: ss
-  server: 104.238.140.45
-  port: 11051
-  cipher: chacha20-ietf-poly1305
-  password: JUXsy78dSs6ROkasikmoaL
-- name: 078 🇺🇸US-172.111.38.72-0116 | 31.245MB
-  type: ss
-  server: 172.111.38.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-45.86.51.18-0060
-  type: ss
-  server: 45.86.51.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 068 @ConfigV2RayNG
-  type: ss
-  server: 138.197.89.234
-  port: 28960
-  cipher: chacha20-ietf-poly1305
-  password: DZRy4Q3QH0jUGfKFl2jDCZ
-- name: 🇺🇸 SkyBit-49_2026-11-17_20-09
-  type: ss
-  server: 38.145.220.193
-  port: 8443
-  cipher: 2022-blake3-aes-128-gcm
-  password: jUbDNsFamcyDfpm+rI3Zyw==
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: trojan
-  server: 104.26.6.171
-  port: 443
-  password: reinz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-  sni: tsg3.pages.dev
-- name: '🇺🇸 United States #06 VLESS'
-  type: vless
-  server: 47.253.226.114
-  port: 443
-  udp: true
-  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-  client-fingerprint: chrome
-- name: 🇺🇸US-149.40.57.133-0113
-  type: ss
-  server: 149.40.57.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | F51004
-  type: ss
-  server: 149.40.57.135
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 143737
-  type: vmess
-  server: 172.111.36.137
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: vmess-1853333213
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  cipher: auto
-  alterId: 0
-- name: 🇺🇸US-38.91.100.39-0107
-  type: ss
-  server: 38.91.100.39
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.134-0131
-  type: ss
-  server: 149.40.57.134
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_31|961KB/s|C001-260618 [0085a15031bb]
-  type: trojan
-  server: 66.163.114.114
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-- name: 008 🇺🇸US-137.184.89.151-0064 | 11.643MB
-  type: ss
-  server: 137.184.89.151
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 047 trojan-1933715123
-  type: trojan
-  server: 66.163.114.166
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-- name: US 🇺🇸 | @Raydikalx | E7611E
-  type: vmess
-  server: 38.22.17.251
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸US-198.98.53.130-0206
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-- name: US 🇺🇸 | @Raydikalx | F55BCB
-  type: vmess
-  server: 167.88.63.39
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸_美国 (57)
-  type: trojan
-  server: 216.152.156.49
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: 🇺🇸US_84|893KB/s|S004-260618 [0e7a3a7788b3]
-  type: trojan
-  server: 216.152.156.65
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 216.152.156.65
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇺🇸US_59|713KB/s|M003-260806 [25a37b841bdc]
-  type: trojan
-  server: 216.152.156.42
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇺🇸US_61|108KB/s|A004-260618 [1f72b334a6b7]
-  type: vless
-  server: 69.48.201.136
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  network: ws
-  ws-opts:
-    path: /usserver
-    headers:
-      Host: zoom.us
-- name: 🇺🇸US-193.151.163.18-0063
-  type: ss
-  server: 193.151.163.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 065 🇺🇸US-38.91.107.188-0097 | 59.649MB
-  type: ss
-  server: 38.91.107.188
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_83|308KB/s|B007-260618 [2287db602270]
-  type: trojan
-  server: 170.101.101.237
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.explorecreativejobsandenhanceyourcareerportfolio.com
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | E0C902
-  type: vmess
-  server: 172.111.36.147
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 2334B9
-  type: vmess
-  server: 172.111.36.123
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸_美国 (55)
-  type: trojan
-  server: 216.152.156.159
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: 🇺🇸US_60|487KB/s|A004-260618
-  type: trojan
-  server: 216.152.156.81
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 050 trojan-1929965347
-  type: trojan
-  server: 66.163.114.126
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: US 🇺🇸 | @Raydikalx | 53FCC0
-  type: vmess
-  server: 167.88.63.47
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸US-185.230.230.18-0059
-  type: ss
-  server: 185.230.230.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_8|269KB/s|A004-260618 [1feecb3b9b0d]
-  type: ss
-  server: 98.98.79.198
-  port: 8080
-  udp: true
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 114 🇺🇸_美国 (56)
-  type: trojan
-  server: 66.163.122.113
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
-- name: US 🇺🇸 | @Raydikalx | 855C81
-  type: vmess
-  server: 167.88.63.99
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 066 US 🇺🇸 | @Raydikalx | 2B9AEB
-  type: ss
-  server: 38.91.107.19
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US 🇺🇸 | @Raydikalx | 565AA4
-  type: vmess
-  server: 38.91.100.69
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 766FED
-  type: vmess
-  server: 38.22.17.64
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 086 trojan-1827955817
-  type: trojan
-  server: 69.164.240.85
-  port: 50875
-  password: nwilryafgkyvuxauc8pz
-  sni: 69.164.240.85
-  skip-cert-verify: true
-- name: 美国+CloudFlare节点
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  network: ws
-  ws-opts:
-    path: /images/classify/dh
-    headers:
-      Host: vp19.1145678.xyz
-  tls: true
-  servername: vp19.1145678.xyz
-  client-fingerprint: chrome
-- name: ❓Other_3|366KB/s|C001-260618 [30df0e37041e]
-  type: ss
-  server: 193.151.160.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 075 trojan-1933715116
-  type: trojan
-  server: 216.152.156.212
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
-- name: 048 trojan-1929965351
-  type: trojan
-  server: 66.163.114.106
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: 🇺🇸US_72|1.1MB/s|S004-260618 [3035c07b1d36]
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  cipher: auto
-  alterId: 0
-- name: 🇺🇸US_69|74KB/s|C002-260622 [097fe1a50adf]
-  type: trojan
-  server: 66.163.114.245
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 66.163.114.245
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇺🇸US_9|286KB/s|A004-260618 [0a6e050b6876]
-  type: ss
-  server: 193.151.160.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 080 🇨🇦CA-15.235.57.6-0164 | 0.0MB
-  type: ss
-  server: 15.235.57.6
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: kxhnt5jtykd328cg
-- name: US 🇺🇸 | @Raydikalx | FC2D02
-  type: vmess
-  server: 172.111.36.126
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 923D7E
-  type: vmess
-  server: 38.22.17.89
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇺🇸US-162.251.62.31-0112
-  type: ss
-  server: 162.251.62.31
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #2'
-  type: vless
-  server: 172.67.141.182
-  port: 443
-  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
-  network: ws
-  ws-opts:
-    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
-  tls: true
-  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
-  client-fingerprint: chrome
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #3'
-  type: vless
-  server: 172.66.44.78
-  port: 443
-  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
-  network: ws
-  ws-opts:
-    path: /I0IHonn0TGa2xaOO?ed=2560
-    headers:
-      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
-  tls: true
-  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  client-fingerprint: chrome
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #4'
-  type: vless
-  server: 172.67.74.177
-  port: 2087
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
-  tls: true
-  servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
-  client-fingerprint: chrome
-- name: ❓Other_22|112KB/s|M002-260618 [3c75b7ee0a28]
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  cipher: auto
-  alterId: 0
-- name: 🇺🇸US_99|420KB/s|M003-260806 [056953129a7a]
-  type: trojan
-  server: 66.163.122.7
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com%23%F0%9F%92%AB65%40oneclickvpnkeys
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | 835DF0
-  type: vmess
-  server: 49.51.179.155
-  port: 42022
-  uuid: 8ce7802c-019c-4568-f6ac-89f13c6d545d
-  cipher: auto
-  alterId: 0
-- name: US 🇺🇸 | @Raydikalx | 586AD0
-  type: vmess
-  server: 172.111.36.253
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇫🇷FR_15|347KB/s|M003-260806
-  type: vless
-  server: 104.17.148.111
-  port: 443
-  udp: true
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vpn-1fj.pages.dev
-  tls: true
-  servername: vpn-1fj.pages.dev
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 020
-  type: ss
-  server: 107.151.182.253
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 072 @ConfigV2RayNG
-  type: ss
-  server: 198.100.154.175
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 3h3hb2gptqz6suyt
-- name: vmess-1837386188
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  cipher: auto
-  alterId: 0
-- name: US 🇺🇸 | @Raydikalx | 1FF246
-  type: vless
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  client-fingerprint: random
-- name: 🇺🇸 SkyBit-34_2026-11-17_20-09
-  type: vless
-  server: 45.144.112.55
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  client-fingerprint: firefox
-- name: shadowsocks-1827962976
-  type: ss
-  server: 107.151.182.197
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #5'
-  type: trojan
-  server: www.wto.org
-  port: 8443
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jiangjc.pages.dev
-  sni: jiangjc.pages.dev
-- name: US 🇺🇸 | @Raydikalx | AD3647
-  type: ss
-  server: 40.160.86.43
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇫🇷FR_30|324KB/s|B004-260618 [236989c90cd1]
-  type: vless
-  server: 104.19.52.70
-  port: 8443
-  udp: true
-  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edge-fef90023.pages.dev
-  tls: true
-  servername: edge-fef90023.pages.dev
-  client-fingerprint: firefox
-- name: CA 🇨🇦 | @Raydikalx | 8E778B
-  type: vmess
-  server: 158.51.121.246
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 24C7AC
-  type: vless
-  server: uspanel.unixzone.us
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  network: ws
-  ws-opts:
-    path: /usserver
-    headers:
-      Host: uspanel.unixzone.us
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #6'
-  type: vless
-  server: 172.67.67.89
-  port: 2087
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
-  tls: true
-  servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
-  client-fingerprint: chrome
-- name: ❓Other_8|291KB/s|A004-260618 [0c55ca482097]
-  type: ss
-  server: 79.110.54.250
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: CA 🇨🇦 | @Raydikalx | 1F92B4
-  type: ss
-  server: 158.51.121.221
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸_美国 (5)
-  type: vless
-  server: 85.155.179.206
-  port: 443
-  udp: true
-  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
-  tls: true
-  servername: us3.shtil.io
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #7'
-  type: vless
-  server: 14f7f5f0.mrbl69black.pages.dev
-  port: 443
-  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 14f7f5f0.mrbl69black.pages.dev
-  tls: true
-  servername: 14f7f5f0.mrbl69black.pages.dev
-  client-fingerprint: chrome
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: trojan
-  server: 104.19.45.195
-  port: 443
-  password: pH[]S[Bh:_:D6T4k
-  network: ws
-  ws-opts:
-    path: /trsVu9Ualb1DOfGjpw
-  sni: AZaDneT-692.PagEs.DEv
-  client-fingerprint: android
-- name: 🇺🇸 美国 017
-  type: hysteria2
-  server: 34.24.25.1
-  port: 443
-  password: 8dOHZ13sx33R1/PQbhTK/w==
-  sni: bing.com
-  skip-cert-verify: true
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #8'
-  type: vless
-  server: 172.66.45.42
-  port: 2096
-  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiek9GRkhzRHROb3o1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
-    headers:
-      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
-  tls: true
-  servername: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
-  client-fingerprint: chrome
-- name: ❓Other_66|96KB/s|M003-260806 [2a2c6d6db6f3]
-  type: vless
-  server: tally.so
-  port: 2082
-  udp: true
-  uuid: 975955b1-0521-49d9-97ad-eed2e626a30f
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV
-- name: 🇨🇦CA_12|100KB/s|A004-260618 [2fa6e394998f]
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: US 🇺🇸 | @Raydikalx | 375870
-  type: vmess
-  server: 142.202.48.87
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | C286F0
-  type: vmess
-  server: 38.91.100.16
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 003 US 🇺🇸 | @Raydikalx | 1D5827
-  type: vless
-  server: 147.224.54.25
-  port: 2053
-  uuid: cdb7fa1d-6e7a-467c-da9c-da363c7bf779
-  tls: true
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: DEFJSLdILrvauMpwtpvFZddadpt3rNtv03Dui2EkmRk
-    short-id: '68'
-  client-fingerprint: chrome
-- name: 🇺🇸US_88|318KB/s|B007-260618 [0ecd490fc1e7]
-  type: ss
-  server: 15.204.247.244
-  port: 4444
-  udp: true
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 🇫🇷FR_41|745KB/s|B007-260618
-  type: vless
-  server: 104.24.225.89
-  port: 443
-  uuid: dbbed131-4ae8-4297-a102-438a2e19b0d9
-  network: ws
-  ws-opts:
-    path: /vl/c5R0DRvdSoEZO90UjW3StIJxLpFWZod?ed=2560
-    headers:
-      Host: ghzo7q51sn2b5e2i1670v7dmx.pages.dev
-  tls: true
-  servername: GhzO7q51sn2b5e2I1670V7dmx.paGES.DEv
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | 02181F
-  type: hysteria2
-  server: 47.89.232.46
-  port: 8443
-  password: 4afd4e1b1b0edd429b10d800a1cf64a7
-  sni: hysteria2.local
-  skip-cert-verify: true
-- name: CA加拿大(mibei77.com 米贝节点分享) (2)
-  type: vless
-  server: 104.17.147.208
-  port: 443
-  udp: true
-  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: b.rack.sxsc.dpdns.org
-  tls: true
-  servername: b.rack.sxsc.dpdns.org
-  alpn:
-  - h3
-  client-fingerprint: chrome
-- name: 🇺🇸 SkyBit-43_2026-11-17_20-09
-  type: trojan
-  server: 66.163.122.26
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-- name: US 🇺🇸 | @Raydikalx | F44C8D
-  type: vmess
-  server: 38.91.107.57
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 25BDA0
-  type: ss
-  server: 15.204.246.108
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: US 🇺🇸 | @Raydikalx | 60BC4E
-  type: vmess
-  server: 162.251.62.31
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 083 trojan-1942154526
-  type: trojan
-  server: 170.101.101.67
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: US 🇺🇸 | @Raydikalx | 1590B4
-  type: ss
-  server: 15.204.247.124
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇺🇸 SkyBit-41_2026-11-17_20-09
-  type: trojan
-  server: 66.163.122.46
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: searchnationwidecareerchangehelperandguidancetoday.com
-- name: 116 shadowsocks-1827147591
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 069 @DeltaKroneckerGithub_1175
-  type: trojan
-  server: 104.17.234.157
-  port: 2096
-  password: '123456'
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-  sni: 321dfbc6.uir-9i6.pages.dev
-  skip-cert-verify: true
-- name: 🇺🇸US_105|379KB/s|M003-260806
-  type: hysteria2
-  server: 38.76.150.108
-  port: 36712
-  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
-  sni: 38.76.150.108
-  skip-cert-verify: true
-- name: ❓Other_22|405KB/s|K001-260618
-  type: vmess
-  server: 66.163.125.51
-  port: 1270
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 076 hysteria2-1853166912
-  type: hysteria2
-  server: 66.94.121.46
-  port: 443
-  password: gf1:gfhysteria2024
-  sni: 66.94.121.46
-  skip-cert-verify: true
-- name: US 🇺🇸 | @Raydikalx | 9E759D
-  type: ss
-  server: 135.148.42.13
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: US 🇺🇸 | @Raydikalx | 6D6C73
-  type: vmess
-  server: 38.91.107.84
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 723EDE
-  type: vmess
-  server: 67.220.74.188
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 2314F7
-  type: vmess
-  server: 67.220.95.49
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 096 US 🇺🇸 | @Raydikalx | 37480E
-  type: trojan
-  server: 66.163.122.81
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
-- name: US 🇺🇸 | @Raydikalx | 853160
-  type: vmess
-  server: 38.91.107.188
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | D57224
-  type: vmess
-  server: 172.111.38.246
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 788142
-  type: vmess
-  server: 67.220.74.250
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 082 trojan-1941064101
-  type: trojan
-  server: 170.101.101.131
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: 🇫🇷FR_23|261KB/s|M003-260806
-  type: vless
-  server: 162.159.130.234
-  port: 2083
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  network: ws
-  ws-opts:
-    path: /community/redirect.html
-    headers:
-      Host: vp14.1145678.xyz
-  tls: true
-  servername: vp14.1145678.xyz
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | 943FAE
-  type: vmess
-  server: 38.107.226.5
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: US 🇺🇸 | @Raydikalx | 457A0D
-  type: vmess
-  server: 162.251.62.44
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: 043 shadowsocks-1828227588
-  type: ss
-  server: 79.110.53.169
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: US 🇺🇸 | @Raydikalx | 0CBFCD
-  type: vmess
-  server: 38.91.106.182
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: xmfhlpy.com
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #9'
-  type: vless
-  server: 172.67.163.208
-  port: 2053
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-  tls: true
-  servername: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-  client-fingerprint: chrome
-- name: 060 🇺🇸_美国 (31)
-  type: trojan
-  server: 216.152.155.50
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #10'
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: bc02ab8e-0de0-47e7-b2d0-a5b4737c6dab
-  network: ws
-  ws-opts:
-    path: /vl/D8a5qKgqnMZ63qXsI?ed=2560
-    headers:
-      Host: vpnmofti.setguw.workers.dev
-  tls: true
-  servername: VpNMofTi.SEtGUW.wORkeRS.DEV
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-- name: 🇺🇸_美国 (36)
-  type: trojan
-  server: 216.152.155.54
-  port: 443
-  udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.nextjobopportunityandclaimyouridealrole.com
-- name: 094 🇺🇸_美国 (68)
-  type: trojan
-  server: 66.163.122.25
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
-- name: US 🇺🇸 | @Raydikalx | 5DCDAB
-  type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 070 🇺🇸_美国 (33)
-  type: trojan
-  server: 216.152.155.158
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-- name: ⚕️74@oneclickvpnkeys
-  type: hysteria2
-  server: 35.207.53.51
-  port: 20999
-  password: MZKlrFbG73bKvCDe8VPul5PR9xQm
-  sni: www.apple.com
-  skip-cert-verify: true
-- name: 🇺🇸_美国 (38)
+- name: 187 trojan-1943754366
   type: trojan
   server: 216.152.155.131
   port: 443
   udp: true
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.nextjobopportunityandclaimyouridealrole.com
-- name: 049 @DeltaKroneckerGithub_1246
-  type: trojan
-  server: 104.18.35.86
-  port: 2096
-  password: '123456'
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-  sni: 321dfbc6.uir-9i6.pages.dev
   skip-cert-verify: true
-- name: 🇧🇷 Brazil, Mogi das Cruzes | 🌐 | [BL]
-  type: hysteria2
-  server: 45.86.74.193
-  port: 443
-  password: 3a17ce52-4547-45aa-9820-a7d03ad5faca
-  sni: media.embrofree.org
-- name: 🇺🇸_美国 (60)
-  type: trojan
-  server: 66.163.122.30
+- name: '[VMess] @DeltaKroneckerGithub_3021_IPV4'
+  type: vmess
+  server: 172.64.145.93
   port: 443
   udp: true
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.searchnationwidecareerchangehelperandguidancetoday.com
-- name: ❓Other_64|378KB/s|R002-260618
-  type: vless
-  server: 129.153.128.162
-  port: 853
-  udp: true
-  uuid: 2006aa32-9ba2-4fe0-bd3d-3deaceb621e1
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   network: ws
   ws-opts:
-    path: /ws
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: firsty.app
-- name: 085 trojan-1941512529
-  type: trojan
-  server: 170.101.101.53
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: '@DeltaKroneckerGithub'
-  type: vless
-  server: 104.21.23.29
-  port: 443
-  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
+      Host: guanwang.awsno.com
   tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
-- name: CA【高速节点：https://tt.vg/vip】25
+  servername: guanwang.awsno.com
+- name: '[VMess] 🇺🇸 _US_美国_IPV4 (13)'
   type: vmess
   server: 104.18.42.163
   port: 443
@@ -1453,13 +415,62 @@ proxies:
       Host: guanwang.awsno.com
   tls: true
   servername: guanwang.awsno.com
-  skip-cert-verify: true
-- name: 081 trojan-1944436566
-  type: trojan
-  server: 170.101.101.112
+- name: 🇺🇸_US_美国_IPV4 (12)
+  type: hysteria2
+  server: starlink-ft.251313.xyz
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+  password: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
+- name: 🇺🇸 美国 017
+  type: hysteria2
+  server: 34.24.25.1
+  port: 443
+  password: 8dOHZ13sx33R1/PQbhTK/w==
+  sni: bing.com
+  skip-cert-verify: true
+- name: 021 hysteria2-1827145159
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: hysteria2-1827145136
+  type: hysteria2
+  server: 8.211.175.236
+  port: 8443
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  skip-cert-verify: true
+- name: '[VMess] 🇺🇸 机场推荐:dafei.de 美国 89_IPV4'
+  type: vmess
+  server: 188.114.99.137
+  port: 443
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  tls: true
+  servername: guanwang.awsno.com
+- name: '[NoMoreWalls#048] 🇯🇵218802 | ⚡️Telegram = t.me/L'
+  type: hysteria2
+  server: 129.225.181.46
+  port: 8443
+  password: oracle_hy2_pass_2026
+  sni: bing.com
+  skip-cert-verify: true
+- name: hysteria2-1828374754
+  type: hysteria2
+  server: 138.3.208.26
+  port: 50160
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: 138.3.208.26
+  skip-cert-verify: true
 - name: ❓Other_12|219KB/s|C002-260622 [0db7a794c99c]
   type: trojan
   server: 216.152.155.176
@@ -1469,291 +480,44 @@ proxies:
   sni: 216.152.155.176
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  type: vmess
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  tls: true
-  servername: guanwang.awsno.com
-  client-fingerprint: chrome
-- name: 103 hysteria2-1930264641
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: …
-  skip-cert-verify: true
-- name: '090 @OutlineReleasedKey #9'
-  type: hysteria2
-  server: 50.7.38.243
-  port: 443
-  password: d4ca9415f0eac7897472e1e5b86d2e96
-  sni: promo.betust.net
-- name: '101 @confiig_hub #1'
-  type: hysteria2
-  server: 130.49.161.70
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  sni: hy2.aspidnet.xyz
-- name: 095 hysteria2-1853502854
-  type: hysteria2
-  server: 13.36.234.11
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  skip-cert-verify: true
-- name: U⚪🏳️ukn_dokng.com_275e588f
-  type: vmess
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  tls: true
-  servername: guanwang.awsno.com
-  client-fingerprint: chrome
-- name: 199 ⚕️15@oneclickvpnkeys
-  type: hysteria2
-  server: 177.202.66.212
-  port: 443
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: de1.obxodvpn.us
-  skip-cert-verify: true
-- name: 🇳🇱NL_31|229KB/s|M003-260806
-  type: hysteria2
-  server: 94.183.164.119
-  port: 24403
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: docs.blog-forme.ru
-- name: '@FREE2CONFIG - 204'
-  type: vless
-  server: 67.220.73.204
-  port: 16016
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  client-fingerprint: firefox
-- name: '@DeltaKroneckerGithub_3021_IPV4'
-  type: vmess
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  tls: true
-  servername: guanwang.awsno.com
-- name: CA 🇨🇦 | @Raydikalx | D7EB3E
-  type: vmess
-  server: US122201.ssgreen.org
-  port: 443
-  udp: true
-  uuid: b8fbcbc5-fe2b-452c-8c94-e37b2a1baeb9
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122201.ssgreen.org
-  tls: true
-  servername: US122201.ssgreen.org
-- name: 118 hysteria2-1854030070
-  type: hysteria2
-  server: 140.238.213.114
-  port: 50160
-  password: 84a506ca5aca505696a454d828420b3f
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]
-  type: hysteria2
-  server: 152.67.75.161
-  port: 443
-  password: 3a702d4d1de4949005d8431220e040fb
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '@V2ray_Collector'
-  type: hysteria2
-  server: 179.254.191.251
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-- name: 106 ⚕️35@oneclickvpnkeys
-  type: hysteria2
-  server: 195.63.128.21
-  port: 10444
-  password: fa937345-6d3e-4ff4-8127-1a836987a0db
-  sni: germany.cloudhouse1.ru
-- name: CA 🇨🇦 | @Raydikalx | E422F0
-  type: vmess
-  server: nomino.11hi8itbaf.workers.dev
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
-  tls: true
-- name: '@OutlineReleasedKey'
-  type: hysteria2
-  server: bl1.nexfile.net
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-- name: JP 🇯🇵 | @Raydikalx | EE8BCF
-  type: hysteria2
-  server: 8.209.247.109
-  port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
-- name: 071 hysteria2-1853341683
-  type: hysteria2
-  server: 8.211.175.236
-  port: 8443
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: bing.com
-  skip-cert-verify: true
-- name: 135 🇺🇸 美国 | USA 6
-  type: vmess
-  server: US122207.ssgreen.org
-  port: 443
-  uuid: 74d216a3-fdb8-4774-a9c3-35f9e5a46819
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122207.ssgreen.org
-  tls: true
-  servername: US122207.ssgreen.org
-- name: '122 @OutlineReleasedKey #3'
-  type: hysteria2
-  server: 212.34.137.105
-  port: 443
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: shorts.blog-forme.ru
-- name: ❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]
-  type: hysteria2
-  server: 3.76.203.180
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 3.76.203.180
-  skip-cert-verify: true
-- name: 115 hysteria2-1917575832
-  type: hysteria2
-  server: 3.69.232.199
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇩🇪DE_32|442KB/s|M003-260806
-  type: hysteria2
-  server: 18.194.242.173
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🪬70@oneclickvpnkeys
-  type: hysteria2
-  server: hy2.aspidnet.xyz
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 168 hysteria2-1938971779
-  type: hysteria2
-  server: 3.76.221.4
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 3.76.221.4
-  skip-cert-verify: true
-- name: '130 @OutlineReleasedKey #5'
-  type: hysteria2
-  server: 94.183.164.119
-  port: 24433
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: lakes.blog-forme.ru
-- name: '@V2ray_Collector #2'
-  type: hysteria2
-  server: 95.143.196.97
-  port: 443
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  sni: se.mimowhat.online
-  skip-cert-verify: true
-- name: 🇨🇦CA-51.222.136.236-0176
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: BR 🇧🇷 | @Raydikalx | F3CD64
-  type: hysteria2
-  server: 137.131.177.121
-  port: 20000
-  password: z/yIxn3sBV03PkAxbnX8rg==
-  obfs: salamander
-  obfs-password: z/yIxn3sBV03PkAxbnX8rg==
-  sni: hy2-br.whuiy.xyz
-  ports: 20000-30000
-- name: 091 hysteria2-1910185368
-  type: hysteria2
-  server: promo.betust.net
-  port: 443
-  password: d4ca9415f0eac7897472e1e5b86d2e96
-- name: 119 hysteria2-1832765000
+- name: hysteria2-1827145810
   type: hysteria2
   server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
   skip-cert-verify: true
-- name: 089 hysteria2-1828371613
+- name: hysteria2-1854030061
   type: hysteria2
   server: 160.187.100.109
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 160.187.100.109
+  sni: 'off'
   skip-cert-verify: true
-- name: 🌐 Anycast-IP | 🇳🇱 | [BL]
-  type: vless
-  server: 8.6.112.0
+- name: hysteria2-1828373437
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
   port: 443
-  uuid: 81d8d985-3708-5fe1-b931-34a13cd5464c
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: nl1.v2less.site
-  tls: true
-  servername: nl1.v2less.site
-  client-fingerprint: firefox
-- name: '105 @Nexus_Panell چنل تلگرام #1'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇭🇰HK_6|689KB/s|M003-260806
+  type: hysteria2
+  server: 82.152.161.146
+  port: 10086
+  password: VR7zICGZd3cB34G0FxSYQra3
+  sni: pic.bstarstatic.com
+  skip-cert-verify: true
+- name: NL 🇳🇱 | @Raydikalx | 78AF0D
+  type: hysteria2
+  server: 51.15.19.206
+  port: 8443
+  password: HowdyHysteria2023w0W
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  sni: sni-here.com
+  skip-cert-verify: true
+- name: '@Nexus_Panell چنل تلگرام'
   type: hysteria2
   server: 152.32.254.68
   port: 5010
@@ -1761,92 +525,190 @@ proxies:
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   sni: nas.aizhzo.com
-- name: 125 hysteria2-1832881372
+- name: hysteria2-1828529345
   type: hysteria2
   server: 152.70.237.123
   port: 2053
   password: maintell
-  sni: bing.com
+  sni: 152.70.237.123
   skip-cert-verify: true
-- name: 126 hysteria2-1828529280
+- name: ✨+Gemini+&+NotebookLM+#04+•+🇳🇱+[NL]+HYSTERIA2+(3
+  type: hysteria2
+  server: 195.63.138.212
+  port: 8443
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: cloudehouse24.ru
+- name: 🇳🇱NL_31|229KB/s|M003-260806
+  type: hysteria2
+  server: 94.183.164.119
+  port: 24403
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: docs.blog-forme.ru
+- name: hysteria2-1930264641
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: …
+  skip-cert-verify: true
+- name: FR 🇫🇷 | @Raydikalx | A8689B
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: NL 🇳🇱 | @Raydikalx | B843BA
+  type: hysteria2
+  server: hysteria.udpgw.com
+  port: 8443
+  password: HowdyHysteria2023w0W
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  sni: sni-here.com
+  skip-cert-verify: true
+- name: 🇳🇱NL_35|166KB/s|A001-260618 [54448850fd51]
+  type: hysteria2
+  server: 50.7.38.243
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+- name: '@OutlineReleasedKey #3'
+  type: hysteria2
+  server: 212.34.137.105
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: shorts.blog-forme.ru
+  skip-cert-verify: true
+- name: hysteria2-1828529012
   type: hysteria2
   server: 132.226.226.189
   port: 50160
   password: 1671a252e2a97dc2bda4e515475931da
+  sni: 'off'
   skip-cert-verify: true
-- name: 112 hysteria2-1828371633
+- name: DE 🇩🇪 | @Raydikalx | 48FDD4
   type: hysteria2
-  server: 202.146.222.174
+  server: 3.76.221.4
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
+  sni: 3.76.221.4
   skip-cert-verify: true
-- name: 🇩🇪 德国 08
+- name: 🇫🇷FR_6|120KB/s|C002-260622
   type: hysteria2
-  server: 18.193.79.104
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: '@V2ray_Collector'
+  type: hysteria2
+  server: 195.63.128.21
+  port: 10444
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: germany.cloudhouse1.ru
+  skip-cert-verify: true
+- name: '[NoMoreWalls#028] 🔹69@oneclickvpnkeys'
+  type: hysteria2
+  server: 18.194.242.173
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 109 hysteria2-1828371657
+- name: DE 🇩🇪 | @Raydikalx | 86C5F1
   type: hysteria2
-  server: 202.146.222.89
+  server: 3.69.232.199
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
+  sni: 127.0.0.1
   skip-cert-verify: true
-- name: '@OutlineReleasedKey #6'
+- name: ❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]
   type: hysteria2
-  server: guide.blog-forme.ru
+  server: 3.76.203.180
   port: 443
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-- name: hysteria2-1828374754
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.203.180
+  skip-cert-verify: true
+- name: 🇩🇪DE_10|167KB/s|M003-260806 [27a9fa6190e1]
   type: hysteria2
-  server: 138.3.208.26
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 18.193.79.104
+  skip-cert-verify: true
+- name: 🇺🇸_美国 (36)
+  type: trojan
+  server: 216.152.155.54
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.nextjobopportunityandclaimyouridealrole.com
+- name: CA 🇨🇦 | @Raydikalx | 3B5FAF
+  type: vmess
+  server: 104.16.0.1
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+  tls: true
+  servername: or3.sfacg.uk
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🇸🇬SG_10|161KB/s|A004-260618 [54304560eba2]
+  type: hysteria2
+  server: 138.2.73.238
   port: 50160
-  password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 138.3.208.26
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 138.2.73.238
   skip-cert-verify: true
-- name: 🇷🇺216805 | ⚡️Telegram = t.me/L...
+- name: 🇺🇸_美国 (84)
+  type: vmess
+  server: 162.159.130.234
+  port: 2083
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+  tls: true
+  servername: or3.sfacg.uk
+- name: hysteria2-1853488298
   type: hysteria2
-  server: srv-17e124.21freedom.net
-  port: 11592
-  password: 41edb44c8e
-  sni: srv-17e124
+  server: 202.146.222.174
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2
   skip-cert-verify: true
-- name: hysteria2-1832880243
+- name: hysteria2-1828374520
   type: hysteria2
   server: 152.67.200.82
   port: 50160
   password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-  sni: t.me
-  skip-cert-verify: true
-- name: '@DeltaKroneckerGithub #2'
-  type: vless
-  server: 172.67.208.118
-  port: 443
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
-- name: 088 hysteria2-1828373437
-  type: hysteria2
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: css.rbxcdn.com
   skip-cert-verify: true
-- name: '104 @OutlineReleasedKey #6'
+- name: hysteria2-1828371410
   type: hysteria2
-  server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  server: 202.146.222.89
   port: 443
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-  sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8🇨🇳
+  skip-cert-verify: true
+- name: ❓Other_28|284KB/s|A004-260618 [3eb6ea473306]
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2üáüá
   skip-cert-verify: true
 - name: 🇸🇬217490 | ⚡️Telegram = t.me/L...
   type: hysteria2
@@ -1855,47 +717,164 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇩🇪 | @WhiteDNS | DE252|10.7MB/s|DNSOK|GPT⁺-DE
-  type: vless
-  server: 170.114.46.6
-  port: 80
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: 129 hysteria2-1946062452
+- name: '[NoMoreWalls#039] 🔹44@oneclickvpnkeys'
+  type: hysteria2
+  server: 179.254.191.251
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+  skip-cert-verify: true
+- name: 🇰🇷KR_4|162KB/s|M003-260806
   type: hysteria2
   server: 152.69.231.175
   port: 50160
   password: 1beb216e3f60aea9555dae60d219a5ca
+  sni: 152.69.231.175
   skip-cert-verify: true
-- name: D🔴🇺🇸hos[🎮]_dokng.com_343ae4aa
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
-- name: 🇨🇦CA-15.235.121.109-0203
-  type: ss
-  server: 15.235.121.109
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 575hiopq2h28yao6
-- name: AU澳大利亚(mibei77.com 米贝节点分享)
+- name: 199 ⚕️15@oneclickvpnkeys
   type: hysteria2
-  server: 159.13.55.48
-  port: 20000
-  password: b42d90fa667942aebc734d60
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  sni: hy2-au2.whuiy.xyz
-- name: 🇭🇰 香港 08
-  type: hysteria2
-  server: 24.233.8.109
+  server: 177.202.66.212
   port: 443
-  password: 8294f130408299df8cab08c80bf6f819
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: de1.obxodvpn.us
+  skip-cert-verify: true
+- name: 🇺🇸_美国 (85)
+  type: vmess
+  server: 162.159.135.234
+  port: 2083
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+  tls: true
+  servername: or3.sfacg.uk
+- name: 🇩🇪 Germany, Frankfurt am Main | [BL]
+  type: trojan
+  server: 8.6.112.0
+  port: 443
+  password: XnjwEJbEbqBt8bjlrKZPwg
+  network: ws
+  ws-opts:
+    path: /Lunex
+    headers:
+      Host: cf.lunex-vpn.xyz
+  sni: cf.lunex-vpn.xyz
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+- name: CA 🇨🇦 | @Raydikalx | FB8FD0
+  type: vmess
+  server: 104.17.0.1
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+  tls: true
+  servername: or3.sfacg.uk
+- name: 🇩🇪DE_8|73KB/s|A004-260618 [50232375b675]
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 058 hysteria2-1853501557
+  type: hysteria2
+  server: 31.57.248.176
+  port: 50160
+  password: b0917015b656b3dd2286b5633af0c5c1
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: CH 🇨🇭 | @Raydikalx | 824836
+  type: hysteria2
+  server: 140.238.213.114
+  port: 50160
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: '@OutlineReleasedKey'
+  type: hysteria2
+  server: bl1.nexfile.net
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+- name: 'US-018 Channel id: @ShadowProxy66'
+  type: trojan
+  server: 216.152.155.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.nextjobopportunityandclaimyouridealrole.com
+- name: ❓Other_57|117KB/s|A004-260618
+  type: vless
+  server: 172.64.150.43
+  port: 2052
+  udp: true
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: '[NoMoreWalls#046] @OutlineReleasedKey #8'
+  type: hysteria2
+  server: 195.63.128.21
+  port: 5443
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: germany.cloudhouse1.ru
+  skip-cert-verify: true
+- name: '@OutlineReleasedKey #4'
+  type: hysteria2
+  server: 94.183.164.119
+  port: 24433
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: lakes.blog-forme.ru
+- name: '@OutlineReleasedKey #5'
+  type: hysteria2
+  server: guide.blog-forme.ru
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+- name: 🔹13@oneclickvpnkeys
+  type: hysteria2
+  server: 195.63.138.212
+  port: 10444
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: cloudehouse24.ru
+- name: CA 🇨🇦 | @Raydikalx | D6B883
+  type: vmess
+  server: 104.18.0.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 01
+  type: hysteria2
+  server: 152.67.115.203
+  port: 443
+  password: 633bc3be486b646190661ac2387c150a
   obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇺🇸 United States, St Louis (Downtown) | [BL]
@@ -1914,8 +893,47 @@ proxies:
   servername: v2ray1.dozapp.xyz
   alpn:
   - http/1.1
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 34
+- name: ❓Other_73|282KB/s|M003-260806
+  type: vless
+  server: 170.114.46.6
+  port: 80
+  udp: true
+  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
+- name: '@ConfigV2RayNG'
+  type: hysteria2
+  server: 137.131.177.121
+  port: 20000
+  password: z/yIxn3sBV03PkAxbnX8rg==
+  obfs: salamander
+  obfs-password: z/yIxn3sBV03PkAxbnX8rg==
+  sni: hy2-br.whuiy.xyz
+  ports: 20000-30000
+- name: 086 @DeltaKroneckerGithub_894
+  type: vless
+  server: 172.64.229.129
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 🇸🇬SG_11|206KB/s|M003-260806
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  network: ws
+  ws-opts:
+    path: /%2Fworryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+- name: 🇸🇬 新加坡 32
   type: hysteria2
   server: 138.2.89.249
   port: 443
@@ -1924,354 +942,19 @@ proxies:
   obfs-password: 309502c4a8df10b46fb976d4a8c43f42
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇫🇮[openproxylist.com] vless-FI
-  type: vless
-  server: 198.202.24.142
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-  tls: true
-  servername: vipfree.dr-ping.ir
-  client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | 0923FC
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  tls: true
-  servername: guanwang.awsno.com
-- name: '@DeltaKroneckerGithub #3'
-  type: vless
-  server: 104.17.70.206
-  port: 8443
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.com
-  tls: true
-  servername: free.sahanwickramasinghe.com
-  alpn:
-  - http/1.1
-  client-fingerprint: edge
-- name: ✨+Gemini+&+NotebookLM+#04+•+🇳🇱+[NL]+HYSTERIA2+(3
-  type: hysteria2
-  server: 195.63.138.212
-  port: 8443
-  password: fa937345-6d3e-4ff4-8127-1a836987a0db
-  sni: cloudehouse24.ru
-- name: v2go | VMESS | 9
-  type: vmess
-  server: 172.67.167.78
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-  tls: true
-  servername: v2ray1.dozapp.xyz
-- name: 079 trojan-1947502359
+- name: 🇺🇸US_97|543KB/s|M003-260806 [77ed4a520da2]
   type: trojan
-  server: 170.101.101.211
+  server: 216.152.155.50
   port: 443
+  udp: true
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-- name: CA 🇨🇦 | @Raydikalx | FF568B
-  type: vmess
-  server: 172.67.137.158
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
-    headers:
-      Host: nomino.11hi8itbaf.workers.dev
-  tls: true
-  servername: nomino.11hi8itbaf.workers.dev
-- name: DE德国(mibei77.com 米贝节点分享) (3)
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
+  sni: cdn.nextjobopportunityandclaimyouridealrole.com
   client-fingerprint: chrome
-- name: 🇺🇸US_63|326KB/s|A004-260618 [1d1916739587]
-  type: trojan
-  server: 170.101.101.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  client-fingerprint: chrome
-- name: CA加拿大(mibei77.com 米贝节点分享) (3)
-  type: vless
-  server: 172.64.152.19
-  port: 443
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: 未知 HY2-04 | free-nodes
+- name: SE 🇸🇪 | @Raydikalx | 44B57D
   type: hysteria2
-  server: 77.90.15.183
-  port: 8964
-  password: HATATEAYA
-  obfs: salamander
-  obfs-password: HATATEAYA
-  sni: ganlanc.at
-- name: 🇳🇱NL_48|474KB/s|B007-260618 [569c7ebe9a5f]
-  type: vless
-  server: 104.18.151.231
+  server: promo.betust.net
   port: 443
-  udp: true
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shiny-base-4d9a.mifolan4697928.workers.dev
-  tls: true
-  servername: shiny-base-4d9a.mifolan4697928.workers.dev
-  client-fingerprint: chrome
-- name: SG 🇸🇬 | @Raydikalx | FC0752
-  type: hysteria2
-  server: 138.2.73.238
-  port: 50160
-  password: f87376e17da040ed04c9665ce8972930
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: ❓Other_62|121KB/s|M001-260618 [1f10d3a51106]
-  type: vmess
-  server: 188.114.96.3
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-  tls: true
-  servername: v2ray1.dozapp.xyz
-- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #2'
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-  tls: true
-  servername: v2ray1.dozapp.xyz
-- name: 🇺🇸_美国 (82)
-  type: vmess
-  server: 141.193.213.21
-  port: 8443
-  udp: true
-  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: matrix.phonicsindia.mobi
-  tls: true
-  servername: matrix.phonicsindia.mobi
-- name: hysteria2-1853501557
-  type: hysteria2
-  server: 31.57.248.176
-  port: 50160
-  password: b0917015b656b3dd2286b5633af0c5c1
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐
-  type: vless
-  server: 104.17.145.145
-  port: 443
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-  network: ws
-  ws-opts:
-    path: /api/de6/stream
-    headers:
-      Host: clover.filnex.baby
-  tls: true
-  servername: clover.filnex.baby
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #3'
-  type: vmess
-  server: 188.114.99.137
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-  tls: true
-  servername: v2ray1.dozapp.xyz
-- name: 🇩🇪DE_20|897KB/s|M003-260806 [2f0c320bea1f]
-  type: vless
-  server: 104.27.88.172
-  port: 80
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-- name: US美国(mibei77.com 米贝节点分享)
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | 3543C7
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-- name: '🇺🇸 United States — #124'
-  type: vless
-  server: 47.251.108.158
-  port: 443
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  client-fingerprint: firefox
-- name: '@DeltaKroneckerGithub #4'
-  type: vless
-  server: 104.16.10.84
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: '@DeltaKroneckerGithub #5'
-  type: vless
-  server: 104.18.153.10
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | F1502D
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | [BL]
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: edge
-- name: '@DeltaKroneckerGithub #6'
-  type: vless
-  server: 104.16.111.195
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: '@DeltaKroneckerGithub #7'
-  type: vless
-  server: 104.16.10.56
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
+  password: d4ca9415f0eac7897472e1e5b86d2e96
 - name: CA 🇨🇦 | @Raydikalx | 40FE00
   type: vmess
   server: 104.25.0.1
@@ -2289,100 +972,134 @@ proxies:
   alpn:
   - http/1.1
   client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | 3FB990
-  type: vless
-  server: 104.16.10.234
+- name: 🇷🇺218228 | ⚡️Telegram = t.me/LonUp_M
+  type: hysteria2
+  server: 103.88.243.142
+  port: 11592
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
+- name: 🇭🇰 香港 08
+  type: hysteria2
+  server: 24.233.8.109
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
+  password: 8294f130408299df8cab08c80bf6f819
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: AU澳大利亚(mibei77.com 米贝节点分享)
+  type: hysteria2
+  server: 159.13.55.48
+  port: 20000
+  password: b42d90fa667942aebc734d60
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  sni: hy2-au2.whuiy.xyz
+  ports: 20000-30000
+- name: '@V2ray_Collector #2'
+  type: hysteria2
+  server: 95.143.196.97
+  port: 443
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
+  skip-cert-verify: true
+- name: 🌐 Anycast-IP | 🇨🇱 🇭🇰 | [BL]
   type: vmess
-  server: 104.16.0.1
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: motorcycles-scan-ceremony-ideas.trycloudflare.com
+  port: 443
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
   cipher: auto
   alterId: 0
   network: ws
   ws-opts:
-    path: /or3
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
     headers:
-      Host: or3.sfacg.uk
+      Host: motorcycles-scan-ceremony-ideas.trycloudflare.com
   tls: true
-  servername: or3.sfacg.uk
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-- name: '@DeltaKroneckerGithub #8'
+  servername: motorcycles-scan-ceremony-ideas.trycloudflare.com
+- name: 🇷🇺216805 | ⚡️Telegram = t.me/L...
+  type: hysteria2
+  server: srv-17e124.21freedom.net
+  port: 11592
+  password: 41edb44c8e
+  sni: srv-17e124
+  skip-cert-verify: true
+- name: 🇳🇱NL_57|360KB/s|M003-260806
   type: vless
-  server: 104.18.37.127
+  server: 8.6.112.0
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  uuid: 81d8d985-3708-5fe1-b931-34a13cd5464c
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /vless
     headers:
-      Host: jp3.yohototo.top
+      Host: nl1.v2less.site
   tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | DEF3AC
+  servername: nl1.v2less.site
+  client-fingerprint: firefox
+- name: 🇩🇪DE_21|227KB/s|M003-260806
   type: vless
-  server: 104.17.210.74
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 170.114.45.6
+  port: 80
+  udp: true
+  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-- name: '@DeltaKroneckerGithub #9'
-  type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | 15EFED
+      Host: free.sahanwickramasinghe.com
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #2'
   type: vmess
-  server: 104.21.0.1
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   cipher: auto
   alterId: 0
   network: ws
   ws-opts:
-    path: /or3
+    path: /lMnsZUN4/
     headers:
-      Host: or3.sfacg.uk
+      Host: v2ray1.dozapp.xyz
   tls: true
-  servername: or3.sfacg.uk
-- name: '@DeltaKroneckerGithub #10'
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  servername: v2ray1.dozapp.xyz
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #3'
+  type: vmess
+  server: 172.67.161.144
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /lMnsZUN4/
     headers:
-      Host: jp3.yohototo.top
+      Host: v2ray1.dozapp.xyz
   tls: true
-  servername: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 924ABF
+  servername: v2ray1.dozapp.xyz
+- name: 🇺🇸 United States, Los Angeles (Central-Alameda)
+  type: hysteria2
+  server: 5.181.219.131
+  port: 8443
+  password: w6qsn04S8jKUCJZRhVimSQ==
+  sni: bing.com
+  skip-cert-verify: true
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #4'
+  type: vmess
+  server: chatgpt.com
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+- name: hamedp71::🏴‍☠️
   type: vmess
   server: 104.24.0.1
   port: 8443
@@ -2398,7 +1115,421 @@ proxies:
   servername: v2ray1.dozapp.xyz
   alpn:
   - http/1.1
+- name: 322 hysteria2-1853166912
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 66.94.121.46
+  skip-cert-verify: true
+- name: '@DeltaKroneckerGithub #2'
+  type: vless
+  server: 104.16.10.84
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]
+  type: hysteria2
+  server: 152.67.75.161
+  port: 443
+  password: 3a702d4d1de4949005d8431220e040fb
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇫🇮 Finland, Helsinki | 🌐 | [BL]
+  type: vless
+  server: 162.159.237.118
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+  tls: true
+  servername: vipfree.dr-ping.ir
   client-fingerprint: chrome
+- name: '🇫🇮 Finland, Helsinki | 🌐 | [BL] #2'
+  type: vless
+  server: 104.18.63.135
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+- name: '🇫🇮 Finland, Helsinki | 🌐 | [BL] #3'
+  type: vless
+  server: 104.17.145.145
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+- name: '🇫🇮 Finland, Helsinki | 🌐 | [BL] #4'
+  type: vless
+  server: 172.67.67.89
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+- name: US美国(mibei77.com 米贝节点分享)
+  type: vless
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  client-fingerprint: edge
+- name: 🇯🇵 日本 12
+  type: vless
+  server: 104.17.210.74
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub #3'
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
+  tls: true
+  servername: free.sahanwickramasinghe.com
+  alpn:
+  - http/1.1
+  client-fingerprint: edge
+- name: 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  type: vmess
+  server: 141.193.213.20
+  port: 8443
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: matrix.phonicsindia.mobi
+  tls: true
+  servername: matrix.phonicsindia.mobi
+- name: 🇩🇪 德国 | DEU
+  type: hysteria2
+  server: 77.90.15.183
+  port: 8964
+  password: HATATEAYA
+  obfs: salamander
+  obfs-password: HATATEAYA
+  sni: ganlanc.at
+  skip-cert-verify: true
+- name: '🇫🇮 Finland, Helsinki | 🌐 | [BL] #5'
+  type: vless
+  server: 172.64.79.163
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #5'
+  type: vmess
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+- name: ❓Other_62|121KB/s|M001-260618 [806376955771]
+  type: vmess
+  server: 188.114.96.3
+  port: 8443
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+- name: 🇺🇸US_92|67KB/s|A004-260618 [4a6de620d459]
+  type: vmess
+  server: 104.17.77.77
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+- name: '@DeltaKroneckerGithub #4'
+  type: vless
+  server: www.zoom.us
+  port: 443
+  uuid: b19c62cc-f2c2-4895-aee1-978a0f58f8c8
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: matrix.phonicsindia.mobi
+  tls: true
+  servername: matrix.phonicsindia.mobi
+  client-fingerprint: chrome
+- name: vless-1831071997
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇺🇸_美国 (82)
+  type: vmess
+  server: 141.193.213.21
+  port: 8443
+  udp: true
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: matrix.phonicsindia.mobi
+  tls: true
+  servername: matrix.phonicsindia.mobi
+- name: US 🇺🇸 | @Raydikalx | 1F577B
+  type: trojan
+  server: 157.254.38.210
+  port: 20051
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #6'
+  type: vmess
+  server: 188.114.99.137
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
+- name: DE德国(mibei77.com 米贝节点分享)
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub #5'
+  type: vless
+  server: 104.19.33.25
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  type: vless
+  server: 104.18.37.127
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: safari
+- name: 🇮🇩 Indonesia, Cileungsir | [BL]
+  type: vmess
+  server: support.zoom.us
+  port: 443
+  uuid: 4caf156a-3309-4105-8388-d388eb9e1105
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /whatever/vmess
+    headers:
+      Host: id2.nathaya.web.id
+  tls: true
+  servername: zoomgov.nathaya.web.id
+- name: 🇺🇸_美国 (92)
+  type: vmess
+  server: cdn.sfacg.uk
+  port: 2083
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+  tls: true
+  servername: or3.sfacg.uk
+  skip-cert-verify: true
+- name: '@DeltaKroneckerGithub #6'
+  type: vless
+  server: 104.17.169.13
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: vless-1827151410
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+- name: 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  type: vless
+  server: 104.16.111.202
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: edge
+- name: '@DeltaKroneckerGithub #7'
+  type: vless
+  server: 154.40.59.238
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 308 @DeltaKroneckerGithub_372
+  type: vless
+  server: 104.19.33.237
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: ♻️93@oneclickvpnkeys
+  type: hysteria2
+  server: 129.159.156.109
+  port: 50160
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: '🇺🇸 United States, St Louis (Downtown) | [BL] #7'
+  type: vmess
+  server: 172.64.155.209
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  tls: true
+  servername: v2ray1.dozapp.xyz
 - name: CA 🇨🇦 | @Raydikalx | 4FA2E4
   type: vless
   server: 104.16.111.102
@@ -2412,70 +1543,22 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   client-fingerprint: ios
-- name: 🇺🇸_美国 (84)
-  type: vmess
-  server: 162.159.130.234
-  port: 2083
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-  tls: true
-  servername: or3.sfacg.uk
-- name: 🇺🇸_美国 (85)
-  type: vmess
-  server: 162.159.135.234
-  port: 2083
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-  tls: true
-  servername: or3.sfacg.uk
-- name: CA 🇨🇦 | @Raydikalx | D6B883
-  type: vmess
-  server: 104.18.0.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | FB8FD0
-  type: vmess
-  server: 104.17.0.1
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  cipher: auto
-  alterId: 0
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-  tls: true
-  servername: or3.sfacg.uk
-- name: 🇯🇵 日本 03
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #2'
   type: vless
-  server: 104.16.10.63
+  server: 23.144.68.90
+  port: 8443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: ios
+- name: CA 🇨🇦 | @Raydikalx | 269005
+  type: vless
+  server: 104.16.10.185
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -2485,7 +1568,58 @@ proxies:
       Host: jp3.yohototo.top
   tls: true
   servername: jp3.yohototo.top
-- name: '@DeltaKroneckerGithub #11'
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub #8'
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇮🇩 Indonesia, Cicurug | [BL]
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 12d67d2b-ae5c-4d56-9f14-d71d96f7826f
+  network: ws
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: natan.srpcom.cloud
+  tls: true
+  servername: natan.srpcom.cloud
+- name: CA 🇨🇦 | @Raydikalx | 76F5D4
+  type: vless
+  server: 104.27.46.35
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
+  type: vmess
+  server: 172.66.203.67
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+- name: '@DeltaKroneckerGithub #9'
   type: vless
   server: 104.24.0.1
   port: 443
@@ -2500,32 +1634,118 @@ proxies:
   alpn:
   - http/1.1
   client-fingerprint: chrome
-- name: 162 ♻️93@oneclickvpnkeys
-  type: hysteria2
-  server: 129.159.156.109
-  port: 50160
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇨🇦CA-51.222.155.32-0403
-  type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ🩹
-  type: hysteria2
-  server: ide.vipvirtualnet.eu
-  port: 30746
-  password: 99a271e85dbc4aa8950f9c7beee06b19
-  obfs: salamander
-  obfs-password: 7wjvepshx5g115x4
-  sni: del.vipvirtualnet.eu
-  alpn:
-  - h3
-- name: '@DeltaKroneckerGithub #12'
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #3'
   type: vless
-  server: 104.16.10.9
+  server: 104.16.10.56
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: safari
+- name: US 🇺🇸 | @Raydikalx | 71838A
+  type: trojan
+  server: 157.254.38.210
+  port: 20103
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: US 🇺🇸 | @Raydikalx | 080C5C
+  type: vless
+  server: 195.123.240.65
+  port: 443
+  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
+    short-id: 19296c9f1bf9c7b1
+  client-fingerprint: random
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #4'
+  type: vless
+  server: 104.19.48.107
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: ios
+- name: '@DeltaKroneckerGithub #10'
+  type: vless
+  server: 104.18.153.10
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: '@DeltaKroneckerGithub #11'
+  type: vless
+  server: 104.16.111.195
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | FFCF2F
+  type: vless
+  server: 172.64.190.13
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: US-134 美国 398
+  type: vmess
+  server: 104.27.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+- name: CA-020 CA @Raydikalx B4617E
+  type: vmess
+  server: 104.17.136.198
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+- name: CA 🇨🇦 | @Raydikalx | 6AF8DB
+  type: vless
+  server: 104.16.10.72
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -2536,36 +1756,19 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   client-fingerprint: chrome
-- name: CA 🇨🇦 | @Raydikalx | 5A4804
-  type: vmess
-  server: 104.21.0.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  cipher: auto
-  alterId: 0
+- name: '@DeltaKroneckerGithub #12'
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /tyxyws
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: jp3.yohototo.top
   tls: true
-  servername: v2ray1.dozapp.xyz
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-- name: 🇨🇦CA-216.152.147.85-0230
-  type: trojan
-  server: 216.152.147.85
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.connectingpeoplewithgreatjobs.com
-- name: 🇨🇦CA-51.79.64.198-0404
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: CA 🇨🇦 | @Raydikalx | 5F26A6
+  servername: jp3.yohototo.top
+- name: '@DeltaKroneckerGithub #13'
   type: vless
   server: 104.16.10.135
   port: 443
@@ -2577,356 +1780,355 @@ proxies:
       Host: jp3.yohototo.top
   tls: true
   servername: jp3.yohototo.top
+  client-fingerprint: chrome
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #5'
+  type: vless
+  server: 104.24.31.89
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: edge
+- name: 🇯🇵 日本 11
+  type: vless
+  server: 104.16.10.63
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #6'
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: '@ConfigV2RayNG #2'
+  type: vless
+  server: 104.16.10.104
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+- name: 🇺🇸_US_美国_IPV4 (2)
+  type: vmess
+  server: 172.66.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+- name: '@DeltaKroneckerGithub #14'
+  type: vless
+  server: 104.16.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 221 美国 276
+  type: vmess
+  server: 129.146.143.80
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  cipher: auto
+  alterId: 0
+- name: '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #7'
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: edge
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - 🔰 自动选择
   - ♻️ 自动测速
-  - 🇺🇸US-167.88.62.203-0100
-  - US 🇺🇸 | @Raydikalx | AEA668
-  - 041 shadowsocks-1827146549
-  - US 🇺🇸 | @Raydikalx | F41438
-  - US 🇺🇸 | @Raydikalx | 7BB59B
-  - 🇺🇸US-156.146.38.167-0168
-  - 🇺🇸US-156.146.38.169-0167
-  - 042 shadowsocks-1827146815
-  - US 🇺🇸 | @Raydikalx | 40DB1C
-  - 062 GB 🇬🇧 | @Raydikalx | 95E028
-  - US 🇺🇸 | @Raydikalx | C3E30F
-  - 🇺🇸US-216.106.178.169-0154
-  - US 🇺🇸 | @Raydikalx | 67B835
-  - US 🇺🇸 | @Raydikalx | 275AFF
-  - US 🇺🇸 | @Raydikalx | 64D2F8
-  - US 🇺🇸 | @Raydikalx | FC978E
-  - ❓Other_17|109KB/s|M003-260806
-  - 🇺🇸US-38.128.66.32-0165
-  - ❓Other_8|148KB/s|A004-260618
-  - 🇺🇸US-172.111.36.123-0086
-  - 🇺🇸US-167.88.63.99-0102
-  - 🇺🇸US_90|552KB/s|A004-260618 [0ccf6aebe480]
-  - US 🇺🇸 | @Raydikalx | D57391
-  - US 🇺🇸 | @Raydikalx | 6AB77E
-  - 054 🇺🇸US-38.22.17.129-0078 | 28.443MB
-  - 🇺🇸US-38.121.43.231-0091
-  - 🇺🇸 SkyBit-27_2026-11-17_20-09
-  - 🇺🇸US-38.22.17.219-0108
-  - 🇺🇸US_51|481KB/s|M003-260806
-  - 🇺🇸US-38.121.43.18-0087
-  - US 🇺🇸 | @Raydikalx | 541574
-  - US 🇺🇸 | @Raydikalx | 572B79
-  - 🇺🇸US-38.121.43.225-0103
-  - 🇺🇸US_24|237KB/s|A004-260618 [0d70475f53d8]
-  - US 🇺🇸 | @Raydikalx | 31EAE9
-  - 055 US 🇺🇸 | @Raydikalx | 82C99B
-  - US 🇺🇸 | @Raydikalx | 7DD8C0
-  - US 🇺🇸 | @Raydikalx | 882A7F
-  - shadowsocks-1827964140
-  - CA 🇨🇦 | @Raydikalx | F06147
-  - US 🇺🇸 | @Raydikalx | 841538
-  - 🇨🇦CA-137.184.174.93-0135
-  - US 🇺🇸 | @Raydikalx | 9FAC2F
-  - CA 🇨🇦 | @Raydikalx | 3E7C3F
-  - ❓Other_97|213KB/s|B007-260618
-  - 045 trojan-1929965354
-  - US 🇺🇸 | @Raydikalx | 072F29
-  - 053 trojan-1849374991
-  - US 🇺🇸 | @Raydikalx | 6AFD1A
-  - 🇺🇸US-149.40.57.138-0068
-  - US 🇺🇸 | @Raydikalx | 549B8B
-  - US 🇺🇸 | @Raydikalx | 8E9347
-  - 078 🇺🇸US-172.111.38.72-0116 | 31.245MB
-  - 🇺🇸US-45.86.51.18-0060
-  - 068 @ConfigV2RayNG
-  - 🇺🇸 SkyBit-49_2026-11-17_20-09
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - '🇺🇸 United States #06 VLESS'
-  - 🇺🇸US-149.40.57.133-0113
-  - US 🇺🇸 | @Raydikalx | F51004
-  - US 🇺🇸 | @Raydikalx | 143737
-  - vmess-1853333213
-  - 🇺🇸US-38.91.100.39-0107
-  - 🇺🇸US-149.40.57.134-0131
-  - 🇺🇸US_31|961KB/s|C001-260618 [0085a15031bb]
-  - 008 🇺🇸US-137.184.89.151-0064 | 11.643MB
-  - 047 trojan-1933715123
-  - US 🇺🇸 | @Raydikalx | E7611E
-  - 🇺🇸US-198.98.53.130-0206
-  - US 🇺🇸 | @Raydikalx | F55BCB
-  - 🇺🇸_美国 (57)
-  - 🇺🇸US_84|893KB/s|S004-260618 [0e7a3a7788b3]
-  - 🇺🇸US_59|713KB/s|M003-260806 [25a37b841bdc]
-  - 🇺🇸US_61|108KB/s|A004-260618 [1f72b334a6b7]
-  - 🇺🇸US-193.151.163.18-0063
-  - 065 🇺🇸US-38.91.107.188-0097 | 59.649MB
-  - 🇺🇸US_83|308KB/s|B007-260618 [2287db602270]
-  - US 🇺🇸 | @Raydikalx | E0C902
-  - US 🇺🇸 | @Raydikalx | 2334B9
-  - 🇺🇸_美国 (55)
-  - 🇺🇸US_60|487KB/s|A004-260618
-  - 050 trojan-1929965347
-  - US 🇺🇸 | @Raydikalx | 53FCC0
-  - 🇺🇸US-185.230.230.18-0059
-  - 🇺🇸US_8|269KB/s|A004-260618 [1feecb3b9b0d]
-  - 114 🇺🇸_美国 (56)
-  - US 🇺🇸 | @Raydikalx | 855C81
-  - 066 US 🇺🇸 | @Raydikalx | 2B9AEB
-  - US 🇺🇸 | @Raydikalx | 565AA4
-  - US 🇺🇸 | @Raydikalx | 766FED
-  - 086 trojan-1827955817
-  - 美国+CloudFlare节点
-  - ❓Other_3|366KB/s|C001-260618 [30df0e37041e]
-  - 075 trojan-1933715116
-  - 048 trojan-1929965351
-  - 🇺🇸US_72|1.1MB/s|S004-260618 [3035c07b1d36]
-  - 🇺🇸US_69|74KB/s|C002-260622 [097fe1a50adf]
-  - 🇺🇸US_9|286KB/s|A004-260618 [0a6e050b6876]
-  - 080 🇨🇦CA-15.235.57.6-0164 | 0.0MB
-  - US 🇺🇸 | @Raydikalx | FC2D02
-  - US 🇺🇸 | @Raydikalx | 923D7E
-  - 🇺🇸US-162.251.62.31-0112
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #2'
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #3'
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #4'
-  - ❓Other_22|112KB/s|M002-260618 [3c75b7ee0a28]
-  - 🇺🇸US_99|420KB/s|M003-260806 [056953129a7a]
+  - US-183 美国 246
+  - 133 shadowsocks-1827963904
+  - 'US-164 Channel id: @ShadowProxy66'
+  - US-169 US_519 950KB/s C002-260622 [713009936dcb]
+  - 🇺🇸US_47|349KB/s|C002-260622 [084e9512967f]
+  - 🇺🇸US_38|658KB/s|M002-260618 [36f371846349]
+  - vless-1853340437
+  - US-115 US_363 77KB/s M003-260806 [3de23dd74123]
+  - 🇺🇸US_109|169KB/s|M003-260806 [7d6eb581864e]
+  - 🇺🇸US-209.248.57.105-0224
+  - 🇭🇰_香港 (8)
+  - XX-005 @meliproxyy
   - US 🇺🇸 | @Raydikalx | 835DF0
-  - US 🇺🇸 | @Raydikalx | 586AD0
-  - 🇫🇷FR_15|347KB/s|M003-260806
-  - 🇺🇸 美国 020
-  - 072 @ConfigV2RayNG
-  - vmess-1837386188
-  - US 🇺🇸 | @Raydikalx | 1FF246
-  - 🇺🇸 SkyBit-34_2026-11-17_20-09
-  - shadowsocks-1827962976
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #5'
-  - US 🇺🇸 | @Raydikalx | AD3647
-  - 🇫🇷FR_30|324KB/s|B004-260618 [236989c90cd1]
-  - CA 🇨🇦 | @Raydikalx | 8E778B
-  - US 🇺🇸 | @Raydikalx | 24C7AC
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #6'
-  - ❓Other_8|291KB/s|A004-260618 [0c55ca482097]
-  - CA 🇨🇦 | @Raydikalx | 1F92B4
-  - 🇺🇸_美国 (5)
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #7'
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🇺🇸 美国 017
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #8'
-  - ❓Other_66|96KB/s|M003-260806 [2a2c6d6db6f3]
-  - 🇨🇦CA_12|100KB/s|A004-260618 [2fa6e394998f]
-  - US 🇺🇸 | @Raydikalx | 375870
-  - US 🇺🇸 | @Raydikalx | C286F0
-  - 003 US 🇺🇸 | @Raydikalx | 1D5827
-  - 🇺🇸US_88|318KB/s|B007-260618 [0ecd490fc1e7]
-  - 🇫🇷FR_41|745KB/s|B007-260618
+  - US-151 US(AzadNet.t.me)
+  - US-170 US(AzadNet.t.me)
+  - US-162 US_144 481KB/s M003-260806 [112d3ee5d9f2]
+  - US-153 US_476 924KB/s A004-260618 [594337d2d6df]
+  - 'Channel id: @ConfigV2RayNG 🇺🇸'
   - US 🇺🇸 | @Raydikalx | 02181F
-  - CA加拿大(mibei77.com 米贝节点分享) (2)
-  - 🇺🇸 SkyBit-43_2026-11-17_20-09
-  - US 🇺🇸 | @Raydikalx | F44C8D
-  - US 🇺🇸 | @Raydikalx | 25BDA0
-  - US 🇺🇸 | @Raydikalx | 60BC4E
-  - 083 trojan-1942154526
-  - US 🇺🇸 | @Raydikalx | 1590B4
-  - 🇺🇸 SkyBit-41_2026-11-17_20-09
-  - 116 shadowsocks-1827147591
-  - 069 @DeltaKroneckerGithub_1175
+  - US-076 US_243 927KB/s A004-260618 [d92318afee09]
+  - US-063 US_63 926KB/s A004-260618 [0e40b52615aa]
+  - US-178 US_480 822KB/s M003-260806 [6568f73d0636]
+  - 🇺🇸US_101|427KB/s|C002-260622 [3361835171c8]
+  - 251 shadowsocks-1827146667
+  - TH-004 Other_69 586KB/s K001-260618 [5708f18d59b
+  - US-141 US-173.244.56.6-0254
   - 🇺🇸US_105|379KB/s|M003-260806
-  - ❓Other_22|405KB/s|K001-260618
-  - 076 hysteria2-1853166912
-  - US 🇺🇸 | @Raydikalx | 9E759D
-  - US 🇺🇸 | @Raydikalx | 6D6C73
-  - US 🇺🇸 | @Raydikalx | 723EDE
-  - US 🇺🇸 | @Raydikalx | 2314F7
-  - 096 US 🇺🇸 | @Raydikalx | 37480E
-  - US 🇺🇸 | @Raydikalx | 853160
-  - US 🇺🇸 | @Raydikalx | D57224
-  - US 🇺🇸 | @Raydikalx | 788142
-  - 082 trojan-1941064101
-  - 🇫🇷FR_23|261KB/s|M003-260806
-  - US 🇺🇸 | @Raydikalx | 943FAE
-  - US 🇺🇸 | @Raydikalx | 457A0D
-  - 043 shadowsocks-1828227588
-  - US 🇺🇸 | @Raydikalx | 0CBFCD
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #9'
-  - 060 🇺🇸_美国 (31)
-  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] #10'
-  - 🇺🇸_美国 (36)
-  - 094 🇺🇸_美国 (68)
-  - US 🇺🇸 | @Raydikalx | 5DCDAB
-  - 070 🇺🇸_美国 (33)
-  - ⚕️74@oneclickvpnkeys
-  - 🇺🇸_美国 (38)
-  - 049 @DeltaKroneckerGithub_1246
-  - 🇧🇷 Brazil, Mogi das Cruzes | 🌐 | [BL]
-  - 🇺🇸_美国 (60)
-  - ❓Other_64|378KB/s|R002-260618
-  - 085 trojan-1941512529
+  - US-019 US_367 1.2MB/s M003-260806 [5762fa2cd8d3]
+  - 🇺🇸 SkyBit-46_2026-11-18_19-04
+  - US-010 US_9 291KB/s [2b322b68c292]
+  - 🇺🇸US_67|533KB/s|A004-260618 [55389c25f10d]
+  - 🇺🇸_美国 (17)
+  - 🇺🇸_美国 (19)
+  - 🇺🇸US_29|546KB/s|A004-260618 [0bcb39e66b5e]
+  - US-126 美国_1118211601
+  - 🇺🇸_美国 (22)
+  - US-084 US-107.151.182.253-0869
+  - 005 trojan-1929965354
+  - US-155 US_253 990KB/s A004-260618 [26dae539cbdd]
+  - US-187 US @Raydikalx 9B4F83
+  - US-156 US_24 996KB/s M003-260806 [6364b2c615d5]
+  - US-180 Join+Telegram:@Farah_VPN
   - '@DeltaKroneckerGithub'
-  - CA【高速节点：https://tt.vg/vip】25
-  - 081 trojan-1944436566
-  - ❓Other_12|219KB/s|C002-260622 [0db7a794c99c]
-  - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  - 103 hysteria2-1930264641
-  - '090 @OutlineReleasedKey #9'
-  - '101 @confiig_hub #1'
-  - 095 hysteria2-1853502854
-  - U⚪🏳️ukn_dokng.com_275e588f
-  - 199 ⚕️15@oneclickvpnkeys
-  - 🇳🇱NL_31|229KB/s|M003-260806
-  - '@FREE2CONFIG - 204'
-  - '@DeltaKroneckerGithub_3021_IPV4'
-  - CA 🇨🇦 | @Raydikalx | D7EB3E
-  - 118 hysteria2-1854030070
-  - 🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]
-  - '@V2ray_Collector'
-  - 106 ⚕️35@oneclickvpnkeys
-  - CA 🇨🇦 | @Raydikalx | E422F0
-  - '@OutlineReleasedKey'
-  - JP 🇯🇵 | @Raydikalx | EE8BCF
-  - 071 hysteria2-1853341683
-  - 135 🇺🇸 美国 | USA 6
-  - '122 @OutlineReleasedKey #3'
-  - ❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]
-  - 115 hysteria2-1917575832
-  - 🇩🇪DE_32|442KB/s|M003-260806
-  - 🪬70@oneclickvpnkeys
-  - 168 hysteria2-1938971779
-  - '130 @OutlineReleasedKey #5'
-  - '@V2ray_Collector #2'
-  - 🇨🇦CA-51.222.136.236-0176
-  - BR 🇧🇷 | @Raydikalx | F3CD64
-  - 091 hysteria2-1910185368
-  - 119 hysteria2-1832765000
-  - 089 hysteria2-1828371613
-  - 🌐 Anycast-IP | 🇳🇱 | [BL]
-  - '105 @Nexus_Panell چنل تلگرام #1'
-  - 125 hysteria2-1832881372
-  - 126 hysteria2-1828529280
-  - 112 hysteria2-1828371633
-  - 🇩🇪 德国 08
-  - 109 hysteria2-1828371657
-  - '@OutlineReleasedKey #6'
+  - US 🇺🇸 | @Raydikalx | 5B619D
+  - US-002 US_371 289KB/s M003-260806 [34b27eebfe6b]
+  - US 🇺🇸 | @Raydikalx | 76D633
+  - US-168 US_145 960KB/s M003-260806 [2d3c6b97d127]
+  - US-020 US_514 1.1MB/s K001-260618 [238480393fde]
+  - 187 trojan-1943754366
+  - '[VMess] @DeltaKroneckerGithub_3021_IPV4'
+  - '[VMess] 🇺🇸 _US_美国_IPV4 (13)'
+  - 🇺🇸_US_美国_IPV4 (12)
+  - 🇺🇸 美国 017
+  - 021 hysteria2-1827145159
+  - hysteria2-1827145136
+  - '[VMess] 🇺🇸 机场推荐:dafei.de 美国 89_IPV4'
+  - '[NoMoreWalls#048] 🇯🇵218802 | ⚡️Telegram = t.me/L'
   - hysteria2-1828374754
-  - 🇷🇺216805 | ⚡️Telegram = t.me/L...
-  - hysteria2-1832880243
-  - '@DeltaKroneckerGithub #2'
-  - 088 hysteria2-1828373437
-  - '104 @OutlineReleasedKey #6'
-  - 🇸🇬217490 | ⚡️Telegram = t.me/L...
-  - 🇩🇪 | @WhiteDNS | DE252|10.7MB/s|DNSOK|GPT⁺-DE
-  - 129 hysteria2-1946062452
-  - D🔴🇺🇸hos[🎮]_dokng.com_343ae4aa
-  - 🇨🇦CA-15.235.121.109-0203
-  - AU澳大利亚(mibei77.com 米贝节点分享)
-  - 🇭🇰 香港 08
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇸🇬 新加坡 34
-  - 🇫🇮[openproxylist.com] vless-FI
-  - CA 🇨🇦 | @Raydikalx | 0923FC
-  - '@DeltaKroneckerGithub #3'
+  - ❓Other_12|219KB/s|C002-260622 [0db7a794c99c]
+  - hysteria2-1827145810
+  - hysteria2-1854030061
+  - hysteria2-1828373437
+  - 🇭🇰HK_6|689KB/s|M003-260806
+  - NL 🇳🇱 | @Raydikalx | 78AF0D
+  - '@Nexus_Panell چنل تلگرام'
+  - hysteria2-1828529345
   - ✨+Gemini+&+NotebookLM+#04+•+🇳🇱+[NL]+HYSTERIA2+(3
-  - v2go | VMESS | 9
-  - 079 trojan-1947502359
-  - CA 🇨🇦 | @Raydikalx | FF568B
-  - DE德国(mibei77.com 米贝节点分享) (3)
-  - 🇺🇸US_63|326KB/s|A004-260618 [1d1916739587]
-  - CA加拿大(mibei77.com 米贝节点分享) (3)
-  - 未知 HY2-04 | free-nodes
-  - 🇳🇱NL_48|474KB/s|B007-260618 [569c7ebe9a5f]
-  - SG 🇸🇬 | @Raydikalx | FC0752
-  - ❓Other_62|121KB/s|M001-260618 [1f10d3a51106]
-  - '🇺🇸 United States, St Louis (Downtown) | [BL] #2'
-  - 🇺🇸_美国 (82)
-  - hysteria2-1853501557
-  - 🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐
-  - '🇺🇸 United States, St Louis (Downtown) | [BL] #3'
-  - 🇩🇪DE_20|897KB/s|M003-260806 [2f0c320bea1f]
-  - US美国(mibei77.com 米贝节点分享)
-  - CA 🇨🇦 | @Raydikalx | 3543C7
-  - '🇺🇸 United States — #124'
-  - '@DeltaKroneckerGithub #4'
-  - '@DeltaKroneckerGithub #5'
-  - CA 🇨🇦 | @Raydikalx | F1502D
-  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]
-  - '@DeltaKroneckerGithub #6'
-  - '@DeltaKroneckerGithub #7'
-  - CA 🇨🇦 | @Raydikalx | 40FE00
-  - CA 🇨🇦 | @Raydikalx | 3FB990
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - '@DeltaKroneckerGithub #8'
-  - CA 🇨🇦 | @Raydikalx | DEF3AC
-  - '@DeltaKroneckerGithub #9'
-  - CA 🇨🇦 | @Raydikalx | 15EFED
-  - '@DeltaKroneckerGithub #10'
-  - CA 🇨🇦 | @Raydikalx | 924ABF
-  - CA 🇨🇦 | @Raydikalx | 4FA2E4
+  - 🇳🇱NL_31|229KB/s|M003-260806
+  - hysteria2-1930264641
+  - FR 🇫🇷 | @Raydikalx | A8689B
+  - NL 🇳🇱 | @Raydikalx | B843BA
+  - 🇳🇱NL_35|166KB/s|A001-260618 [54448850fd51]
+  - '@OutlineReleasedKey #3'
+  - hysteria2-1828529012
+  - DE 🇩🇪 | @Raydikalx | 48FDD4
+  - 🇫🇷FR_6|120KB/s|C002-260622
+  - '@V2ray_Collector'
+  - '[NoMoreWalls#028] 🔹69@oneclickvpnkeys'
+  - DE 🇩🇪 | @Raydikalx | 86C5F1
+  - ❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]
+  - 🇩🇪DE_10|167KB/s|M003-260806 [27a9fa6190e1]
+  - 🇺🇸_美国 (36)
+  - CA 🇨🇦 | @Raydikalx | 3B5FAF
+  - 🇸🇬SG_10|161KB/s|A004-260618 [54304560eba2]
   - 🇺🇸_美国 (84)
+  - hysteria2-1853488298
+  - hysteria2-1828374520
+  - hysteria2-1828371410
+  - ❓Other_28|284KB/s|A004-260618 [3eb6ea473306]
+  - 🇸🇬217490 | ⚡️Telegram = t.me/L...
+  - '[NoMoreWalls#039] 🔹44@oneclickvpnkeys'
+  - 🇰🇷KR_4|162KB/s|M003-260806
+  - 199 ⚕️15@oneclickvpnkeys
   - 🇺🇸_美国 (85)
-  - CA 🇨🇦 | @Raydikalx | D6B883
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - CA 🇨🇦 | @Raydikalx | FB8FD0
-  - 🇯🇵 日本 03
+  - 🇩🇪DE_8|73KB/s|A004-260618 [50232375b675]
+  - 058 hysteria2-1853501557
+  - CH 🇨🇭 | @Raydikalx | 824836
+  - '@OutlineReleasedKey'
+  - 'US-018 Channel id: @ShadowProxy66'
+  - ❓Other_57|117KB/s|A004-260618
+  - '[NoMoreWalls#046] @OutlineReleasedKey #8'
+  - '@OutlineReleasedKey #4'
+  - '@OutlineReleasedKey #5'
+  - 🔹13@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | D6B883
+  - 🇦🇺 澳大利亚 01
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - ❓Other_73|282KB/s|M003-260806
+  - '@ConfigV2RayNG'
+  - 086 @DeltaKroneckerGithub_894
+  - 🇸🇬SG_11|206KB/s|M003-260806
+  - 🇸🇬 新加坡 32
+  - 🇺🇸US_97|543KB/s|M003-260806 [77ed4a520da2]
+  - SE 🇸🇪 | @Raydikalx | 44B57D
+  - CA 🇨🇦 | @Raydikalx | 40FE00
+  - 🇷🇺218228 | ⚡️Telegram = t.me/LonUp_M
+  - 🇭🇰 香港 08
+  - AU澳大利亚(mibei77.com 米贝节点分享)
+  - '@V2ray_Collector #2'
+  - 🌐 Anycast-IP | 🇨🇱 🇭🇰 | [BL]
+  - 🇷🇺216805 | ⚡️Telegram = t.me/L...
+  - 🇳🇱NL_57|360KB/s|M003-260806
+  - 🇩🇪DE_21|227KB/s|M003-260806
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #2'
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #3'
+  - 🇺🇸 United States, Los Angeles (Central-Alameda)
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #4'
+  - hamedp71::🏴‍☠️
+  - 322 hysteria2-1853166912
+  - '@DeltaKroneckerGithub #2'
+  - 🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]
+  - 🇫🇮 Finland, Helsinki | 🌐 | [BL]
+  - '🇫🇮 Finland, Helsinki | 🌐 | [BL] #2'
+  - '🇫🇮 Finland, Helsinki | 🌐 | [BL] #3'
+  - '🇫🇮 Finland, Helsinki | 🌐 | [BL] #4'
+  - US美国(mibei77.com 米贝节点分享)
+  - 🇯🇵 日本 12
+  - '@DeltaKroneckerGithub #3'
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  - 🇩🇪 德国 | DEU
+  - '🇫🇮 Finland, Helsinki | 🌐 | [BL] #5'
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #5'
+  - ❓Other_62|121KB/s|M001-260618 [806376955771]
+  - 🇺🇸US_92|67KB/s|A004-260618 [4a6de620d459]
+  - '@DeltaKroneckerGithub #4'
+  - vless-1831071997
+  - 🇺🇸_美国 (82)
+  - US 🇺🇸 | @Raydikalx | 1F577B
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #6'
+  - DE德国(mibei77.com 米贝节点分享)
+  - '@DeltaKroneckerGithub #5'
+  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  - 🇮🇩 Indonesia, Cileungsir | [BL]
+  - 🇺🇸_美国 (92)
+  - '@DeltaKroneckerGithub #6'
+  - vless-1827151410
+  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  - '@DeltaKroneckerGithub #7'
+  - 308 @DeltaKroneckerGithub_372
+  - ♻️93@oneclickvpnkeys
+  - '🇺🇸 United States, St Louis (Downtown) | [BL] #7'
+  - CA 🇨🇦 | @Raydikalx | 4FA2E4
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #2'
+  - CA 🇨🇦 | @Raydikalx | 269005
+  - '@DeltaKroneckerGithub #8'
+  - 🇮🇩 Indonesia, Cicurug | [BL]
+  - CA 🇨🇦 | @Raydikalx | 76F5D4
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]
+  - '@DeltaKroneckerGithub #9'
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #3'
+  - US 🇺🇸 | @Raydikalx | 71838A
+  - US 🇺🇸 | @Raydikalx | 080C5C
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #4'
+  - '@DeltaKroneckerGithub #10'
   - '@DeltaKroneckerGithub #11'
-  - 162 ♻️93@oneclickvpnkeys
-  - 🇨🇦CA-51.222.155.32-0403
-  - ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ🩹
+  - CA 🇨🇦 | @Raydikalx | FFCF2F
+  - US-134 美国 398
+  - CA-020 CA @Raydikalx B4617E
+  - CA 🇨🇦 | @Raydikalx | 6AF8DB
   - '@DeltaKroneckerGithub #12'
-  - CA 🇨🇦 | @Raydikalx | 5A4804
-  - 🇨🇦CA-216.152.147.85-0230
-  - 🇨🇦CA-51.79.64.198-0404
-  - CA 🇨🇦 | @Raydikalx | 5F26A6
+  - '@DeltaKroneckerGithub #13'
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #5'
+  - 🇯🇵 日本 11
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #6'
+  - '@ConfigV2RayNG #2'
+  - 🇺🇸_US_美国_IPV4 (2)
+  - '@DeltaKroneckerGithub #14'
+  - 221 美国 276
+  - '🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] #7'
 - name: 🔰 自动选择
   type: url-test
   proxies: &id001
-  - 🇺🇸US-167.88.62.203-0100
-  - US 🇺🇸 | @Raydikalx | AEA668
-  - 041 shadowsocks-1827146549
-  - US 🇺🇸 | @Raydikalx | F41438
-  - US 🇺🇸 | @Raydikalx | 7BB59B
-  - 🇺🇸US-156.146.38.167-0168
-  - 🇺🇸US-156.146.38.169-0167
-  - 042 shadowsocks-1827146815
-  - US 🇺🇸 | @Raydikalx | 40DB1C
-  - 062 GB 🇬🇧 | @Raydikalx | 95E028
-  - US 🇺🇸 | @Raydikalx | C3E30F
-  - 🇺🇸US-216.106.178.169-0154
-  - US 🇺🇸 | @Raydikalx | 67B835
-  - US 🇺🇸 | @Raydikalx | 275AFF
-  - US 🇺🇸 | @Raydikalx | 64D2F8
-  - US 🇺🇸 | @Raydikalx | FC978E
-  - ❓Other_17|109KB/s|M003-260806
-  - 🇺🇸US-38.128.66.32-0165
-  - ❓Other_8|148KB/s|A004-260618
-  - 🇺🇸US-172.111.36.123-0086
-  - 🇺🇸US-167.88.63.99-0102
-  - 🇺🇸US_90|552KB/s|A004-260618 [0ccf6aebe480]
-  - US 🇺🇸 | @Raydikalx | D57391
-  - US 🇺🇸 | @Raydikalx | 6AB77E
-  - 054 🇺🇸US-38.22.17.129-0078 | 28.443MB
-  - 🇺🇸US-38.121.43.231-0091
-  - 🇺🇸 SkyBit-27_2026-11-17_20-09
-  - 🇺🇸US-38.22.17.219-0108
-  - 🇺🇸US_51|481KB/s|M003-260806
-  - 🇺🇸US-38.121.43.18-0087
-  - US 🇺🇸 | @Raydikalx | 541574
-  - US 🇺🇸 | @Raydikalx | 572B79
-  - 🇺🇸US-38.121.43.225-0103
-  - 🇺🇸US_24|237KB/s|A004-260618 [0d70475f53d8]
-  - US 🇺🇸 | @Raydikalx | 31EAE9
-  - 055 US 🇺🇸 | @Raydikalx | 82C99B
-  - US 🇺🇸 | @Raydikalx | 7DD8C0
-  - US 🇺🇸 | @Raydikalx | 882A7F
-  - shadowsocks-1827964140
-  - CA 🇨🇦 | @Raydikalx | F06147
-  - US 🇺🇸 | @Raydikalx | 841538
-  - 🇨🇦CA-137.184.174.93-0135
-  - US 🇺🇸 | @Raydikalx | 9FAC2F
-  - CA 🇨🇦 | @Raydikalx | 3E7C3F
-  - ❓Other_97|213KB/s|B007-260618
-  - 045 trojan-1929965354
-  - US 🇺🇸 | @Raydikalx | 072F29
-  - 053 trojan-1849374991
-  - US 🇺🇸 | @Raydikalx | 6AFD1A
-  - 🇺🇸US-149.40.57.138-0068
+  - US-183 美国 246
+  - 133 shadowsocks-1827963904
+  - 'US-164 Channel id: @ShadowProxy66'
+  - US-169 US_519 950KB/s C002-260622 [713009936dcb]
+  - 🇺🇸US_47|349KB/s|C002-260622 [084e9512967f]
+  - 🇺🇸US_38|658KB/s|M002-260618 [36f371846349]
+  - vless-1853340437
+  - US-115 US_363 77KB/s M003-260806 [3de23dd74123]
+  - 🇺🇸US_109|169KB/s|M003-260806 [7d6eb581864e]
+  - 🇺🇸US-209.248.57.105-0224
+  - 🇭🇰_香港 (8)
+  - XX-005 @meliproxyy
+  - US 🇺🇸 | @Raydikalx | 835DF0
+  - US-151 US(AzadNet.t.me)
+  - US-170 US(AzadNet.t.me)
+  - US-162 US_144 481KB/s M003-260806 [112d3ee5d9f2]
+  - US-153 US_476 924KB/s A004-260618 [594337d2d6df]
+  - 'Channel id: @ConfigV2RayNG 🇺🇸'
+  - US 🇺🇸 | @Raydikalx | 02181F
+  - US-076 US_243 927KB/s A004-260618 [d92318afee09]
+  - US-063 US_63 926KB/s A004-260618 [0e40b52615aa]
+  - US-178 US_480 822KB/s M003-260806 [6568f73d0636]
+  - 🇺🇸US_101|427KB/s|C002-260622 [3361835171c8]
+  - 251 shadowsocks-1827146667
+  - TH-004 Other_69 586KB/s K001-260618 [5708f18d59b
+  - US-141 US-173.244.56.6-0254
+  - 🇺🇸US_105|379KB/s|M003-260806
+  - US-019 US_367 1.2MB/s M003-260806 [5762fa2cd8d3]
+  - 🇺🇸 SkyBit-46_2026-11-18_19-04
+  - US-010 US_9 291KB/s [2b322b68c292]
+  - 🇺🇸US_67|533KB/s|A004-260618 [55389c25f10d]
+  - 🇺🇸_美国 (17)
+  - 🇺🇸_美国 (19)
+  - 🇺🇸US_29|546KB/s|A004-260618 [0bcb39e66b5e]
+  - US-126 美国_1118211601
+  - 🇺🇸_美国 (22)
+  - US-084 US-107.151.182.253-0869
+  - 005 trojan-1929965354
+  - US-155 US_253 990KB/s A004-260618 [26dae539cbdd]
+  - US-187 US @Raydikalx 9B4F83
+  - US-156 US_24 996KB/s M003-260806 [6364b2c615d5]
+  - US-180 Join+Telegram:@Farah_VPN
+  - '@DeltaKroneckerGithub'
+  - US 🇺🇸 | @Raydikalx | 5B619D
+  - US-002 US_371 289KB/s M003-260806 [34b27eebfe6b]
+  - US 🇺🇸 | @Raydikalx | 76D633
+  - US-168 US_145 960KB/s M003-260806 [2d3c6b97d127]
+  - US-020 US_514 1.1MB/s K001-260618 [238480393fde]
+  - 187 trojan-1943754366
+  - '[VMess] @DeltaKroneckerGithub_3021_IPV4'
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: ♻️ 自动测速

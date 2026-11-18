@@ -1,2042 +1,1342 @@
 {
-  "count": 291,
+  "count": 191,
   "proxies": [
     {
-      "name": "🇺🇸US-167.88.62.203-0100",
-      "type": "ss",
-      "server": "167.88.62.203",
-      "port": 19999,
-      "latency_ms": 52.0
+      "name": "US-183 美国 246",
+      "type": "vmess",
+      "server": "84.17.41.2",
+      "port": 18000,
+      "latency_ms": 30.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | AEA668",
+      "name": "133 shadowsocks-1827963904",
       "type": "ss",
-      "server": "167.17.67.171",
-      "port": 19999,
-      "latency_ms": 52.0
-    },
-    {
-      "name": "041 shadowsocks-1827146549",
-      "type": "ss",
-      "server": "156.146.38.170",
-      "port": 443,
-      "latency_ms": 56.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | F41438",
-      "type": "ss",
-      "server": "167.88.62.56",
-      "port": 19999,
-      "latency_ms": 57.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 7BB59B",
-      "type": "ss",
-      "server": "67.220.73.178",
-      "port": 19999,
-      "latency_ms": 57.0
-    },
-    {
-      "name": "🇺🇸US-156.146.38.167-0168",
-      "type": "ss",
-      "server": "156.146.38.167",
-      "port": 443,
-      "latency_ms": 58.0
-    },
-    {
-      "name": "🇺🇸US-156.146.38.169-0167",
-      "type": "ss",
-      "server": "156.146.38.169",
-      "port": 443,
-      "latency_ms": 60.0
-    },
-    {
-      "name": "042 shadowsocks-1827146815",
-      "type": "ss",
-      "server": "156.146.38.168",
-      "port": 443,
-      "latency_ms": 60.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 40DB1C",
-      "type": "ss",
-      "server": "138.199.42.68",
+      "server": "138.199.43.159",
       "port": 8080,
-      "latency_ms": 61.0
+      "latency_ms": 31.0
     },
     {
-      "name": "062 GB 🇬🇧 | @Raydikalx | 95E028",
-      "type": "vless",
-      "server": "84.32.54.237",
+      "name": "US-164 Channel id: @ShadowProxy66",
+      "type": "ss",
+      "server": "38.143.66.146",
+      "port": 19999,
+      "latency_ms": 40.0
+    },
+    {
+      "name": "US-169 US_519 950KB/s C002-260622 [713009936dcb]",
+      "type": "trojan",
+      "server": "216.106.186.32",
       "port": 443,
-      "latency_ms": 64.0
+      "latency_ms": 52.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | C3E30F",
-      "type": "vmess",
-      "server": "162.251.60.97",
-      "port": 1270,
-      "latency_ms": 65.0
+      "name": "🇺🇸US_47|349KB/s|C002-260622 [084e9512967f]",
+      "type": "vless",
+      "server": "15.204.97.195",
+      "port": 23576,
+      "latency_ms": 63.0
     },
     {
-      "name": "🇺🇸US-216.106.178.169-0154",
-      "type": "ss",
-      "server": "216.106.178.169",
-      "port": 19999,
-      "latency_ms": 67.0
+      "name": "🇺🇸US_38|658KB/s|M002-260618 [36f371846349]",
+      "type": "vless",
+      "server": "15.204.97.209",
+      "port": 23576,
+      "latency_ms": 68.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 67B835",
-      "type": "vmess",
-      "server": "167.88.62.134",
-      "port": 1270,
-      "latency_ms": 70.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 275AFF",
-      "type": "vmess",
-      "server": "38.68.135.131",
-      "port": 1270,
-      "latency_ms": 70.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 64D2F8",
-      "type": "vmess",
-      "server": "38.64.138.187",
-      "port": 1270,
-      "latency_ms": 71.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | FC978E",
-      "type": "vmess",
-      "server": "38.64.138.135",
-      "port": 1270,
-      "latency_ms": 76.0
-    },
-    {
-      "name": "❓Other_17|109KB/s|M003-260806",
-      "type": "ss",
-      "server": "38.64.138.135",
-      "port": 19999,
-      "latency_ms": 78.0
-    },
-    {
-      "name": "🇺🇸US-38.128.66.32-0165",
-      "type": "ss",
-      "server": "38.128.66.32",
-      "port": 19999,
-      "latency_ms": 80.0
-    },
-    {
-      "name": "❓Other_8|148KB/s|A004-260618",
-      "type": "ss",
-      "server": "15.204.246.132",
-      "port": 7307,
+      "name": "vless-1853340437",
+      "type": "vless",
+      "server": "ww13.levikogjgfdd.ir",
+      "port": 23576,
       "latency_ms": 89.0
     },
     {
-      "name": "🇺🇸US-172.111.36.123-0086",
-      "type": "ss",
-      "server": "172.111.36.123",
-      "port": 19999,
-      "latency_ms": 94.0
-    },
-    {
-      "name": "🇺🇸US-167.88.63.99-0102",
-      "type": "ss",
-      "server": "167.88.63.99",
-      "port": 19999,
-      "latency_ms": 98.0
-    },
-    {
-      "name": "🇺🇸US_90|552KB/s|A004-260618 [0ccf6aebe480]",
-      "type": "ss",
-      "server": "15.204.247.244",
-      "port": 443,
-      "latency_ms": 101.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | D57391",
-      "type": "vmess",
-      "server": "167.88.62.51",
-      "port": 1270,
-      "latency_ms": 101.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 6AB77E",
-      "type": "ss",
-      "server": "185.215.132.18",
-      "port": 19999,
-      "latency_ms": 102.0
-    },
-    {
-      "name": "054 🇺🇸US-38.22.17.129-0078 | 28.443MB",
-      "type": "ss",
-      "server": "38.22.17.129",
-      "port": 19999,
-      "latency_ms": 103.0
-    },
-    {
-      "name": "🇺🇸US-38.121.43.231-0091",
-      "type": "ss",
-      "server": "38.121.43.231",
-      "port": 19999,
-      "latency_ms": 103.0
-    },
-    {
-      "name": "🇺🇸 SkyBit-27_2026-11-17_20-09",
-      "type": "ss",
-      "server": "185.215.132.9",
-      "port": 19999,
-      "latency_ms": 103.0
-    },
-    {
-      "name": "🇺🇸US-38.22.17.219-0108",
-      "type": "ss",
-      "server": "38.22.17.219",
-      "port": 19999,
-      "latency_ms": 104.0
-    },
-    {
-      "name": "🇺🇸US_51|481KB/s|M003-260806",
-      "type": "ss",
-      "server": "38.22.17.214",
-      "port": 19999,
-      "latency_ms": 104.0
-    },
-    {
-      "name": "🇺🇸US-38.121.43.18-0087",
-      "type": "ss",
-      "server": "38.121.43.18",
-      "port": 19999,
-      "latency_ms": 105.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 541574",
-      "type": "vmess",
-      "server": "167.88.62.56",
-      "port": 1270,
-      "latency_ms": 105.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 572B79",
-      "type": "vmess",
-      "server": "38.128.66.249",
-      "port": 1270,
-      "latency_ms": 106.0
-    },
-    {
-      "name": "🇺🇸US-38.121.43.225-0103",
-      "type": "ss",
-      "server": "38.121.43.225",
-      "port": 19999,
-      "latency_ms": 107.0
-    },
-    {
-      "name": "🇺🇸US_24|237KB/s|A004-260618 [0d70475f53d8]",
-      "type": "vless",
-      "server": "45.138.100.248",
-      "port": 10443,
-      "latency_ms": 109.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 31EAE9",
-      "type": "ss",
-      "server": "167.88.63.39",
-      "port": 19999,
-      "latency_ms": 109.0
-    },
-    {
-      "name": "055 US 🇺🇸 | @Raydikalx | 82C99B",
-      "type": "ss",
-      "server": "38.22.17.139",
-      "port": 19999,
-      "latency_ms": 109.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 7DD8C0",
-      "type": "vmess",
-      "server": "38.128.66.241",
-      "port": 1270,
-      "latency_ms": 110.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 882A7F",
-      "type": "vmess",
-      "server": "38.128.66.212",
-      "port": 1270,
-      "latency_ms": 110.0
-    },
-    {
-      "name": "shadowsocks-1827964140",
-      "type": "ss",
-      "server": "138.197.141.58",
-      "port": 8080,
-      "latency_ms": 111.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | F06147",
-      "type": "ss",
-      "server": "184.107.106.78",
-      "port": 8388,
-      "latency_ms": 111.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 841538",
-      "type": "ss",
-      "server": "200.102.179.179",
-      "port": 8388,
-      "latency_ms": 111.0
-    },
-    {
-      "name": "🇨🇦CA-137.184.174.93-0135",
-      "type": "ss",
-      "server": "137.184.174.93",
-      "port": 8080,
-      "latency_ms": 112.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 9FAC2F",
-      "type": "ss",
-      "server": "136.148.77.250",
-      "port": 8388,
-      "latency_ms": 112.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 3E7C3F",
-      "type": "vmess",
-      "server": "134.195.196.154",
-      "port": 1270,
-      "latency_ms": 113.0
-    },
-    {
-      "name": "❓Other_97|213KB/s|B007-260618",
-      "type": "ss",
-      "server": "184.107.106.77",
-      "port": 8388,
-      "latency_ms": 113.0
-    },
-    {
-      "name": "045 trojan-1929965354",
-      "type": "trojan",
-      "server": "66.163.114.45",
-      "port": 443,
-      "latency_ms": 115.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 072F29",
-      "type": "vmess",
-      "server": "162.251.61.46",
-      "port": 1270,
-      "latency_ms": 117.0
-    },
-    {
-      "name": "053 trojan-1849374991",
-      "type": "trojan",
-      "server": "66.23.203.21",
-      "port": 59689,
-      "latency_ms": 117.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 6AFD1A",
-      "type": "vless",
-      "server": "195.211.98.43",
-      "port": 443,
-      "latency_ms": 118.0
-    },
-    {
-      "name": "🇺🇸US-149.40.57.138-0068",
-      "type": "ss",
-      "server": "149.40.57.138",
-      "port": 19999,
-      "latency_ms": 120.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 549B8B",
-      "type": "ss",
-      "server": "15.204.246.111",
-      "port": 5498,
-      "latency_ms": 121.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 8E9347",
-      "type": "ss",
-      "server": "104.238.140.45",
-      "port": 11051,
-      "latency_ms": 121.0
-    },
-    {
-      "name": "078 🇺🇸US-172.111.38.72-0116 | 31.245MB",
-      "type": "ss",
-      "server": "172.111.38.72",
-      "port": 19999,
-      "latency_ms": 122.0
-    },
-    {
-      "name": "🇺🇸US-45.86.51.18-0060",
-      "type": "ss",
-      "server": "45.86.51.18",
-      "port": 19999,
-      "latency_ms": 127.0
-    },
-    {
-      "name": "068 @ConfigV2RayNG",
-      "type": "ss",
-      "server": "138.197.89.234",
-      "port": 28960,
-      "latency_ms": 127.0
-    },
-    {
-      "name": "🇺🇸 SkyBit-49_2026-11-17_20-09",
-      "type": "ss",
-      "server": "38.145.220.193",
-      "port": 8443,
-      "latency_ms": 127.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "trojan",
-      "server": "104.26.6.171",
-      "port": 443,
-      "latency_ms": 127.0
-    },
-    {
-      "name": "🇺🇸 United States #06 VLESS",
-      "type": "vless",
-      "server": "47.253.226.114",
-      "port": 443,
-      "latency_ms": 128.0
-    },
-    {
-      "name": "🇺🇸US-149.40.57.133-0113",
-      "type": "ss",
-      "server": "149.40.57.133",
-      "port": 19999,
-      "latency_ms": 128.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | F51004",
-      "type": "ss",
-      "server": "149.40.57.135",
-      "port": 19999,
-      "latency_ms": 128.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 143737",
-      "type": "vmess",
-      "server": "172.111.36.137",
-      "port": 1270,
-      "latency_ms": 129.0
-    },
-    {
-      "name": "vmess-1853333213",
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "latency_ms": 130.0
-    },
-    {
-      "name": "🇺🇸US-38.91.100.39-0107",
-      "type": "ss",
-      "server": "38.91.100.39",
-      "port": 19999,
-      "latency_ms": 130.0
-    },
-    {
-      "name": "🇺🇸US-149.40.57.134-0131",
-      "type": "ss",
-      "server": "149.40.57.134",
-      "port": 19999,
-      "latency_ms": 130.0
-    },
-    {
-      "name": "🇺🇸US_31|961KB/s|C001-260618 [0085a15031bb]",
-      "type": "trojan",
-      "server": "66.163.114.114",
-      "port": 443,
-      "latency_ms": 130.0
-    },
-    {
-      "name": "008 🇺🇸US-137.184.89.151-0064 | 11.643MB",
+      "name": "US-115 US_363 77KB/s M003-260806 [3de23dd74123]",
       "type": "ss",
       "server": "137.184.89.151",
       "port": 19999,
-      "latency_ms": 132.0
+      "latency_ms": 103.0
     },
     {
-      "name": "047 trojan-1933715123",
-      "type": "trojan",
-      "server": "66.163.114.166",
-      "port": 443,
-      "latency_ms": 132.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | E7611E",
+      "name": "🇺🇸US_109|169KB/s|M003-260806 [7d6eb581864e]",
       "type": "vmess",
-      "server": "38.22.17.251",
-      "port": 1270,
-      "latency_ms": 132.0
+      "server": "107.150.19.24",
+      "port": 54321,
+      "latency_ms": 104.0
     },
     {
-      "name": "🇺🇸US-198.98.53.130-0206",
+      "name": "🇺🇸US-209.248.57.105-0224",
       "type": "ss",
-      "server": "198.98.53.130",
-      "port": 443,
-      "latency_ms": 133.0
+      "server": "209.248.57.105",
+      "port": 8388,
+      "latency_ms": 105.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | F55BCB",
+      "name": "🇭🇰_香港 (8)",
       "type": "vmess",
-      "server": "167.88.63.39",
-      "port": 1270,
-      "latency_ms": 133.0
+      "server": "206.237.11.17",
+      "port": 50376,
+      "latency_ms": 106.0
     },
     {
-      "name": "🇺🇸_美国 (57)",
-      "type": "trojan",
-      "server": "216.152.156.49",
-      "port": 443,
-      "latency_ms": 134.0
-    },
-    {
-      "name": "🇺🇸US_84|893KB/s|S004-260618 [0e7a3a7788b3]",
-      "type": "trojan",
-      "server": "216.152.156.65",
-      "port": 443,
-      "latency_ms": 134.0
-    },
-    {
-      "name": "🇺🇸US_59|713KB/s|M003-260806 [25a37b841bdc]",
-      "type": "trojan",
-      "server": "216.152.156.42",
-      "port": 443,
-      "latency_ms": 134.0
-    },
-    {
-      "name": "🇺🇸US_61|108KB/s|A004-260618 [1f72b334a6b7]",
-      "type": "vless",
-      "server": "69.48.201.136",
-      "port": 30016,
-      "latency_ms": 137.0
-    },
-    {
-      "name": "🇺🇸US-193.151.163.18-0063",
+      "name": "XX-005 @meliproxyy",
       "type": "ss",
-      "server": "193.151.163.18",
-      "port": 19999,
-      "latency_ms": 137.0
-    },
-    {
-      "name": "065 🇺🇸US-38.91.107.188-0097 | 59.649MB",
-      "type": "ss",
-      "server": "38.91.107.188",
-      "port": 19999,
-      "latency_ms": 139.0
-    },
-    {
-      "name": "🇺🇸US_83|308KB/s|B007-260618 [2287db602270]",
-      "type": "trojan",
-      "server": "170.101.101.237",
-      "port": 443,
-      "latency_ms": 140.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | E0C902",
-      "type": "vmess",
-      "server": "172.111.36.147",
-      "port": 1270,
-      "latency_ms": 140.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 2334B9",
-      "type": "vmess",
-      "server": "172.111.36.123",
-      "port": 1270,
-      "latency_ms": 141.0
-    },
-    {
-      "name": "🇺🇸_美国 (55)",
-      "type": "trojan",
-      "server": "216.152.156.159",
-      "port": 443,
-      "latency_ms": 142.0
-    },
-    {
-      "name": "🇺🇸US_60|487KB/s|A004-260618",
-      "type": "trojan",
-      "server": "216.152.156.81",
-      "port": 443,
-      "latency_ms": 142.0
-    },
-    {
-      "name": "050 trojan-1929965347",
-      "type": "trojan",
-      "server": "66.163.114.126",
-      "port": 443,
-      "latency_ms": 142.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 53FCC0",
-      "type": "vmess",
-      "server": "167.88.63.47",
-      "port": 1270,
-      "latency_ms": 142.0
-    },
-    {
-      "name": "🇺🇸US-185.230.230.18-0059",
-      "type": "ss",
-      "server": "185.230.230.18",
-      "port": 19999,
-      "latency_ms": 143.0
-    },
-    {
-      "name": "🇺🇸US_8|269KB/s|A004-260618 [1feecb3b9b0d]",
-      "type": "ss",
-      "server": "98.98.79.198",
-      "port": 8080,
-      "latency_ms": 143.0
-    },
-    {
-      "name": "114 🇺🇸_美国 (56)",
-      "type": "trojan",
-      "server": "66.163.122.113",
-      "port": 443,
-      "latency_ms": 144.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 855C81",
-      "type": "vmess",
-      "server": "167.88.63.99",
-      "port": 1270,
-      "latency_ms": 144.0
-    },
-    {
-      "name": "066 US 🇺🇸 | @Raydikalx | 2B9AEB",
-      "type": "ss",
-      "server": "38.91.107.19",
-      "port": 19999,
-      "latency_ms": 145.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 565AA4",
-      "type": "vmess",
-      "server": "38.91.100.69",
-      "port": 1270,
-      "latency_ms": 145.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 766FED",
-      "type": "vmess",
-      "server": "38.22.17.64",
-      "port": 1270,
-      "latency_ms": 145.0
-    },
-    {
-      "name": "086 trojan-1827955817",
-      "type": "trojan",
-      "server": "69.164.240.85",
-      "port": 50875,
-      "latency_ms": 146.0
-    },
-    {
-      "name": "美国+CloudFlare节点",
-      "type": "vless",
-      "server": "162.159.130.234",
-      "port": 443,
-      "latency_ms": 146.0
-    },
-    {
-      "name": "❓Other_3|366KB/s|C001-260618 [30df0e37041e]",
-      "type": "ss",
-      "server": "193.151.160.18",
-      "port": 19999,
-      "latency_ms": 147.0
-    },
-    {
-      "name": "075 trojan-1933715116",
-      "type": "trojan",
-      "server": "216.152.156.212",
-      "port": 443,
-      "latency_ms": 148.0
-    },
-    {
-      "name": "048 trojan-1929965351",
-      "type": "trojan",
-      "server": "66.163.114.106",
-      "port": 443,
-      "latency_ms": 148.0
-    },
-    {
-      "name": "🇺🇸US_72|1.1MB/s|S004-260618 [3035c07b1d36]",
-      "type": "vmess",
-      "server": "38.110.1.246",
-      "port": 18000,
-      "latency_ms": 150.0
-    },
-    {
-      "name": "🇺🇸US_69|74KB/s|C002-260622 [097fe1a50adf]",
-      "type": "trojan",
-      "server": "66.163.114.245",
-      "port": 443,
-      "latency_ms": 150.0
-    },
-    {
-      "name": "🇺🇸US_9|286KB/s|A004-260618 [0a6e050b6876]",
-      "type": "ss",
-      "server": "193.151.160.9",
-      "port": 19999,
-      "latency_ms": 152.0
-    },
-    {
-      "name": "080 🇨🇦CA-15.235.57.6-0164 | 0.0MB",
-      "type": "ss",
-      "server": "15.235.57.6",
-      "port": 8080,
-      "latency_ms": 152.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | FC2D02",
-      "type": "vmess",
-      "server": "172.111.36.126",
-      "port": 1270,
-      "latency_ms": 153.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 923D7E",
-      "type": "vmess",
-      "server": "38.22.17.89",
-      "port": 1270,
-      "latency_ms": 153.0
-    },
-    {
-      "name": "🇺🇸US-162.251.62.31-0112",
-      "type": "ss",
-      "server": "162.251.62.31",
-      "port": 19999,
-      "latency_ms": 155.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.67.141.182",
-      "port": 443,
-      "latency_ms": 157.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.66.44.78",
-      "port": 443,
-      "latency_ms": 157.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.67.74.177",
-      "port": 2087,
-      "latency_ms": 157.0
-    },
-    {
-      "name": "❓Other_22|112KB/s|M002-260618 [3c75b7ee0a28]",
-      "type": "vmess",
-      "server": "67.220.95.3",
-      "port": 18000,
-      "latency_ms": 158.0
-    },
-    {
-      "name": "🇺🇸US_99|420KB/s|M003-260806 [056953129a7a]",
-      "type": "trojan",
-      "server": "66.163.122.7",
-      "port": 443,
-      "latency_ms": 158.0
+      "server": "38.145.220.193",
+      "port": 8443,
+      "latency_ms": 109.0
     },
     {
       "name": "US 🇺🇸 | @Raydikalx | 835DF0",
       "type": "vmess",
       "server": "49.51.179.155",
       "port": 42022,
-      "latency_ms": 158.0
+      "latency_ms": 111.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 586AD0",
-      "type": "vmess",
-      "server": "172.111.36.253",
-      "port": 1270,
-      "latency_ms": 161.0
-    },
-    {
-      "name": "🇫🇷FR_15|347KB/s|M003-260806",
-      "type": "vless",
-      "server": "104.17.148.111",
-      "port": 443,
-      "latency_ms": 161.0
-    },
-    {
-      "name": "🇺🇸 美国 020",
-      "type": "ss",
-      "server": "107.151.182.253",
-      "port": 8080,
-      "latency_ms": 162.0
-    },
-    {
-      "name": "072 @ConfigV2RayNG",
-      "type": "ss",
-      "server": "198.100.154.175",
-      "port": 8080,
-      "latency_ms": 162.0
-    },
-    {
-      "name": "vmess-1837386188",
-      "type": "vmess",
-      "server": "38.91.107.49",
-      "port": 18000,
-      "latency_ms": 163.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 1FF246",
-      "type": "vless",
-      "server": "169.40.42.229",
-      "port": 443,
-      "latency_ms": 165.0
-    },
-    {
-      "name": "🇺🇸 SkyBit-34_2026-11-17_20-09",
-      "type": "vless",
-      "server": "45.144.112.55",
-      "port": 443,
-      "latency_ms": 165.0
-    },
-    {
-      "name": "shadowsocks-1827962976",
-      "type": "ss",
-      "server": "107.151.182.197",
-      "port": 8080,
-      "latency_ms": 167.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+      "name": "US-151 US(AzadNet.t.me)",
       "type": "trojan",
-      "server": "www.wto.org",
-      "port": 8443,
-      "latency_ms": 167.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | AD3647",
-      "type": "ss",
-      "server": "40.160.86.43",
-      "port": 8388,
-      "latency_ms": 168.0
-    },
-    {
-      "name": "🇫🇷FR_30|324KB/s|B004-260618 [236989c90cd1]",
-      "type": "vless",
-      "server": "104.19.52.70",
-      "port": 8443,
-      "latency_ms": 168.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 8E778B",
-      "type": "vmess",
-      "server": "158.51.121.246",
-      "port": 1270,
-      "latency_ms": 169.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 24C7AC",
-      "type": "vless",
-      "server": "uspanel.unixzone.us",
-      "port": 30016,
-      "latency_ms": 170.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.67.67.89",
-      "port": 2087,
-      "latency_ms": 170.0
-    },
-    {
-      "name": "❓Other_8|291KB/s|A004-260618 [0c55ca482097]",
-      "type": "ss",
-      "server": "79.110.54.250",
-      "port": 8080,
-      "latency_ms": 171.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 1F92B4",
-      "type": "ss",
-      "server": "158.51.121.221",
-      "port": 19999,
-      "latency_ms": 173.0
-    },
-    {
-      "name": "🇺🇸_美国 (5)",
-      "type": "vless",
-      "server": "85.155.179.206",
+      "server": "167.88.61.175",
       "port": 443,
-      "latency_ms": 173.0
+      "latency_ms": 119.0
     },
     {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "14f7f5f0.mrbl69black.pages.dev",
-      "port": 443,
-      "latency_ms": 173.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]",
+      "name": "US-170 US(AzadNet.t.me)",
       "type": "trojan",
-      "server": "104.19.45.195",
+      "server": "167.88.61.193",
       "port": 443,
-      "latency_ms": 174.0
+      "latency_ms": 123.0
     },
     {
-      "name": "🇺🇸 美国 017",
-      "type": "hysteria2",
-      "server": "34.24.25.1",
-      "port": 443,
-      "latency_ms": 175.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.66.45.42",
-      "port": 2096,
-      "latency_ms": 176.0
-    },
-    {
-      "name": "❓Other_66|96KB/s|M003-260806 [2a2c6d6db6f3]",
-      "type": "vless",
-      "server": "tally.so",
-      "port": 2082,
-      "latency_ms": 176.0
-    },
-    {
-      "name": "🇨🇦CA_12|100KB/s|A004-260618 [2fa6e394998f]",
+      "name": "US-162 US_144 481KB/s M003-260806 [112d3ee5d9f2]",
       "type": "ss",
-      "server": "51.222.141.125",
-      "port": 445,
-      "latency_ms": 177.0
+      "server": "107.155.57.51",
+      "port": 8080,
+      "latency_ms": 125.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 375870",
-      "type": "vmess",
-      "server": "142.202.48.87",
-      "port": 1270,
-      "latency_ms": 177.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | C286F0",
-      "type": "vmess",
-      "server": "38.91.100.16",
-      "port": 1270,
-      "latency_ms": 177.0
-    },
-    {
-      "name": "003 US 🇺🇸 | @Raydikalx | 1D5827",
-      "type": "vless",
-      "server": "147.224.54.25",
-      "port": 2053,
-      "latency_ms": 183.0
-    },
-    {
-      "name": "🇺🇸US_88|318KB/s|B007-260618 [0ecd490fc1e7]",
-      "type": "ss",
-      "server": "15.204.247.244",
-      "port": 4444,
-      "latency_ms": 183.0
-    },
-    {
-      "name": "🇫🇷FR_41|745KB/s|B007-260618",
-      "type": "vless",
-      "server": "104.24.225.89",
+      "name": "US-153 US_476 924KB/s A004-260618 [594337d2d6df]",
+      "type": "trojan",
+      "server": "167.88.61.85",
       "port": 443,
-      "latency_ms": 183.0
+      "latency_ms": 127.0
+    },
+    {
+      "name": "Channel id: @ConfigV2RayNG  🇺🇸",
+      "type": "ss",
+      "server": "129.146.61.90",
+      "port": 50356,
+      "latency_ms": 129.0
     },
     {
       "name": "US 🇺🇸 | @Raydikalx | 02181F",
       "type": "hysteria2",
       "server": "47.89.232.46",
       "port": 8443,
-      "latency_ms": 184.0
+      "latency_ms": 132.0
     },
     {
-      "name": "CA加拿大(mibei77.com 米贝节点分享) (2)",
-      "type": "vless",
-      "server": "104.17.147.208",
-      "port": 443,
-      "latency_ms": 184.0
+      "name": "US-076 US_243 927KB/s A004-260618 [d92318afee09]",
+      "type": "ss",
+      "server": "79.110.54.250",
+      "port": 8080,
+      "latency_ms": 134.0
     },
     {
-      "name": "🇺🇸 SkyBit-43_2026-11-17_20-09",
+      "name": "US-063 US_63 926KB/s A004-260618 [0e40b52615aa]",
+      "type": "ss",
+      "server": "107.151.182.197",
+      "port": 8080,
+      "latency_ms": 135.0
+    },
+    {
+      "name": "US-178 US_480 822KB/s M003-260806 [6568f73d0636]",
       "type": "trojan",
-      "server": "66.163.122.26",
+      "server": "167.88.61.198",
       "port": 443,
-      "latency_ms": 185.0
+      "latency_ms": 136.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | F44C8D",
+      "name": "🇺🇸US_101|427KB/s|C002-260622 [3361835171c8]",
+      "type": "trojan",
+      "server": "96.44.133.37",
+      "port": 2087,
+      "latency_ms": 139.0
+    },
+    {
+      "name": "251 shadowsocks-1827146667",
+      "type": "ss",
+      "server": "173.244.56.9",
+      "port": 443,
+      "latency_ms": 140.0
+    },
+    {
+      "name": "TH-004 Other_69 586KB/s K001-260618 [5708f18d59b1]",
       "type": "vmess",
-      "server": "38.91.107.57",
+      "server": "23.150.152.65",
       "port": 1270,
-      "latency_ms": 185.0
+      "latency_ms": 140.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 25BDA0",
+      "name": "US-141 US-173.244.56.6-0254",
       "type": "ss",
-      "server": "15.204.246.108",
-      "port": 8881,
-      "latency_ms": 186.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 60BC4E",
-      "type": "vmess",
-      "server": "162.251.62.31",
-      "port": 1270,
-      "latency_ms": 186.0
-    },
-    {
-      "name": "083 trojan-1942154526",
-      "type": "trojan",
-      "server": "170.101.101.67",
+      "server": "173.244.56.6",
       "port": 443,
-      "latency_ms": 188.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 1590B4",
-      "type": "ss",
-      "server": "15.204.247.124",
-      "port": 2375,
-      "latency_ms": 190.0
-    },
-    {
-      "name": "🇺🇸 SkyBit-41_2026-11-17_20-09",
-      "type": "trojan",
-      "server": "66.163.122.46",
-      "port": 443,
-      "latency_ms": 190.0
-    },
-    {
-      "name": "116 shadowsocks-1827147591",
-      "type": "ss",
-      "server": "15.204.247.206",
-      "port": 4444,
-      "latency_ms": 191.0
-    },
-    {
-      "name": "069 @DeltaKroneckerGithub_1175",
-      "type": "trojan",
-      "server": "104.17.234.157",
-      "port": 2096,
-      "latency_ms": 191.0
+      "latency_ms": 142.0
     },
     {
       "name": "🇺🇸US_105|379KB/s|M003-260806",
       "type": "hysteria2",
       "server": "38.76.150.108",
       "port": 36712,
-      "latency_ms": 191.0
+      "latency_ms": 143.0
     },
     {
-      "name": "❓Other_22|405KB/s|K001-260618",
-      "type": "vmess",
-      "server": "66.163.125.51",
-      "port": 1270,
-      "latency_ms": 192.0
-    },
-    {
-      "name": "076 hysteria2-1853166912",
-      "type": "hysteria2",
-      "server": "66.94.121.46",
-      "port": 443,
-      "latency_ms": 193.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 9E759D",
+      "name": "US-019 US_367 1.2MB/s M003-260806 [5762fa2cd8d3]",
       "type": "ss",
-      "server": "135.148.42.13",
-      "port": 8388,
-      "latency_ms": 193.0
+      "server": "167.88.62.203",
+      "port": 19999,
+      "latency_ms": 149.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 6D6C73",
-      "type": "vmess",
-      "server": "38.91.107.84",
-      "port": 1270,
-      "latency_ms": 193.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 723EDE",
-      "type": "vmess",
-      "server": "67.220.74.188",
-      "port": 1270,
-      "latency_ms": 194.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 2314F7",
-      "type": "vmess",
-      "server": "67.220.95.49",
-      "port": 1270,
-      "latency_ms": 195.0
-    },
-    {
-      "name": "096 US 🇺🇸 | @Raydikalx | 37480E",
+      "name": "🇺🇸 SkyBit-46_2026-11-18_19-04",
       "type": "trojan",
-      "server": "66.163.122.81",
+      "server": "66.163.114.132",
       "port": 443,
-      "latency_ms": 195.0
+      "latency_ms": 153.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 853160",
-      "type": "vmess",
-      "server": "38.91.107.188",
-      "port": 1270,
-      "latency_ms": 196.0
+      "name": "US-010 US_9 291KB/s [2b322b68c292]",
+      "type": "ss",
+      "server": "156.146.38.169",
+      "port": 443,
+      "latency_ms": 157.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | D57224",
-      "type": "vmess",
-      "server": "172.111.38.246",
-      "port": 1270,
-      "latency_ms": 197.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 788142",
-      "type": "vmess",
-      "server": "67.220.74.250",
-      "port": 1270,
-      "latency_ms": 198.0
-    },
-    {
-      "name": "082 trojan-1941064101",
+      "name": "🇺🇸US_67|533KB/s|A004-260618 [55389c25f10d]",
       "type": "trojan",
-      "server": "170.101.101.131",
+      "server": "66.163.114.245",
       "port": 443,
-      "latency_ms": 199.0
+      "latency_ms": 158.0
     },
     {
-      "name": "🇫🇷FR_23|261KB/s|M003-260806",
+      "name": "🇺🇸_美国 (17)",
+      "type": "trojan",
+      "server": "66.163.114.126",
+      "port": 443,
+      "latency_ms": 159.0
+    },
+    {
+      "name": "🇺🇸_美国 (19)",
+      "type": "trojan",
+      "server": "66.163.114.166",
+      "port": 443,
+      "latency_ms": 159.0
+    },
+    {
+      "name": "🇺🇸US_29|546KB/s|A004-260618 [0bcb39e66b5e]",
+      "type": "trojan",
+      "server": "66.163.114.114",
+      "port": 443,
+      "latency_ms": 161.0
+    },
+    {
+      "name": "US-126 美国_1118211601",
       "type": "vless",
-      "server": "162.159.130.234",
-      "port": 2083,
-      "latency_ms": 202.0
+      "server": "104.168.109.213",
+      "port": 443,
+      "latency_ms": 162.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 943FAE",
-      "type": "vmess",
-      "server": "38.107.226.5",
-      "port": 1270,
-      "latency_ms": 204.0
+      "name": "🇺🇸_美国 (22)",
+      "type": "trojan",
+      "server": "66.163.114.106",
+      "port": 443,
+      "latency_ms": 164.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 457A0D",
-      "type": "vmess",
-      "server": "162.251.62.44",
-      "port": 1270,
-      "latency_ms": 207.0
-    },
-    {
-      "name": "043 shadowsocks-1828227588",
+      "name": "US-084 US-107.151.182.253-0869",
       "type": "ss",
-      "server": "79.110.53.169",
+      "server": "107.151.182.253",
       "port": 8080,
-      "latency_ms": 209.0
+      "latency_ms": 164.0
     },
     {
-      "name": "US 🇺🇸 | @Raydikalx | 0CBFCD",
-      "type": "vmess",
-      "server": "38.91.106.182",
-      "port": 1270,
-      "latency_ms": 210.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "172.67.163.208",
-      "port": 2053,
-      "latency_ms": 214.0
-    },
-    {
-      "name": "060 🇺🇸_美国 (31)",
+      "name": "005 trojan-1929965354",
       "type": "trojan",
-      "server": "216.152.155.50",
+      "server": "66.163.114.45",
       "port": 443,
-      "latency_ms": 217.0
+      "latency_ms": 165.0
     },
     {
-      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "type": "vless",
-      "server": "188.114.97.3",
-      "port": 443,
-      "latency_ms": 254.0
-    },
-    {
-      "name": "🇺🇸_美国 (36)",
-      "type": "trojan",
-      "server": "216.152.155.54",
-      "port": 443,
-      "latency_ms": 274.0
-    },
-    {
-      "name": "094 🇺🇸_美国 (68)",
-      "type": "trojan",
-      "server": "66.163.122.25",
-      "port": 443,
-      "latency_ms": 286.0
-    },
-    {
-      "name": "US 🇺🇸 | @Raydikalx | 5DCDAB",
+      "name": "US-155 US_253 990KB/s A004-260618 [26dae539cbdd]",
       "type": "ss",
-      "server": "15.204.233.41",
-      "port": 8882,
-      "latency_ms": 302.0
+      "server": "107.155.57.11",
+      "port": 8080,
+      "latency_ms": 166.0
     },
     {
-      "name": "070 🇺🇸_美国 (33)",
-      "type": "trojan",
-      "server": "216.152.155.158",
-      "port": 443,
-      "latency_ms": 306.0
+      "name": "US-187 US @Raydikalx 9B4F83",
+      "type": "vmess",
+      "server": "129.146.77.248",
+      "port": 39495,
+      "latency_ms": 170.0
     },
     {
-      "name": "⚕️74@oneclickvpnkeys",
-      "type": "hysteria2",
-      "server": "35.207.53.51",
-      "port": 20999,
-      "latency_ms": 314.0
+      "name": "US-156 US_24 996KB/s M003-260806 [6364b2c615d5]",
+      "type": "ss",
+      "server": "23.251.121.242",
+      "port": 8080,
+      "latency_ms": 172.0
     },
     {
-      "name": "🇺🇸_美国 (38)",
-      "type": "trojan",
-      "server": "216.152.155.131",
-      "port": 443,
-      "latency_ms": 328.0
-    },
-    {
-      "name": "049 @DeltaKroneckerGithub_1246",
-      "type": "trojan",
-      "server": "104.18.35.86",
-      "port": 2096,
-      "latency_ms": 367.0
-    },
-    {
-      "name": "🇧🇷 Brazil, Mogi das Cruzes | 🌐 | [BL]",
-      "type": "hysteria2",
-      "server": "45.86.74.193",
-      "port": 443,
-      "latency_ms": 372.0
-    },
-    {
-      "name": "🇺🇸_美国 (60)",
-      "type": "trojan",
-      "server": "66.163.122.30",
-      "port": 443,
-      "latency_ms": 419.0
-    },
-    {
-      "name": "❓Other_64|378KB/s|R002-260618",
+      "name": "US-180 Join+Telegram:@Farah_VPN",
       "type": "vless",
-      "server": "129.153.128.162",
-      "port": 853,
-      "latency_ms": 419.0
-    },
-    {
-      "name": "085 trojan-1941512529",
-      "type": "trojan",
-      "server": "170.101.101.53",
-      "port": 443,
-      "latency_ms": 430.0
+      "server": "143.246.62.191",
+      "port": 8443,
+      "latency_ms": 179.0
     },
     {
       "name": "@DeltaKroneckerGithub",
       "type": "vless",
-      "server": "104.21.23.29",
+      "server": "47.251.108.158",
       "port": 443,
-      "latency_ms": 440.0
+      "latency_ms": 189.0
     },
     {
-      "name": "CA【高速节点：https://tt.vg/vip】25",
-      "type": "vmess",
-      "server": "104.18.42.163",
-      "port": 443,
-      "latency_ms": 449.0
-    },
-    {
-      "name": "081 trojan-1944436566",
-      "type": "trojan",
-      "server": "170.101.101.112",
-      "port": 443,
-      "latency_ms": 459.0
-    },
-    {
-      "name": "❓Other_12|219KB/s|C002-260622 [0db7a794c99c]",
-      "type": "trojan",
-      "server": "216.152.155.176",
-      "port": 443,
-      "latency_ms": 462.0
-    },
-    {
-      "name": "🇺🇸 机场推荐:dafei.de 美国 15_IPV4",
-      "type": "vmess",
-      "server": "172.67.190.164",
-      "port": 443,
-      "latency_ms": 481.0
-    },
-    {
-      "name": "103 hysteria2-1930264641",
-      "type": "hysteria2",
-      "server": "62.210.7.139",
-      "port": 60111,
-      "latency_ms": 490.0
-    },
-    {
-      "name": "090 @OutlineReleasedKey #9",
-      "type": "hysteria2",
-      "server": "50.7.38.243",
-      "port": 443,
-      "latency_ms": 491.0
-    },
-    {
-      "name": "101 @confiig_hub #1",
-      "type": "hysteria2",
-      "server": "130.49.161.70",
-      "port": 443,
-      "latency_ms": 491.0
-    },
-    {
-      "name": "095 hysteria2-1853502854",
-      "type": "hysteria2",
-      "server": "13.36.234.11",
-      "port": 443,
-      "latency_ms": 496.0
-    },
-    {
-      "name": "U⚪🏳️ukn_dokng.com_275e588f",
-      "type": "vmess",
-      "server": "188.114.99.137",
-      "port": 443,
-      "latency_ms": 497.0
-    },
-    {
-      "name": "199 ⚕️15@oneclickvpnkeys",
-      "type": "hysteria2",
-      "server": "177.202.66.212",
-      "port": 443,
-      "latency_ms": 497.0
-    },
-    {
-      "name": "🇳🇱NL_31|229KB/s|M003-260806",
-      "type": "hysteria2",
-      "server": "94.183.164.119",
-      "port": 24403,
-      "latency_ms": 500.0
-    },
-    {
-      "name": "@FREE2CONFIG - 204",
+      "name": "US 🇺🇸 | @Raydikalx | 5B619D",
       "type": "vless",
-      "server": "67.220.73.204",
-      "port": 16016,
-      "latency_ms": 511.0
+      "server": "198.247.127.131",
+      "port": 443,
+      "latency_ms": 194.0
     },
     {
-      "name": "@DeltaKroneckerGithub_3021_IPV4",
+      "name": "US-002 US_371 289KB/s M003-260806 [34b27eebfe6b]",
+      "type": "ss",
+      "server": "38.128.66.32",
+      "port": 19999,
+      "latency_ms": 203.0
+    },
+    {
+      "name": "US 🇺🇸 | @Raydikalx | 76D633",
+      "type": "trojan",
+      "server": "34.94.152.229",
+      "port": 443,
+      "latency_ms": 207.0
+    },
+    {
+      "name": "US-168 US_145 960KB/s M003-260806 [2d3c6b97d127]",
+      "type": "ss",
+      "server": "79.110.53.169",
+      "port": 8080,
+      "latency_ms": 222.0
+    },
+    {
+      "name": "US-020 US_514 1.1MB/s K001-260618 [238480393fde]",
+      "type": "vmess",
+      "server": "162.251.61.46",
+      "port": 1270,
+      "latency_ms": 280.0
+    },
+    {
+      "name": "187 trojan-1943754366",
+      "type": "trojan",
+      "server": "216.152.155.131",
+      "port": 443,
+      "latency_ms": 284.0
+    },
+    {
+      "name": "[VMess] @DeltaKroneckerGithub_3021_IPV4",
       "type": "vmess",
       "server": "172.64.145.93",
       "port": 443,
-      "latency_ms": 513.0
+      "latency_ms": 285.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | D7EB3E",
+      "name": "[VMess] 🇺🇸 _US_美国_IPV4 (13)",
       "type": "vmess",
-      "server": "US122201.ssgreen.org",
+      "server": "104.18.42.163",
       "port": 443,
-      "latency_ms": 513.0
+      "latency_ms": 302.0
     },
     {
-      "name": "118 hysteria2-1854030070",
+      "name": "🇺🇸_US_美国_IPV4 (12)",
       "type": "hysteria2",
-      "server": "140.238.213.114",
-      "port": 50160,
-      "latency_ms": 515.0
-    },
-    {
-      "name": "🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]",
-      "type": "hysteria2",
-      "server": "152.67.75.161",
+      "server": "starlink-ft.251313.xyz",
       "port": 443,
-      "latency_ms": 515.0
+      "latency_ms": 318.0
     },
     {
-      "name": "@V2ray_Collector",
+      "name": "🇺🇸 美国 017",
       "type": "hysteria2",
-      "server": "179.254.191.251",
-      "port": 4444,
-      "latency_ms": 522.0
-    },
-    {
-      "name": "106 ⚕️35@oneclickvpnkeys",
-      "type": "hysteria2",
-      "server": "195.63.128.21",
-      "port": 10444,
-      "latency_ms": 523.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | E422F0",
-      "type": "vmess",
-      "server": "nomino.11hi8itbaf.workers.dev",
+      "server": "34.24.25.1",
       "port": 443,
-      "latency_ms": 546.0
+      "latency_ms": 320.0
     },
     {
-      "name": "@OutlineReleasedKey",
-      "type": "hysteria2",
-      "server": "bl1.nexfile.net",
-      "port": 4444,
-      "latency_ms": 548.0
-    },
-    {
-      "name": "JP 🇯🇵 | @Raydikalx | EE8BCF",
+      "name": "021 hysteria2-1827145159",
       "type": "hysteria2",
       "server": "8.209.247.109",
       "port": 443,
-      "latency_ms": 555.0
+      "latency_ms": 419.0
     },
     {
-      "name": "071 hysteria2-1853341683",
+      "name": "hysteria2-1827145136",
       "type": "hysteria2",
       "server": "8.211.175.236",
       "port": 8443,
-      "latency_ms": 565.0
+      "latency_ms": 420.0
     },
     {
-      "name": "135 🇺🇸 美国 | USA 6",
+      "name": "[VMess] 🇺🇸 机场推荐:dafei.de 美国 89_IPV4",
       "type": "vmess",
-      "server": "US122207.ssgreen.org",
+      "server": "188.114.99.137",
       "port": 443,
-      "latency_ms": 580.0
+      "latency_ms": 435.0
     },
     {
-      "name": "122 @OutlineReleasedKey #3",
+      "name": "[NoMoreWalls#048] 🇯🇵218802 | ⚡️Telegram = t.me/L...",
       "type": "hysteria2",
-      "server": "212.34.137.105",
-      "port": 443,
-      "latency_ms": 587.0
-    },
-    {
-      "name": "❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]",
-      "type": "hysteria2",
-      "server": "3.76.203.180",
-      "port": 443,
-      "latency_ms": 602.0
-    },
-    {
-      "name": "115 hysteria2-1917575832",
-      "type": "hysteria2",
-      "server": "3.69.232.199",
-      "port": 443,
-      "latency_ms": 603.0
-    },
-    {
-      "name": "🇩🇪DE_32|442KB/s|M003-260806",
-      "type": "hysteria2",
-      "server": "18.194.242.173",
-      "port": 443,
-      "latency_ms": 608.0
-    },
-    {
-      "name": "🪬70@oneclickvpnkeys",
-      "type": "hysteria2",
-      "server": "hy2.aspidnet.xyz",
-      "port": 443,
-      "latency_ms": 615.0
-    },
-    {
-      "name": "168 hysteria2-1938971779",
-      "type": "hysteria2",
-      "server": "3.76.221.4",
-      "port": 443,
-      "latency_ms": 615.0
-    },
-    {
-      "name": "130 @OutlineReleasedKey #5",
-      "type": "hysteria2",
-      "server": "94.183.164.119",
-      "port": 24433,
-      "latency_ms": 628.0
-    },
-    {
-      "name": "@V2ray_Collector",
-      "type": "hysteria2",
-      "server": "95.143.196.97",
-      "port": 443,
-      "latency_ms": 639.0
-    },
-    {
-      "name": "🇨🇦CA-51.222.136.236-0176",
-      "type": "ss",
-      "server": "51.222.136.236",
-      "port": 8882,
-      "latency_ms": 641.0
-    },
-    {
-      "name": "BR 🇧🇷 | @Raydikalx | F3CD64",
-      "type": "hysteria2",
-      "server": "137.131.177.121",
-      "port": 20000,
-      "latency_ms": 654.0
-    },
-    {
-      "name": "091 hysteria2-1910185368",
-      "type": "hysteria2",
-      "server": "promo.betust.net",
-      "port": 443,
-      "latency_ms": 674.0
-    },
-    {
-      "name": "119 hysteria2-1832765000",
-      "type": "hysteria2",
-      "server": "103.115.109.49",
-      "port": 443,
-      "latency_ms": 688.0
-    },
-    {
-      "name": "089 hysteria2-1828371613",
-      "type": "hysteria2",
-      "server": "160.187.100.109",
-      "port": 443,
-      "latency_ms": 688.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇳🇱 | [BL]",
-      "type": "vless",
-      "server": "8.6.112.0",
-      "port": 443,
-      "latency_ms": 703.0
-    },
-    {
-      "name": "105 @Nexus_Panell چنل تلگرام #1",
-      "type": "hysteria2",
-      "server": "152.32.254.68",
-      "port": 5010,
-      "latency_ms": 726.0
-    },
-    {
-      "name": "125 hysteria2-1832881372",
-      "type": "hysteria2",
-      "server": "152.70.237.123",
-      "port": 2053,
-      "latency_ms": 737.0
-    },
-    {
-      "name": "126 hysteria2-1828529280",
-      "type": "hysteria2",
-      "server": "132.226.226.189",
-      "port": 50160,
-      "latency_ms": 748.0
-    },
-    {
-      "name": "112 hysteria2-1828371633",
-      "type": "hysteria2",
-      "server": "202.146.222.174",
-      "port": 443,
-      "latency_ms": 749.0
-    },
-    {
-      "name": "🇩🇪 德国 08",
-      "type": "hysteria2",
-      "server": "18.193.79.104",
-      "port": 443,
-      "latency_ms": 755.0
-    },
-    {
-      "name": "109 hysteria2-1828371657",
-      "type": "hysteria2",
-      "server": "202.146.222.89",
-      "port": 443,
-      "latency_ms": 764.0
-    },
-    {
-      "name": "@OutlineReleasedKey #6",
-      "type": "hysteria2",
-      "server": "guide.blog-forme.ru",
-      "port": 443,
-      "latency_ms": 771.0
+      "server": "129.225.181.46",
+      "port": 8443,
+      "latency_ms": 449.0
     },
     {
       "name": "hysteria2-1828374754",
       "type": "hysteria2",
       "server": "138.3.208.26",
       "port": 50160,
-      "latency_ms": 772.0
+      "latency_ms": 455.0
     },
     {
-      "name": "🇷🇺216805 | ⚡️Telegram = t.me/L...",
-      "type": "hysteria2",
-      "server": "srv-17e124.21freedom.net",
-      "port": 11592,
-      "latency_ms": 786.0
-    },
-    {
-      "name": "hysteria2-1832880243",
-      "type": "hysteria2",
-      "server": "152.67.200.82",
-      "port": 50160,
-      "latency_ms": 796.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "172.67.208.118",
+      "name": "❓Other_12|219KB/s|C002-260622 [0db7a794c99c]",
+      "type": "trojan",
+      "server": "216.152.155.176",
       "port": 443,
-      "latency_ms": 798.0
+      "latency_ms": 540.0
     },
     {
-      "name": "088 hysteria2-1828373437",
+      "name": "hysteria2-1827145810",
+      "type": "hysteria2",
+      "server": "103.115.109.49",
+      "port": 443,
+      "latency_ms": 543.0
+    },
+    {
+      "name": "hysteria2-1854030061",
+      "type": "hysteria2",
+      "server": "160.187.100.109",
+      "port": 443,
+      "latency_ms": 544.0
+    },
+    {
+      "name": "hysteria2-1828373437",
       "type": "hysteria2",
       "server": "vpn-tw-002.fastervpn.world",
       "port": 443,
-      "latency_ms": 838.0
+      "latency_ms": 570.0
     },
     {
-      "name": "104 @OutlineReleasedKey #6",
+      "name": "🇭🇰HK_6|689KB/s|M003-260806",
       "type": "hysteria2",
-      "server": "88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com",
-      "port": 443,
-      "latency_ms": 844.0
+      "server": "82.152.161.146",
+      "port": 10086,
+      "latency_ms": 586.0
     },
     {
-      "name": "🇸🇬217490 | ⚡️Telegram = t.me/L...",
+      "name": "NL 🇳🇱 | @Raydikalx | 78AF0D",
       "type": "hysteria2",
-      "server": "54.179.113.70",
-      "port": 443,
-      "latency_ms": 865.0
-    },
-    {
-      "name": "🇩🇪 | @WhiteDNS | DE252|10.7MB/s|DNSOK|GPT⁺-DE",
-      "type": "vless",
-      "server": "170.114.46.6",
-      "port": 80,
-      "latency_ms": 869.0
-    },
-    {
-      "name": "129 hysteria2-1946062452",
-      "type": "hysteria2",
-      "server": "152.69.231.175",
-      "port": 50160,
-      "latency_ms": 877.0
-    },
-    {
-      "name": "D🔴🇺🇸hos[🎮]_dokng.com_343ae4aa",
-      "type": "socks5",
-      "server": "69.55.49.177",
-      "port": 38182,
-      "latency_ms": 888.0
-    },
-    {
-      "name": "🇨🇦CA-15.235.121.109-0203",
-      "type": "ss",
-      "server": "15.235.121.109",
-      "port": 8080,
-      "latency_ms": 895.0
-    },
-    {
-      "name": "AU澳大利亚(mibei77.com 米贝节点分享)",
-      "type": "hysteria2",
-      "server": "159.13.55.48",
-      "port": 20000,
-      "latency_ms": 902.0
-    },
-    {
-      "name": "🇭🇰 香港 08",
-      "type": "hysteria2",
-      "server": "24.233.8.109",
-      "port": 443,
-      "latency_ms": 917.0
-    },
-    {
-      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
-      "type": "vmess",
-      "server": "172.66.0.1",
+      "server": "51.15.19.206",
       "port": 8443,
-      "latency_ms": 966.0
+      "latency_ms": 587.0
     },
     {
-      "name": "🇸🇬 新加坡 34",
+      "name": "@Nexus_Panell چنل تلگرام",
       "type": "hysteria2",
-      "server": "138.2.89.249",
-      "port": 443,
-      "latency_ms": 966.0
+      "server": "152.32.254.68",
+      "port": 5010,
+      "latency_ms": 589.0
     },
     {
-      "name": "🇫🇮[openproxylist.com] vless-FI",
-      "type": "vless",
-      "server": "198.202.24.142",
-      "port": 2083,
-      "latency_ms": 1024.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 0923FC",
-      "type": "vmess",
-      "server": "www.shopify.com",
-      "port": 443,
-      "latency_ms": 1060.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.17.70.206",
-      "port": 8443,
-      "latency_ms": 1082.0
+      "name": "hysteria2-1828529345",
+      "type": "hysteria2",
+      "server": "152.70.237.123",
+      "port": 2053,
+      "latency_ms": 596.0
     },
     {
       "name": "✨+Gemini+&+NotebookLM+#04+•+🇳🇱+[NL]+HYSTERIA2+(350ms)",
       "type": "hysteria2",
       "server": "195.63.138.212",
       "port": 8443,
-      "latency_ms": 1106.0
+      "latency_ms": 601.0
     },
     {
-      "name": "v2go | VMESS | 9",
-      "type": "vmess",
-      "server": "172.67.167.78",
+      "name": "🇳🇱NL_31|229KB/s|M003-260806",
+      "type": "hysteria2",
+      "server": "94.183.164.119",
+      "port": 24403,
+      "latency_ms": 601.0
+    },
+    {
+      "name": "hysteria2-1930264641",
+      "type": "hysteria2",
+      "server": "62.210.7.139",
+      "port": 60111,
+      "latency_ms": 612.0
+    },
+    {
+      "name": "FR 🇫🇷 | @Raydikalx | A8689B",
+      "type": "hysteria2",
+      "server": "62.210.124.146",
+      "port": 22000,
+      "latency_ms": 615.0
+    },
+    {
+      "name": "NL 🇳🇱 | @Raydikalx | B843BA",
+      "type": "hysteria2",
+      "server": "hysteria.udpgw.com",
       "port": 8443,
-      "latency_ms": 1108.0
+      "latency_ms": 618.0
     },
     {
-      "name": "079 trojan-1947502359",
-      "type": "trojan",
-      "server": "170.101.101.211",
-      "port": 443,
-      "latency_ms": 1118.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | FF568B",
-      "type": "vmess",
-      "server": "172.67.137.158",
-      "port": 443,
-      "latency_ms": 1141.0
-    },
-    {
-      "name": "DE德国(mibei77.com 米贝节点分享) (3)",
-      "type": "vless",
-      "server": "104.18.42.98",
-      "port": 443,
-      "latency_ms": 1144.0
-    },
-    {
-      "name": "🇺🇸US_63|326KB/s|A004-260618 [1d1916739587]",
-      "type": "trojan",
-      "server": "170.101.101.19",
-      "port": 443,
-      "latency_ms": 1155.0
-    },
-    {
-      "name": "CA加拿大(mibei77.com 米贝节点分享) (3)",
-      "type": "vless",
-      "server": "172.64.152.19",
-      "port": 443,
-      "latency_ms": 1181.0
-    },
-    {
-      "name": "未知 HY2-04 | free-nodes",
+      "name": "🇳🇱NL_35|166KB/s|A001-260618 [54448850fd51]",
       "type": "hysteria2",
-      "server": "77.90.15.183",
-      "port": 8964,
-      "latency_ms": 1272.0
-    },
-    {
-      "name": "🇳🇱NL_48|474KB/s|B007-260618 [569c7ebe9a5f]",
-      "type": "vless",
-      "server": "104.18.151.231",
+      "server": "50.7.38.243",
       "port": 443,
-      "latency_ms": 1276.0
+      "latency_ms": 619.0
     },
     {
-      "name": "SG 🇸🇬 | @Raydikalx | FC0752",
+      "name": "@OutlineReleasedKey #3",
       "type": "hysteria2",
-      "server": "138.2.73.238",
+      "server": "212.34.137.105",
+      "port": 443,
+      "latency_ms": 620.0
+    },
+    {
+      "name": "hysteria2-1828529012",
+      "type": "hysteria2",
+      "server": "132.226.226.189",
       "port": 50160,
-      "latency_ms": 1475.0
+      "latency_ms": 621.0
     },
     {
-      "name": "❓Other_62|121KB/s|M001-260618 [1f10d3a51106]",
-      "type": "vmess",
-      "server": "188.114.96.3",
-      "port": 8443,
-      "latency_ms": 1521.0
-    },
-    {
-      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
-      "type": "vmess",
-      "server": "172.67.161.144",
-      "port": 8443,
-      "latency_ms": 1638.0
-    },
-    {
-      "name": "🇺🇸_美国 (82)",
-      "type": "vmess",
-      "server": "141.193.213.21",
-      "port": 8443,
-      "latency_ms": 1703.0
-    },
-    {
-      "name": "hysteria2-1853501557",
+      "name": "DE 🇩🇪 | @Raydikalx | 48FDD4",
       "type": "hysteria2",
-      "server": "31.57.248.176",
-      "port": 50160,
-      "latency_ms": 1716.0
-    },
-    {
-      "name": "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
-      "type": "vless",
-      "server": "104.17.145.145",
+      "server": "3.76.221.4",
       "port": 443,
-      "latency_ms": 1718.0
+      "latency_ms": 621.0
     },
     {
-      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
-      "type": "vmess",
-      "server": "188.114.99.137",
-      "port": 8443,
-      "latency_ms": 1762.0
-    },
-    {
-      "name": "🇩🇪DE_20|897KB/s|M003-260806 [2f0c320bea1f]",
-      "type": "vless",
-      "server": "104.27.88.172",
-      "port": 80,
-      "latency_ms": 1813.0
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享)",
-      "type": "vless",
-      "server": "172.67.156.147",
+      "name": "🇫🇷FR_6|120KB/s|C002-260622",
+      "type": "hysteria2",
+      "server": "13.36.234.11",
       "port": 443,
-      "latency_ms": 2078.0
+      "latency_ms": 621.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | 3543C7",
-      "type": "vless",
-      "server": "104.21.0.87",
+      "name": "@V2ray_Collector",
+      "type": "hysteria2",
+      "server": "195.63.128.21",
+      "port": 10444,
+      "latency_ms": 632.0
+    },
+    {
+      "name": "[NoMoreWalls#028] 🔹69@oneclickvpnkeys",
+      "type": "hysteria2",
+      "server": "18.194.242.173",
       "port": 443,
-      "latency_ms": 2216.0
+      "latency_ms": 634.0
     },
     {
-      "name": "🇺🇸 United States — #124",
-      "type": "vless",
-      "server": "47.251.108.158",
+      "name": "DE 🇩🇪 | @Raydikalx | 86C5F1",
+      "type": "hysteria2",
+      "server": "3.69.232.199",
       "port": 443,
-      "latency_ms": 2281.0
+      "latency_ms": 635.0
     },
     {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.16.10.84",
+      "name": "❓Other_39|65KB/s|C002-260622 [0a81b3b25ce1]",
+      "type": "hysteria2",
+      "server": "3.76.203.180",
       "port": 443,
-      "latency_ms": 2372.0
+      "latency_ms": 637.0
     },
     {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.18.153.10",
+      "name": "🇩🇪DE_10|167KB/s|M003-260806 [27a9fa6190e1]",
+      "type": "hysteria2",
+      "server": "18.193.79.104",
       "port": 443,
-      "latency_ms": 2407.0
+      "latency_ms": 648.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | F1502D",
-      "type": "vless",
-      "server": "104.16.10.2",
+      "name": "🇺🇸_美国 (36)",
+      "type": "trojan",
+      "server": "216.152.155.54",
       "port": 443,
-      "latency_ms": 2446.0
+      "latency_ms": 649.0
     },
     {
-      "name": "🇯🇵 Japan, Inzai (Otsuka) | [BL]",
-      "type": "vless",
-      "server": "104.16.111.202",
-      "port": 443,
-      "latency_ms": 2560.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.16.111.195",
-      "port": 443,
-      "latency_ms": 2599.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.16.10.56",
-      "port": 443,
-      "latency_ms": 2674.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 40FE00",
-      "type": "vmess",
-      "server": "104.25.0.1",
-      "port": 2083,
-      "latency_ms": 2890.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 3FB990",
-      "type": "vless",
-      "server": "104.16.10.234",
-      "port": 443,
-      "latency_ms": 2903.0
-    },
-    {
-      "name": "🌐 Anycast-IP | 🇯🇵 | [BL]",
+      "name": "CA 🇨🇦 | @Raydikalx | 3B5FAF",
       "type": "vmess",
       "server": "104.16.0.1",
       "port": 2083,
-      "latency_ms": 2910.0
+      "latency_ms": 662.0
     },
     {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.18.37.127",
-      "port": 443,
-      "latency_ms": 2960.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | DEF3AC",
-      "type": "vless",
-      "server": "104.17.210.74",
-      "port": 443,
-      "latency_ms": 2981.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.24.31.89",
-      "port": 443,
-      "latency_ms": 3047.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 15EFED",
-      "type": "vmess",
-      "server": "104.21.0.1",
-      "port": 2083,
-      "latency_ms": 3055.0
-    },
-    {
-      "name": "@DeltaKroneckerGithub",
-      "type": "vless",
-      "server": "104.21.33.59",
-      "port": 443,
-      "latency_ms": 3079.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 924ABF",
-      "type": "vmess",
-      "server": "104.24.0.1",
-      "port": 8443,
-      "latency_ms": 3082.0
-    },
-    {
-      "name": "CA 🇨🇦 | @Raydikalx | 4FA2E4",
-      "type": "vless",
-      "server": "104.16.111.102",
-      "port": 443,
-      "latency_ms": 3124.0
+      "name": "🇸🇬SG_10|161KB/s|A004-260618 [54304560eba2]",
+      "type": "hysteria2",
+      "server": "138.2.73.238",
+      "port": 50160,
+      "latency_ms": 662.0
     },
     {
       "name": "🇺🇸_美国 (84)",
       "type": "vmess",
       "server": "162.159.130.234",
       "port": 2083,
-      "latency_ms": 3132.0
+      "latency_ms": 663.0
+    },
+    {
+      "name": "hysteria2-1853488298",
+      "type": "hysteria2",
+      "server": "202.146.222.174",
+      "port": 443,
+      "latency_ms": 667.0
+    },
+    {
+      "name": "hysteria2-1828374520",
+      "type": "hysteria2",
+      "server": "152.67.200.82",
+      "port": 50160,
+      "latency_ms": 669.0
+    },
+    {
+      "name": "hysteria2-1828371410",
+      "type": "hysteria2",
+      "server": "202.146.222.89",
+      "port": 443,
+      "latency_ms": 669.0
+    },
+    {
+      "name": "❓Other_28|284KB/s|A004-260618 [3eb6ea473306]",
+      "type": "hysteria2",
+      "server": "202.146.222.29",
+      "port": 443,
+      "latency_ms": 670.0
+    },
+    {
+      "name": "🇸🇬217490 | ⚡️Telegram = t.me/L...",
+      "type": "hysteria2",
+      "server": "54.179.113.70",
+      "port": 443,
+      "latency_ms": 672.0
+    },
+    {
+      "name": "[NoMoreWalls#039] 🔹44@oneclickvpnkeys",
+      "type": "hysteria2",
+      "server": "179.254.191.251",
+      "port": 4444,
+      "latency_ms": 684.0
+    },
+    {
+      "name": "🇰🇷KR_4|162KB/s|M003-260806",
+      "type": "hysteria2",
+      "server": "152.69.231.175",
+      "port": 50160,
+      "latency_ms": 685.0
+    },
+    {
+      "name": "199 ⚕️15@oneclickvpnkeys",
+      "type": "hysteria2",
+      "server": "177.202.66.212",
+      "port": 443,
+      "latency_ms": 689.0
     },
     {
       "name": "🇺🇸_美国 (85)",
       "type": "vmess",
       "server": "162.159.135.234",
       "port": 2083,
-      "latency_ms": 3133.0
+      "latency_ms": 689.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | D6B883",
-      "type": "vmess",
-      "server": "104.18.0.1",
-      "port": 8443,
-      "latency_ms": 3434.0
+      "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+      "type": "trojan",
+      "server": "8.6.112.0",
+      "port": 443,
+      "latency_ms": 695.0
     },
     {
       "name": "CA 🇨🇦 | @Raydikalx | FB8FD0",
       "type": "vmess",
       "server": "104.17.0.1",
       "port": 2083,
-      "latency_ms": 3555.0
+      "latency_ms": 696.0
     },
     {
-      "name": "🇯🇵 日本 03",
-      "type": "vless",
-      "server": "104.16.10.63",
+      "name": "🇩🇪DE_8|73KB/s|A004-260618 [50232375b675]",
+      "type": "hysteria2",
+      "server": "vpn-de-002.fastervpn.world",
       "port": 443,
-      "latency_ms": 3670.0
+      "latency_ms": 703.0
+    },
+    {
+      "name": "058 hysteria2-1853501557",
+      "type": "hysteria2",
+      "server": "31.57.248.176",
+      "port": 50160,
+      "latency_ms": 707.0
+    },
+    {
+      "name": "CH 🇨🇭 | @Raydikalx | 824836",
+      "type": "hysteria2",
+      "server": "140.238.213.114",
+      "port": 50160,
+      "latency_ms": 713.0
+    },
+    {
+      "name": "@OutlineReleasedKey",
+      "type": "hysteria2",
+      "server": "bl1.nexfile.net",
+      "port": 4444,
+      "latency_ms": 715.0
+    },
+    {
+      "name": "US-018 Channel id: @ShadowProxy66",
+      "type": "trojan",
+      "server": "216.152.155.158",
+      "port": 443,
+      "latency_ms": 731.0
+    },
+    {
+      "name": "❓Other_57|117KB/s|A004-260618",
+      "type": "vless",
+      "server": "172.64.150.43",
+      "port": 2052,
+      "latency_ms": 736.0
+    },
+    {
+      "name": "[NoMoreWalls#046] @OutlineReleasedKey #8",
+      "type": "hysteria2",
+      "server": "195.63.128.21",
+      "port": 5443,
+      "latency_ms": 737.0
+    },
+    {
+      "name": "@OutlineReleasedKey #4",
+      "type": "hysteria2",
+      "server": "94.183.164.119",
+      "port": 24433,
+      "latency_ms": 744.0
+    },
+    {
+      "name": "@OutlineReleasedKey #5",
+      "type": "hysteria2",
+      "server": "guide.blog-forme.ru",
+      "port": 443,
+      "latency_ms": 751.0
+    },
+    {
+      "name": "🔹13@oneclickvpnkeys",
+      "type": "hysteria2",
+      "server": "195.63.138.212",
+      "port": 10444,
+      "latency_ms": 753.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | D6B883",
+      "type": "vmess",
+      "server": "104.18.0.1",
+      "port": 8443,
+      "latency_ms": 754.0
+    },
+    {
+      "name": "🇦🇺 澳大利亚 01",
+      "type": "hysteria2",
+      "server": "152.67.115.203",
+      "port": 443,
+      "latency_ms": 766.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "172.66.0.1",
+      "port": 8443,
+      "latency_ms": 780.0
+    },
+    {
+      "name": "❓Other_73|282KB/s|M003-260806",
+      "type": "vless",
+      "server": "170.114.46.6",
+      "port": 80,
+      "latency_ms": 785.0
+    },
+    {
+      "name": "@ConfigV2RayNG",
+      "type": "hysteria2",
+      "server": "137.131.177.121",
+      "port": 20000,
+      "latency_ms": 787.0
+    },
+    {
+      "name": "086 @DeltaKroneckerGithub_894",
+      "type": "vless",
+      "server": "172.64.229.129",
+      "port": 2052,
+      "latency_ms": 812.0
+    },
+    {
+      "name": "🇸🇬SG_11|206KB/s|M003-260806",
+      "type": "vless",
+      "server": "104.17.3.81",
+      "port": 80,
+      "latency_ms": 816.0
+    },
+    {
+      "name": "🇸🇬 新加坡 32",
+      "type": "hysteria2",
+      "server": "138.2.89.249",
+      "port": 443,
+      "latency_ms": 828.0
+    },
+    {
+      "name": "🇺🇸US_97|543KB/s|M003-260806 [77ed4a520da2]",
+      "type": "trojan",
+      "server": "216.152.155.50",
+      "port": 443,
+      "latency_ms": 833.0
+    },
+    {
+      "name": "SE 🇸🇪 | @Raydikalx | 44B57D",
+      "type": "hysteria2",
+      "server": "promo.betust.net",
+      "port": 443,
+      "latency_ms": 844.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | 40FE00",
+      "type": "vmess",
+      "server": "104.25.0.1",
+      "port": 2083,
+      "latency_ms": 857.0
+    },
+    {
+      "name": "🇷🇺218228 | ⚡️Telegram = t.me/LonUp_M",
+      "type": "hysteria2",
+      "server": "103.88.243.142",
+      "port": 11592,
+      "latency_ms": 860.0
+    },
+    {
+      "name": "🇭🇰 香港 08",
+      "type": "hysteria2",
+      "server": "24.233.8.109",
+      "port": 443,
+      "latency_ms": 904.0
+    },
+    {
+      "name": "AU澳大利亚(mibei77.com 米贝节点分享)",
+      "type": "hysteria2",
+      "server": "159.13.55.48",
+      "port": 20000,
+      "latency_ms": 913.0
+    },
+    {
+      "name": "@V2ray_Collector",
+      "type": "hysteria2",
+      "server": "95.143.196.97",
+      "port": 443,
+      "latency_ms": 914.0
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇱 🇭🇰 | [BL]",
+      "type": "vmess",
+      "server": "motorcycles-scan-ceremony-ideas.trycloudflare.com",
+      "port": 443,
+      "latency_ms": 914.0
+    },
+    {
+      "name": "🇷🇺216805 | ⚡️Telegram = t.me/L...",
+      "type": "hysteria2",
+      "server": "srv-17e124.21freedom.net",
+      "port": 11592,
+      "latency_ms": 923.0
+    },
+    {
+      "name": "🇳🇱NL_57|360KB/s|M003-260806",
+      "type": "vless",
+      "server": "8.6.112.0",
+      "port": 443,
+      "latency_ms": 926.0
+    },
+    {
+      "name": "🇩🇪DE_21|227KB/s|M003-260806",
+      "type": "vless",
+      "server": "170.114.45.6",
+      "port": 80,
+      "latency_ms": 967.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "104.21.57.84",
+      "port": 8443,
+      "latency_ms": 992.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "172.67.161.144",
+      "port": 8443,
+      "latency_ms": 997.0
+    },
+    {
+      "name": "🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]",
+      "type": "hysteria2",
+      "server": "5.181.219.131",
+      "port": 8443,
+      "latency_ms": 1047.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "port": 8443,
+      "latency_ms": 1085.0
+    },
+    {
+      "name": "hamedp71::🏴‍☠️",
+      "type": "vmess",
+      "server": "104.24.0.1",
+      "port": 8443,
+      "latency_ms": 1096.0
+    },
+    {
+      "name": "322 hysteria2-1853166912",
+      "type": "hysteria2",
+      "server": "66.94.121.46",
+      "port": 443,
+      "latency_ms": 1100.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.16.10.84",
+      "port": 443,
+      "latency_ms": 1109.0
+    },
+    {
+      "name": "🇨🇭CH_4|916KB/s|R002-260618 [78895aafc4f1]",
+      "type": "hysteria2",
+      "server": "152.67.75.161",
+      "port": 443,
+      "latency_ms": 1150.0
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "162.159.237.118",
+      "port": 2083,
+      "latency_ms": 1153.0
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.18.63.135",
+      "port": 2083,
+      "latency_ms": 1166.0
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.17.145.145",
+      "port": 2083,
+      "latency_ms": 1179.0
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "172.67.67.89",
+      "port": 2083,
+      "latency_ms": 1192.0
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "162.35.101.177",
+      "port": 443,
+      "latency_ms": 1202.0
+    },
+    {
+      "name": "🇯🇵 日本 12",
+      "type": "vless",
+      "server": "104.17.210.74",
+      "port": 443,
+      "latency_ms": 1207.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.17.70.206",
+      "port": 8443,
+      "latency_ms": 1216.0
+    },
+    {
+      "name": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
+      "type": "vmess",
+      "server": "141.193.213.20",
+      "port": 8443,
+      "latency_ms": 1231.0
+    },
+    {
+      "name": "🇩🇪 德国 | DEU",
+      "type": "hysteria2",
+      "server": "77.90.15.183",
+      "port": 8964,
+      "latency_ms": 1267.0
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "172.64.79.163",
+      "port": 2083,
+      "latency_ms": 1279.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "172.67.167.78",
+      "port": 8443,
+      "latency_ms": 1297.0
+    },
+    {
+      "name": "❓Other_62|121KB/s|M001-260618 [806376955771]",
+      "type": "vmess",
+      "server": "188.114.96.3",
+      "port": 8443,
+      "latency_ms": 1346.0
+    },
+    {
+      "name": "🇺🇸US_92|67KB/s|A004-260618 [4a6de620d459]",
+      "type": "vmess",
+      "server": "104.17.77.77",
+      "port": 8443,
+      "latency_ms": 1355.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "www.zoom.us",
+      "port": 443,
+      "latency_ms": 1442.0
+    },
+    {
+      "name": "vless-1831071997",
+      "type": "vless",
+      "server": "104.17.50.227",
+      "port": 443,
+      "latency_ms": 1455.0
+    },
+    {
+      "name": "🇺🇸_美国 (82)",
+      "type": "vmess",
+      "server": "141.193.213.21",
+      "port": 8443,
+      "latency_ms": 1476.0
+    },
+    {
+      "name": "US 🇺🇸 | @Raydikalx | 1F577B",
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20051,
+      "latency_ms": 1477.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "188.114.99.137",
+      "port": 8443,
+      "latency_ms": 1519.0
+    },
+    {
+      "name": "DE德国(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "104.18.42.98",
+      "port": 443,
+      "latency_ms": 1571.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.19.33.25",
+      "port": 443,
+      "latency_ms": 1604.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.18.37.127",
+      "port": 443,
+      "latency_ms": 1647.0
+    },
+    {
+      "name": "🇮🇩 Indonesia, Cileungsir | [BL]",
+      "type": "vmess",
+      "server": "support.zoom.us",
+      "port": 443,
+      "latency_ms": 1684.0
+    },
+    {
+      "name": "🇺🇸_美国 (92)",
+      "type": "vmess",
+      "server": "cdn.sfacg.uk",
+      "port": 2083,
+      "latency_ms": 1691.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.17.169.13",
+      "port": 443,
+      "latency_ms": 1733.0
+    },
+    {
+      "name": "vless-1827151410",
+      "type": "vless",
+      "server": "104.19.164.155",
+      "port": 443,
+      "latency_ms": 1838.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | [BL]",
+      "type": "vless",
+      "server": "104.16.111.202",
+      "port": 443,
+      "latency_ms": 1863.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "154.40.59.238",
+      "port": 443,
+      "latency_ms": 1911.0
+    },
+    {
+      "name": "308 @DeltaKroneckerGithub_372",
+      "type": "vless",
+      "server": "104.19.33.237",
+      "port": 443,
+      "latency_ms": 2005.0
+    },
+    {
+      "name": "♻️93@oneclickvpnkeys",
+      "type": "hysteria2",
+      "server": "129.159.156.109",
+      "port": 50160,
+      "latency_ms": 2030.0
+    },
+    {
+      "name": "🇺🇸 United States, St Louis (Downtown) | [BL]",
+      "type": "vmess",
+      "server": "172.64.155.209",
+      "port": 8443,
+      "latency_ms": 2107.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | 4FA2E4",
+      "type": "vless",
+      "server": "104.16.111.102",
+      "port": 443,
+      "latency_ms": 2185.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "23.144.68.90",
+      "port": 8443,
+      "latency_ms": 2264.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | 269005",
+      "type": "vless",
+      "server": "104.16.10.185",
+      "port": 443,
+      "latency_ms": 2333.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.21.33.59",
+      "port": 443,
+      "latency_ms": 2348.0
+    },
+    {
+      "name": "🇮🇩 Indonesia, Cicurug | [BL]",
+      "type": "vless",
+      "server": "104.17.3.81",
+      "port": 443,
+      "latency_ms": 2384.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | 76F5D4",
+      "type": "vless",
+      "server": "104.27.46.35",
+      "port": 443,
+      "latency_ms": 2529.0
+    },
+    {
+      "name": "🇺🇸 United States, Chicago | 🌐 | [BL]",
+      "type": "vmess",
+      "server": "172.66.203.67",
+      "port": 443,
+      "latency_ms": 2580.0
     },
     {
       "name": "@DeltaKroneckerGithub",
       "type": "vless",
       "server": "104.24.0.1",
       "port": 443,
-      "latency_ms": 3694.0
+      "latency_ms": 2807.0
     },
     {
-      "name": "162 ♻️93@oneclickvpnkeys",
-      "type": "hysteria2",
-      "server": "129.159.156.109",
-      "port": 50160,
-      "latency_ms": 3760.0
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.16.10.56",
+      "port": 443,
+      "latency_ms": 2838.0
     },
     {
-      "name": "🇨🇦CA-51.222.155.32-0403",
-      "type": "ss",
-      "server": "51.222.155.32",
-      "port": 5003,
-      "latency_ms": 3792.0
+      "name": "US 🇺🇸 | @Raydikalx | 71838A",
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20103,
+      "latency_ms": 2844.0
     },
     {
-      "name": "ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ🩹",
-      "type": "hysteria2",
-      "server": "ide.vipvirtualnet.eu",
-      "port": 30746,
-      "latency_ms": 3949.0
+      "name": "US 🇺🇸 | @Raydikalx | 080C5C",
+      "type": "vless",
+      "server": "195.123.240.65",
+      "port": 443,
+      "latency_ms": 2969.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.19.48.107",
+      "port": 443,
+      "latency_ms": 3070.0
     },
     {
       "name": "@DeltaKroneckerGithub",
       "type": "vless",
-      "server": "104.16.10.9",
+      "server": "104.18.153.10",
       "port": 443,
-      "latency_ms": 3994.0
+      "latency_ms": 3144.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | 5A4804",
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.16.111.195",
+      "port": 443,
+      "latency_ms": 3175.0
+    },
+    {
+      "name": "CA 🇨🇦 | @Raydikalx | FFCF2F",
+      "type": "vless",
+      "server": "172.64.190.13",
+      "port": 443,
+      "latency_ms": 3245.0
+    },
+    {
+      "name": "US-134 美国 398",
       "type": "vmess",
-      "server": "104.21.0.1",
-      "port": 8443,
-      "latency_ms": 4444.0
-    },
-    {
-      "name": "🇨🇦CA-216.152.147.85-0230",
-      "type": "trojan",
-      "server": "216.152.147.85",
+      "server": "104.27.0.1",
       "port": 443,
-      "latency_ms": 4503.0
+      "latency_ms": 3371.0
     },
     {
-      "name": "🇨🇦CA-51.79.64.198-0404",
-      "type": "ss",
-      "server": "51.79.64.198",
-      "port": 8119,
-      "latency_ms": 4517.0
+      "name": "CA-020 CA @Raydikalx B4617E",
+      "type": "vmess",
+      "server": "104.17.136.198",
+      "port": 443,
+      "latency_ms": 3410.0
     },
     {
-      "name": "CA 🇨🇦 | @Raydikalx | 5F26A6",
+      "name": "CA 🇨🇦 | @Raydikalx | 6AF8DB",
+      "type": "vless",
+      "server": "104.16.10.72",
+      "port": 443,
+      "latency_ms": 3425.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "latency_ms": 3481.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
       "type": "vless",
       "server": "104.16.10.135",
       "port": 443,
-      "latency_ms": 4711.0
+      "latency_ms": 3510.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.24.31.89",
+      "port": 443,
+      "latency_ms": 3513.0
+    },
+    {
+      "name": "🇯🇵 日本 11",
+      "type": "vless",
+      "server": "104.16.10.63",
+      "port": 443,
+      "latency_ms": 3551.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.16.10.48",
+      "port": 443,
+      "latency_ms": 3761.0
+    },
+    {
+      "name": "@ConfigV2RayNG",
+      "type": "vless",
+      "server": "104.16.10.104",
+      "port": 443,
+      "latency_ms": 3807.0
+    },
+    {
+      "name": "🇺🇸_US_美国_IPV4 (2)",
+      "type": "vmess",
+      "server": "172.66.0.1",
+      "port": 443,
+      "latency_ms": 3838.0
+    },
+    {
+      "name": "@DeltaKroneckerGithub",
+      "type": "vless",
+      "server": "104.16.0.1",
+      "port": 443,
+      "latency_ms": 4015.0
+    },
+    {
+      "name": "221 美国 276",
+      "type": "vmess",
+      "server": "129.146.143.80",
+      "port": 48111,
+      "latency_ms": 4266.0
+    },
+    {
+      "name": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.16.10.234",
+      "port": 443,
+      "latency_ms": 4865.0
     }
   ]
 }
