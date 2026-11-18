@@ -1,8 +1,6 @@
 name: 机场3 Quick Validate (精选更新)
 
 on:
-  schedule:
-    - cron: '30 * * * *'      # 每 1 小时（错开整点，避免与 Full Update 排队）
   workflow_dispatch:
 
 permissions:

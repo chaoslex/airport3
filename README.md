@@ -14,10 +14,12 @@
 
 订阅每次 Actions 成功部署后更新；GitHub Pages 或节点上游不可用时可能暂时无法刷新。导入后仍请在自己的客户端检查实际连通性。
 
-## 自动运行
+## 工作流
 
-- `机场3 Full Update (Crawl + Validate)`：每 6 小时全量发现、验证、生成并部署；也可在 GitHub Actions 中手动运行。
-- `机场3 Quick Validate (精选更新)`：每小时复测已有候选并刷新订阅。
+- `机场3 Full Update (Crawl + Validate)`：全量发现、验证、生成并部署；可在 GitHub Actions 中手动运行，也会在相关源代码变更时运行。
+- `机场3 Quick Validate (精选更新)`：复测已有候选并刷新订阅，可在 GitHub Actions 中手动运行。
+
+仓库内不启用高频周期任务；重复运行由机场3既有的每日检查安排控制。
 - 全量验证要求 mihomo 真实协议检查通过；若 runner 无法安装 mihomo 或没有合格节点，本轮可能失败，不应把旧文件当作本轮新结果。
 
 ## 手动运行
