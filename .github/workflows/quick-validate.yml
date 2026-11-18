@@ -45,6 +45,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Airport1-style fresh check and selected feed
+        run: python scripts/airport1_style_refresh.py
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/
