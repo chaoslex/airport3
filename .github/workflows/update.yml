@@ -51,6 +51,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Airport1-style fresh check and selected feed
+        run: python scripts/airport1_style_refresh.py
+
       - name: Save proxy DB cache
         uses: actions/cache/save@v4
         if: always()
