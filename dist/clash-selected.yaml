@@ -1,0 +1,341 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: warning
+ipv6: false
+external-controller: 127.0.0.1:9090
+proxies:
+- name: 🌍 Node-01
+  type: trojan
+  server: 216.106.186.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: api.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🌍 Node-02
+  type: trojan
+  server: 216.106.186.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: 🌍 Node-03
+  type: ss
+  server: 38.143.66.146
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-04
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+- name: 🌍 Node-05
+  type: trojan
+  server: 216.106.186.66
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: 🌍 Node-06
+  type: trojan
+  server: 216.106.186.46
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: 🌍 Node-07
+  type: trojan
+  server: 216.106.186.82
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🌍 Node-08
+  type: trojan
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  udp: true
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: 🌍 Node-09
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-10
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  client-fingerprint: random
+- name: 🌍 Node-11
+  type: trojan
+  server: 216.106.186.32
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🌍 Node-12
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-13
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-14
+  type: vless
+  server: 15.204.97.216
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-15
+  type: ss
+  server: 138.199.43.159
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🌍 Node-16
+  type: trojan
+  server: www.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  password: 242a3d8eee5e4ed1a6bfa4141d549a25
+- name: 🌍 Node-17
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-18
+  type: trojan
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  udp: true
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: 🌍 Node-19
+  type: vless
+  server: ww13.levikogjgfdd.ir
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  client-fingerprint: random
+- name: 🌍 Node-20
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 66.94.121.46
+  skip-cert-verify: true
+- name: 🌍 Node-21
+  type: ss
+  server: 38.145.220.193
+  port: 8443
+  cipher: 2022-blake3-aes-128-gcm
+  password: jUbDNsFamcyDfpm+rI3Zyw==
+- name: 🌍 Node-22
+  type: ss
+  server: 137.184.89.151
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-23
+  type: vless
+  server: www.speedtest.net
+  port: 2083
+  uuid: 9047219a-470f-4a3f-b319-1178ae1a3c87
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: floral-grass-aa1e.dianawpewpek1.workers.dev
+  tls: true
+  servername: floral-grass-aa1e.dianawpewpek1.workers.dev
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🌍 Node-24
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  network: ws
+  ws-opts:
+    path: /%2F
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+- name: 🌍 Node-25
+  type: vless
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🌍 Node-26
+  type: vless
+  server: floral-grass-aa1e.dianawpewpek1.workers.dev
+  port: 2053
+  uuid: 9047219a-470f-4a3f-b319-1178ae1a3c87
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: floral-grass-aa1e.dianawpewpek1.workers.dev
+  tls: true
+  servername: floral-grass-aa1e.dianawpewpek1.workers.dev
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🌍 Node-27
+  type: vless
+  server: 104.21.0.1
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🌍 Node-28
+  type: ss
+  server: 23.150.152.38
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-29
+  type: ss
+  server: 107.155.57.51
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🌍 Node-30
+  type: trojan
+  server: 96.44.133.37
+  port: 2087
+  password: 2e7sEZERnvGOlt35hf6rNg
+  sni: www.bing.com
+  skip-cert-verify: true
+proxy-groups:
+- name: 🇺🇳 精选节点
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🌍 Node-01
+  - 🌍 Node-02
+  - 🌍 Node-03
+  - 🌍 Node-04
+  - 🌍 Node-05
+  - 🌍 Node-06
+  - 🌍 Node-07
+  - 🌍 Node-08
+  - 🌍 Node-09
+  - 🌍 Node-10
+  - 🌍 Node-11
+  - 🌍 Node-12
+  - 🌍 Node-13
+  - 🌍 Node-14
+  - 🌍 Node-15
+  - 🌍 Node-16
+  - 🌍 Node-17
+  - 🌍 Node-18
+  - 🌍 Node-19
+  - 🌍 Node-20
+  - 🌍 Node-21
+  - 🌍 Node-22
+  - 🌍 Node-23
+  - 🌍 Node-24
+  - 🌍 Node-25
+  - 🌍 Node-26
+  - 🌍 Node-27
+  - 🌍 Node-28
+  - 🌍 Node-29
+  - 🌍 Node-30
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - 🌍 Node-01
+  - 🌍 Node-02
+  - 🌍 Node-03
+  - 🌍 Node-04
+  - 🌍 Node-05
+  - 🌍 Node-06
+  - 🌍 Node-07
+  - 🌍 Node-08
+  - 🌍 Node-09
+  - 🌍 Node-10
+  - 🌍 Node-11
+  - 🌍 Node-12
+  - 🌍 Node-13
+  - 🌍 Node-14
+  - 🌍 Node-15
+  - 🌍 Node-16
+  - 🌍 Node-17
+  - 🌍 Node-18
+  - 🌍 Node-19
+  - 🌍 Node-20
+  - 🌍 Node-21
+  - 🌍 Node-22
+  - 🌍 Node-23
+  - 🌍 Node-24
+  - 🌍 Node-25
+  - 🌍 Node-26
+  - 🌍 Node-27
+  - 🌍 Node-28
+  - 🌍 Node-29
+  - 🌍 Node-30
+  url: https://www.gstatic.com/generate_204
+  interval: 180
+rules:
+- MATCH,🇺🇳 精选节点

@@ -1,0 +1,91 @@
+name: 机场3 Full Update (Crawl + Validate)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'proxy_hub/**'
+      - 'cli.py'
+      - 'config.yaml'
+      - 'requirements.txt'
+      - '.github/workflows/update.yml'
+  schedule:
+    - cron: '15 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Restore proxy DB cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/
+          key: proxy-db-${{ github.run_id }}
+          restore-keys: proxy-db-
+
+      - name: Install mihomo (protocol-level validation)
+        run: |
+          set -e
+          TAG=$(curl -fsSL -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r .tag_name)
+          curl -fsSL -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
+          gunzip mihomo.gz && chmod +x mihomo
+          echo "MIHOMO_BIN=$PWD/mihomo" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Full crawl + validate + generate
+        run: python cli.py --require-real-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save proxy DB cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/
+          key: proxy-db-${{ github.run_id }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+      - name: Commit subscription files to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: auto-update [skip ci]"
+          # 重试处理并发提交造成的 push 冲突
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
