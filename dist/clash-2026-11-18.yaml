@@ -1,0 +1,314 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+generated-by: airport3-freeproxyhub-airport1-style
+generated-at: '2026-11-18T07:27:51.385003+00:00'
+proxies:
+- name: 🌍 Node-05
+  type: ss
+  server: 67.220.73.178
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-10
+  type: vless
+  server: 84.32.54.237
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  servername: rly-gw-cfg.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  client-fingerprint: chrome
+- name: 🌍 Node-14
+  type: vmess
+  server: 38.68.135.131
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-30
+  type: ss
+  server: 38.121.43.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-07
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🌍 Node-26
+  type: ss
+  server: 38.121.43.231
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-08
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🌍 Node-28
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-06
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🌍 Node-15
+  type: vmess
+  server: 38.64.138.187
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-18
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-25
+  type: ss
+  server: 38.22.17.129
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-29
+  type: ss
+  server: 38.22.17.214
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-12
+  type: ss
+  server: 216.106.178.169
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-11
+  type: vmess
+  server: 162.251.60.97
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-03
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🌍 Node-17
+  type: ss
+  server: 38.64.138.135
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-09
+  type: ss
+  server: 138.199.42.68
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🌍 Node-01
+  type: ss
+  server: 167.88.62.203
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-24
+  type: ss
+  server: 185.215.132.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-22
+  type: ss
+  server: 15.204.247.244
+  port: 443
+  udp: true
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🌍 Node-13
+  type: vmess
+  server: 167.88.62.134
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-16
+  type: vmess
+  server: 38.64.138.135
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-19
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  udp: true
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🌍 Node-04
+  type: ss
+  server: 167.88.62.56
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-21
+  type: ss
+  server: 167.88.63.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-23
+  type: vmess
+  server: 167.88.62.51
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: xmfhlpy.com
+- name: 🌍 Node-20
+  type: ss
+  server: 172.111.36.123
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-02
+  type: ss
+  server: 167.17.67.171
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌍 Node-27
+  type: ss
+  server: 185.215.132.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+proxy-groups:
+- name: AUTO-FAST
+  type: url-test
+  proxies:
+  - 🌍 Node-05
+  - 🌍 Node-10
+  - 🌍 Node-14
+  - 🌍 Node-30
+  - 🌍 Node-07
+  - 🌍 Node-26
+  - 🌍 Node-08
+  - 🌍 Node-28
+  - 🌍 Node-06
+  - 🌍 Node-15
+  - 🌍 Node-18
+  - 🌍 Node-25
+  - 🌍 Node-29
+  - 🌍 Node-12
+  - 🌍 Node-11
+  - 🌍 Node-03
+  - 🌍 Node-17
+  - 🌍 Node-09
+  - 🌍 Node-01
+  - 🌍 Node-24
+  - 🌍 Node-22
+  - 🌍 Node-13
+  - 🌍 Node-16
+  - 🌍 Node-19
+  - 🌍 Node-04
+  - 🌍 Node-21
+  - 🌍 Node-23
+  - 🌍 Node-20
+  - 🌍 Node-02
+  - 🌍 Node-27
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: HK-POOL
+  type: url-test
+  proxies:
+  - 🌍 Node-05
+  - 🌍 Node-10
+  - 🌍 Node-14
+  - 🌍 Node-30
+  - 🌍 Node-07
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: JP-POOL
+  type: url-test
+  proxies:
+  - 🌍 Node-05
+  - 🌍 Node-10
+  - 🌍 Node-14
+  - 🌍 Node-30
+  - 🌍 Node-07
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: US-POOL
+  type: url-test
+  proxies:
+  - 🌍 Node-05
+  - 🌍 Node-10
+  - 🌍 Node-14
+  - 🌍 Node-30
+  - 🌍 Node-07
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: AI-POOL
+  type: url-test
+  proxies:
+  - 🌍 Node-09
+  - 🌍 Node-12
+  - 🌍 Node-01
+  - 🌍 Node-02
+  - 🌍 Node-05
+  - 🌍 Node-07
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: FALLBACK
+  type: fallback
+  proxies:
+  - AUTO-FAST
+  - HK-POOL
+  - JP-POOL
+  - US-POOL
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: PROXY
+  type: select
+  proxies:
+  - AUTO-FAST
+  - FALLBACK
+rules:
+- DOMAIN-SUFFIX,openai.com,AI-POOL
+- DOMAIN-SUFFIX,chatgpt.com,AI-POOL
+- DOMAIN-SUFFIX,claude.ai,AI-POOL
+- DOMAIN-SUFFIX,anthropic.com,AI-POOL
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
