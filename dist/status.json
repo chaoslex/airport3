@@ -1,14 +1,14 @@
 {
   "crawl": {
-    "found": 2305,
-    "new": 6492
+    "found": 2355,
+    "new": 6520
   },
-  "parsed": 24574,
-  "alive": 3661,
-  "real_alive": 855,
+  "parsed": 22842,
+  "alive": 3123,
+  "real_alive": 911,
   "stats": {
-    "total": 5896,
-    "alive": 1660,
-    "sources": 2305
+    "total": 5357,
+    "alive": 1213,
+    "sources": 2355
   }
 }
