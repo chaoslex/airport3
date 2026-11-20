@@ -1,0 +1,332 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+generated-by: airport3-freeproxyhub-airport1-style
+generated-at: '2026-11-20T23:59:18.051319+00:00'
+proxies:
+- name: 🇺🇸 US-01
+  type: hysteria2
+  server: 34.24.25.1
+  port: 443
+  password: 8dOHZ13sx33R1/PQbhTK/w==
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🌍 Node-05
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-07
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-10
+  type: hysteria2
+  server: 89.117.172.45
+  port: 443
+  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
+  obfs: salamander
+  obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
+  sni: eth.todsm.com
+- name: 🌍 Node-14
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.linux.com
+  skip-cert-verify: true
+- name: 🌍 Node-26
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🌍 Node-08
+  type: hysteria2
+  server: 107.149.232.92
+  port: 443
+  password: fanvpn.net
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🌍 Node-06
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.broadcom.com
+  skip-cert-verify: true
+- name: 🇩🇪 DE-01
+  type: hysteria2
+  server: 18.153.65.67
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 18.153.65.67
+  skip-cert-verify: true
+- name: 🌍 Node-03
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-25
+  type: hysteria2
+  server: 3.120.145.15
+  port: 41018
+  password: 5s7qa8f78hznlw8g
+  obfs: salamander
+  obfs-password: v0qq015d7c8zgzu7
+  sni: quotes.ali-khamenei.world
+- name: 🌍 Node-18
+  type: hysteria2
+  server: 3.76.203.180
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🌍 Node-11
+  type: hysteria2
+  server: 38.76.150.108
+  port: 36712
+  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
+  sni: 38.76.150.108
+  skip-cert-verify: true
+- name: 🌍 Node-15
+  type: hysteria2
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: 🇫🇷 FR-01
+  type: hysteria2
+  server: 62.210.147.2
+  port: 43115
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🌍 Node-01
+  type: trojan
+  server: 216.106.186.32
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🌍 Node-17
+  type: hysteria2
+  server: 3.76.221.4
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.221.4
+  skip-cert-verify: true
+- name: 🌍 Node-24
+  type: hysteria2
+  server: 51.15.19.206
+  port: 8443
+  password: HowdyHysteria2023w0W
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  sni: sni-here.com
+  skip-cert-verify: true
+- name: 🌍 Node-12
+  type: hysteria2
+  server: 129.225.181.46
+  port: 8443
+  password: oracle_hy2_pass_2026
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🌍 Node-09
+  type: hysteria2
+  server: 47.89.232.46
+  port: 8443
+  password: 4afd4e1b1b0edd429b10d800a1cf64a7
+  sni: hysteria2.local
+  skip-cert-verify: true
+- name: 🌍 Node-22
+  type: hysteria2
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🌍 Node-04
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🌍 Node-13
+  type: hysteria2
+  server: 212.34.137.105
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: shorts.blog-forme.ru
+  skip-cert-verify: true
+- name: 🌍 Node-16
+  type: hysteria2
+  server: 50.7.38.243
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+- name: 🌍 Node-19
+  type: hysteria2
+  server: 18.194.242.173
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🌍 Node-23
+  type: hysteria2
+  server: 195.63.138.212
+  port: 15443
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: cloudehouse24.ru
+- name: 🌍 Node-21
+  type: hysteria2
+  server: 195.63.128.21
+  port: 10444
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  sni: germany.cloudhouse1.ru
+  skip-cert-verify: true
+- name: 🌍 Node-20
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.69.232.199
+  skip-cert-verify: true
+- name: 🌍 Node-02
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+proxy-groups:
+- name: AUTO-FAST
+  type: url-test
+  proxies:
+  - 🇺🇸 US-01
+  - 🌍 Node-05
+  - 🌍 Node-07
+  - 🌍 Node-10
+  - 🌍 Node-14
+  - 🌍 Node-26
+  - 🌍 Node-08
+  - 🌍 Node-06
+  - 🇩🇪 DE-01
+  - 🌍 Node-03
+  - 🌍 Node-25
+  - 🌍 Node-18
+  - 🌍 Node-11
+  - 🌍 Node-15
+  - 🇫🇷 FR-01
+  - 🌍 Node-01
+  - 🌍 Node-17
+  - 🌍 Node-24
+  - 🌍 Node-12
+  - 🌍 Node-09
+  - 🌍 Node-22
+  - 🌍 Node-04
+  - 🌍 Node-13
+  - 🌍 Node-16
+  - 🌍 Node-19
+  - 🌍 Node-23
+  - 🌍 Node-21
+  - 🌍 Node-20
+  - 🌍 Node-02
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: HK-POOL
+  type: url-test
+  proxies:
+  - 🇺🇸 US-01
+  - 🌍 Node-05
+  - 🌍 Node-07
+  - 🌍 Node-10
+  - 🌍 Node-14
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: JP-POOL
+  type: url-test
+  proxies:
+  - 🇺🇸 US-01
+  - 🌍 Node-05
+  - 🌍 Node-07
+  - 🌍 Node-10
+  - 🌍 Node-14
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: US-POOL
+  type: url-test
+  proxies:
+  - 🇺🇸 US-01
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: AI-POOL
+  type: url-test
+  proxies:
+  - 🌍 Node-07
+  - 🌍 Node-05
+  - 🌍 Node-03
+  - 🌍 Node-04
+  - 🌍 Node-01
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: FALLBACK
+  type: fallback
+  proxies:
+  - AUTO-FAST
+  - HK-POOL
+  - JP-POOL
+  - US-POOL
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+- name: PROXY
+  type: select
+  proxies:
+  - AUTO-FAST
+  - FALLBACK
+rules:
+- DOMAIN-SUFFIX,openai.com,AI-POOL
+- DOMAIN-SUFFIX,chatgpt.com,AI-POOL
+- DOMAIN-SUFFIX,claude.ai,AI-POOL
+- DOMAIN-SUFFIX,anthropic.com,AI-POOL
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
