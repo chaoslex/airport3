@@ -1,0 +1,470 @@
+{
+  "mihomo_version": "v1.19.34",
+  "target": "https://www.gstatic.com/generate_204",
+  "timeout_ms": 5000,
+  "input_count": 10033,
+  "mihomo_unloaded_count": 1,
+  "probe_candidate_count": 10032,
+  "first_pass_count": 1228,
+  "first_failed_count": 8804,
+  "stability_shortlist": 150,
+  "stable_3_of_3": 144,
+  "selected_count": 50,
+  "median_latency_ms": {
+    "min": 56,
+    "max": 132
+  },
+  "selected": [
+    {
+      "name": "🇺🇸 US 23",
+      "median_ms": 56,
+      "samples_ms": [
+        56,
+        55,
+        65
+      ]
+    },
+    {
+      "name": "🇺🇸 US 26",
+      "median_ms": 61,
+      "samples_ms": [
+        63,
+        56,
+        61
+      ]
+    },
+    {
+      "name": "NiREvil-247",
+      "median_ms": 66,
+      "samples_ms": [
+        167,
+        62,
+        66
+      ]
+    },
+    {
+      "name": "UNKNOWN 81",
+      "median_ms": 66,
+      "samples_ms": [
+        67,
+        66,
+        62
+      ]
+    },
+    {
+      "name": "NiREvil-337",
+      "median_ms": 71,
+      "samples_ms": [
+        198,
+        64,
+        71
+      ]
+    },
+    {
+      "name": "NiREvil-484",
+      "median_ms": 71,
+      "samples_ms": [
+        188,
+        71,
+        62
+      ]
+    },
+    {
+      "name": "NiREvil-187",
+      "median_ms": 72,
+      "samples_ms": [
+        165,
+        55,
+        72
+      ]
+    },
+    {
+      "name": "REvil60",
+      "median_ms": 75,
+      "samples_ms": [
+        147,
+        56,
+        75
+      ]
+    },
+    {
+      "name": "🇺🇸 US | @Raydikalx | 882A7F",
+      "median_ms": 76,
+      "samples_ms": [
+        64,
+        76,
+        113
+      ]
+    },
+    {
+      "name": "REvil27",
+      "median_ms": 79,
+      "samples_ms": [
+        178,
+        63,
+        79
+      ]
+    },
+    {
+      "name": "NiREvil-447",
+      "median_ms": 80,
+      "samples_ms": [
+        170,
+        80,
+        67
+      ]
+    },
+    {
+      "name": "REvil31",
+      "median_ms": 81,
+      "samples_ms": [
+        81,
+        115,
+        75
+      ]
+    },
+    {
+      "name": "REvil43",
+      "median_ms": 82,
+      "samples_ms": [
+        198,
+        82,
+        69
+      ]
+    },
+    {
+      "name": "NiREvil-23",
+      "median_ms": 88,
+      "samples_ms": [
+        167,
+        83,
+        88
+      ]
+    },
+    {
+      "name": "REvil67",
+      "median_ms": 88,
+      "samples_ms": [
+        173,
+        67,
+        88
+      ]
+    },
+    {
+      "name": "NiREvil-311",
+      "median_ms": 93,
+      "samples_ms": [
+        93,
+        129,
+        58
+      ]
+    },
+    {
+      "name": "NiREvil-459",
+      "median_ms": 94,
+      "samples_ms": [
+        190,
+        56,
+        94
+      ]
+    },
+    {
+      "name": "🇺🇸 US 32",
+      "median_ms": 96,
+      "samples_ms": [
+        96,
+        86,
+        96
+      ]
+    },
+    {
+      "name": "🇺🇸 US 21",
+      "median_ms": 98,
+      "samples_ms": [
+        84,
+        150,
+        98
+      ]
+    },
+    {
+      "name": "🇺🇸 US 88",
+      "median_ms": 102,
+      "samples_ms": [
+        102,
+        94,
+        115
+      ]
+    },
+    {
+      "name": "🇺🇸 US 39",
+      "median_ms": 103,
+      "samples_ms": [
+        103,
+        94,
+        104
+      ]
+    },
+    {
+      "name": "🇺🇸 US 72",
+      "median_ms": 103,
+      "samples_ms": [
+        154,
+        103,
+        97
+      ]
+    },
+    {
+      "name": "🇺🇸 US 46",
+      "median_ms": 105,
+      "samples_ms": [
+        111,
+        105,
+        102
+      ]
+    },
+    {
+      "name": "🇺🇸 US 47",
+      "median_ms": 105,
+      "samples_ms": [
+        96,
+        105,
+        113
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Chicago | 216.152.155.23:443 8",
+      "median_ms": 106,
+      "samples_ms": [
+        77,
+        106,
+        198
+      ]
+    },
+    {
+      "name": "🇺🇸 US 59",
+      "median_ms": 108,
+      "samples_ms": [
+        110,
+        103,
+        108
+      ]
+    },
+    {
+      "name": "🇺🇸 US 57",
+      "median_ms": 110,
+      "samples_ms": [
+        110,
+        103,
+        128
+      ]
+    },
+    {
+      "name": "NiREvil-136",
+      "median_ms": 111,
+      "samples_ms": [
+        149,
+        111,
+        109
+      ]
+    },
+    {
+      "name": "NiREvil-157",
+      "median_ms": 111,
+      "samples_ms": [
+        147,
+        111,
+        87
+      ]
+    },
+    {
+      "name": "NiREvil-64",
+      "median_ms": 113,
+      "samples_ms": [
+        194,
+        80,
+        113
+      ]
+    },
+    {
+      "name": "NiREvil-180",
+      "median_ms": 114,
+      "samples_ms": [
+        153,
+        114,
+        74
+      ]
+    },
+    {
+      "name": "NiREvil-431",
+      "median_ms": 114,
+      "samples_ms": [
+        184,
+        114,
+        113
+      ]
+    },
+    {
+      "name": "🇨🇦 CA 15",
+      "median_ms": 114,
+      "samples_ms": [
+        114,
+        108,
+        118
+      ]
+    },
+    {
+      "name": "🇺🇸 US 19",
+      "median_ms": 114,
+      "samples_ms": [
+        63,
+        114,
+        148
+      ]
+    },
+    {
+      "name": "NiREvil-18",
+      "median_ms": 116,
+      "samples_ms": [
+        195,
+        61,
+        116
+      ]
+    },
+    {
+      "name": "NiREvil-309",
+      "median_ms": 116,
+      "samples_ms": [
+        199,
+        116,
+        66
+      ]
+    },
+    {
+      "name": "🇨🇦 CA 5",
+      "median_ms": 116,
+      "samples_ms": [
+        116,
+        115,
+        137
+      ]
+    },
+    {
+      "name": "🇺🇸 US 18",
+      "median_ms": 118,
+      "samples_ms": [
+        118,
+        83,
+        140
+      ]
+    },
+    {
+      "name": "🇺🇸 US 50",
+      "median_ms": 119,
+      "samples_ms": [
+        128,
+        119,
+        81
+      ]
+    },
+    {
+      "name": "🇺🇸 US 73",
+      "median_ms": 121,
+      "samples_ms": [
+        129,
+        119,
+        121
+      ]
+    },
+    {
+      "name": "🇺🇸 US 68",
+      "median_ms": 122,
+      "samples_ms": [
+        144,
+        103,
+        122
+      ]
+    },
+    {
+      "name": "🇺🇸 US | @Raydikalx | 64D2F8",
+      "median_ms": 123,
+      "samples_ms": [
+        119,
+        163,
+        123
+      ]
+    },
+    {
+      "name": "🇺🇸 US 62",
+      "median_ms": 124,
+      "samples_ms": [
+        124,
+        117,
+        126
+      ]
+    },
+    {
+      "name": "🇺🇸 US 58",
+      "median_ms": 126,
+      "samples_ms": [
+        133,
+        122,
+        126
+      ]
+    },
+    {
+      "name": "🇺🇸 US 61",
+      "median_ms": 128,
+      "samples_ms": [
+        127,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "🇺🇸 US 63",
+      "median_ms": 129,
+      "samples_ms": [
+        120,
+        129,
+        129
+      ]
+    },
+    {
+      "name": "🇨🇦 CA | @Raydikalx | 3037",
+      "median_ms": 130,
+      "samples_ms": [
+        133,
+        101,
+        130
+      ]
+    },
+    {
+      "name": "🇨🇦 CA | @Raydikalx | 0940F6",
+      "median_ms": 131,
+      "samples_ms": [
+        136,
+        127,
+        131
+      ]
+    },
+    {
+      "name": "🇺🇸 US | @Raydikalx | C3E30F",
+      "median_ms": 131,
+      "samples_ms": [
+        129,
+        166,
+        131
+      ]
+    },
+    {
+      "name": "🇺🇸 US 54",
+      "median_ms": 132,
+      "samples_ms": [
+        130,
+        132,
+        141
+      ]
+    }
+  ],
+  "elapsed_seconds": 119.7
+}

@@ -1,0 +1,640 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+- name: 🇺🇸 US 23
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US 26
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: NiREvil-247
+  type: wireguard
+  server: 8.6.112.12
+  port: 4177
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8227:9bd4:7c6:411a:842
+  mtu: 1300
+  private-key: kAVuow+uS9zOH6uY/83/s0M8sHX/EtvJie/OELNea14=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: UNKNOWN 81
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: NiREvil-337
+  type: wireguard
+  server: 8.6.112.207
+  port: 894
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e36:35fd:c1f0:d187:ba78
+  mtu: 1300
+  private-key: ADZRP+d36TVxl3Mt6STwjXFwBI1lKqHUtdedzy6k50w=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-484
+  type: wireguard
+  server: 8.6.112.195
+  port: 5956
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:835c:cbd6:213a:2432:e9e6
+  mtu: 1300
+  private-key: AINKycEFeMQX6aADLnd1ZdnRlTH7uGOeyU/W+xNUi3c=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-187
+  type: wireguard
+  server: 8.6.112.10
+  port: 894
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff
+  mtu: 1300
+  private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil60
+  type: wireguard
+  server: 162.159.192.1
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: 4FLFnClfDQJU8AEBVoF2g1hn9kx+XRGU/Y487dbL03o=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 101
+  - 127
+  - 88
+  udp: true
+- name: 🇺🇸 US | @Raydikalx | 882A7F
+  type: vmess
+  server: 38.128.66.212
+  port: 1270
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: xmfhlpy.com
+  tls: true
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- name: REvil27
+  type: wireguard
+  server: 162.159.192.6
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: IKnKTTYInPHdx82qyY8SCskH2/5Vv06CsIxcjuOGJkM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 221
+  - 190
+  - 11
+  udp: true
+- name: NiREvil-447
+  type: wireguard
+  server: 8.6.112.130
+  port: 5279
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81ed:ee7:6e67:c627:1ff9
+  mtu: 1300
+  private-key: SPNTzw6qxygBCkPXS+bf/7FRnsUUSxxVvuKskw0ti28=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil31
+  type: wireguard
+  server: 162.159.192.5
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: QB+xyMCK7DvH59ditStC1knU3bhSVJfbzpgvbSj/plI=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 111
+  - 85
+  - 82
+  udp: true
+- name: REvil43
+  type: wireguard
+  server: 162.159.192.5
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: OBtGx06+PrLQ1kjGXx533oCX9La0zbTyNXsK60hQq1U=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 36
+  - 9
+  - 186
+  udp: true
+- name: NiREvil-23
+  type: wireguard
+  server: 188.114.97.204
+  port: 500
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: GH+iacBSS3dDBZxBfG6X6BmfWw87rSEuV4tVMtlF9F8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 191
+  - 14
+  - 36
+  udp: true
+- name: REvil67
+  type: wireguard
+  server: 162.159.192.4
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: 6M0fdN53y9w5iXTNho3EGj04Udw67t+XIz1HfAFpOmY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 195
+  - 181
+  - 250
+  udp: true
+- name: NiREvil-311
+  type: wireguard
+  server: 8.6.112.219
+  port: 1701
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: 2PdIoQgtmQ11bJCJey7+EcIw05fiNwSz8Z60DcXw/Xc=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-459
+  type: wireguard
+  server: 8.6.112.195
+  port: 7103
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a30:1512:684e:473:45c4
+  mtu: 1300
+  private-key: oCXtlJ520MRg3Nw9YYCrDANO0nCDuondhESn9HfHB1Y=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🇺🇸 US 32
+  type: ss
+  server: 40.160.86.43
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US 21
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US 88
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇺🇸 US 39
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US 72
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇺🇸 US 46
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US 47
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States - Chicago | 216.152.155.23:443 8
+  type: trojan
+  server: 216.152.155.23
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  udp: true
+- name: 🇺🇸 US 59
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US 57
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  network: tcp
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- name: NiREvil-136
+  type: wireguard
+  server: 149.57.28.226
+  port: 80
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 100.80.234.177
+  mtu: 1300
+  pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+  private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+  public-key: vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-157
+  type: wireguard
+  server: 8.6.112.86
+  port: 4198
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.3
+  mtu: 1120
+  private-key: KHKQFgTB6mLTK4BK130AMIXOClMi9NKVvGsHJ5WmM3A=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-64
+  type: wireguard
+  server: 188.114.97.62
+  port: 955
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: qNsaCps4a+Udx32dPbN1gTaVoTxXR2RbhfOtnyQBVHk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 44
+  - 39
+  - 54
+  udp: true
+- name: NiREvil-180
+  type: wireguard
+  server: 8.6.112.165
+  port: 3581
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: wFh/joQAOjHdEkdmvvTV77lWivefHgT9cOLmmTXNCmA=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-431
+  type: wireguard
+  server: 8.6.112.220
+  port: 1018
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7f:2510:62ea:5e22:67b5
+  mtu: 1300
+  private-key: 0PGZzGBF/0XCg77/hvViASPsswHtXb5RFsH7lyOfUl4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🇨🇦 CA 15
+  type: ss
+  server: 184.107.106.77
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US 19
+  type: ss
+  server: 67.220.73.178
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: NiREvil-18
+  type: wireguard
+  server: 8.6.112.249
+  port: 939
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: CItzlhi34lByi7hccik7tHYCP1y6cPnJylMDXaRvrEM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 171
+  - 105
+  - 152
+  udp: true
+- name: NiREvil-309
+  type: wireguard
+  server: 8.6.112.107
+  port: 4500
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c42:3d86:86a9:8cd2:db69
+  mtu: 1300
+  private-key: EAf6F7aVoJecG4hTxmVdbNU+0d81B8TxT88D0TQKJWo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🇨🇦 CA 5
+  type: ss
+  server: 184.107.106.78
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US 18
+  type: ss
+  server: 38.64.138.135
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US 50
+  type: ss
+  server: 135.148.42.13
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US 73
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US 68
+  type: ss
+  server: 15.204.246.111
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇺🇸 US | @Raydikalx | 64D2F8
+  type: vmess
+  server: 38.64.138.187
+  port: 1270
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: xmfhlpy.com
+  tls: true
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- name: 🇺🇸 US 62
+  type: ss
+  server: 200.102.179.179
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US 58
+  type: ss
+  server: 149.40.57.135
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US 61
+  type: ss
+  server: 149.40.57.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US 63
+  type: ss
+  server: 149.40.57.134
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA | @Raydikalx | 3037
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  alterId: 0
+  cipher: auto
+  network: raw
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇨🇦 CA | @Raydikalx | 0940F6
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  alterId: 0
+  cipher: auto
+  network: tcp
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇺🇸 US | @Raydikalx | C3E30F
+  type: vmess
+  server: 162.251.60.97
+  port: 1270
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: xmfhlpy.com
+  tls: true
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- name: 🇺🇸 US 54
+  type: ss
+  server: 149.40.57.138
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - 🇺🇸 US 23
+  - 🇺🇸 US 26
+  - NiREvil-247
+  - UNKNOWN 81
+  - NiREvil-337
+  - NiREvil-484
+  - NiREvil-187
+  - REvil60
+  - 🇺🇸 US | @Raydikalx | 882A7F
+  - REvil27
+  - NiREvil-447
+  - REvil31
+  - REvil43
+  - NiREvil-23
+  - REvil67
+  - NiREvil-311
+  - NiREvil-459
+  - 🇺🇸 US 32
+  - 🇺🇸 US 21
+  - 🇺🇸 US 88
+  - 🇺🇸 US 39
+  - 🇺🇸 US 72
+  - 🇺🇸 US 46
+  - 🇺🇸 US 47
+  - 🇺🇸 United States - Chicago | 216.152.155.23:443 8
+  - 🇺🇸 US 59
+  - 🇺🇸 US 57
+  - NiREvil-136
+  - NiREvil-157
+  - NiREvil-64
+  - NiREvil-180
+  - NiREvil-431
+  - 🇨🇦 CA 15
+  - 🇺🇸 US 19
+  - NiREvil-18
+  - NiREvil-309
+  - 🇨🇦 CA 5
+  - 🇺🇸 US 18
+  - 🇺🇸 US 50
+  - 🇺🇸 US 73
+  - 🇺🇸 US 68
+  - 🇺🇸 US | @Raydikalx | 64D2F8
+  - 🇺🇸 US 62
+  - 🇺🇸 US 58
+  - 🇺🇸 US 61
+  - 🇺🇸 US 63
+  - 🇨🇦 CA | @Raydikalx | 3037
+  - 🇨🇦 CA | @Raydikalx | 0940F6
+  - 🇺🇸 US | @Raydikalx | C3E30F
+  - 🇺🇸 US 54
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
