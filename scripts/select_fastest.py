@@ -33,14 +33,33 @@ def main():
     args = parser.parse_args()
 
     source = yaml.safe_load(args.input.read_text(encoding="utf-8"))
-    proxies = source.get("proxies") if isinstance(source, dict) else None
-    if not isinstance(proxies, list) or not proxies:
+    raw_proxies = source.get("proxies") if isinstance(source, dict) else None
+    if not isinstance(raw_proxies, list) or not raw_proxies:
         raise SystemExit("Converter produced no Clash proxy entries; keeping prior publication.")
-    names = [p.get("name") for p in proxies if isinstance(p, dict)]
-    if len(names) != len(proxies) or any(not isinstance(n, str) or not n.strip() for n in names):
-        raise SystemExit("Candidate has invalid or unnamed proxies.")
-    if len(set(names)) != len(names):
-        raise SystemExit("Candidate contains duplicate names; refusing ambiguous result matching.")
+    proxies = []
+    names = set()
+    for index, item in enumerate(raw_proxies, 1):
+        if not isinstance(item, dict):
+            continue
+        server, port, kind = item.get("server"), item.get("port"), item.get("type")
+        if not isinstance(server, str) or not server.strip() or not isinstance(port, int) or not isinstance(kind, str):
+            continue
+        node = dict(item)
+        label = node.get("name")
+        if not isinstance(label, str) or not label.strip():
+            label = f"unnamed-{kind}-{server}-{port}"
+        label = label.strip()
+        base, suffix = label, 2
+        while label in names:
+            label = f"{base} [{suffix}]"
+            suffix += 1
+        node["name"] = label
+        names.add(label)
+        proxies.append(node)
+    if not proxies:
+        raise SystemExit("No structurally usable named proxies; keeping prior publication.")
+    if len(proxies) != len(raw_proxies):
+        print(f"Ignored {len(raw_proxies) - len(proxies)} malformed or incomplete candidates.", flush=True)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.report.parent.mkdir(parents=True, exist_ok=True)
