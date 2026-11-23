@@ -3,7 +3,6 @@
 import argparse
 import concurrent.futures
 import json
-import re
 import statistics
 import subprocess
 import tempfile
@@ -66,38 +65,48 @@ def main():
     args.report.parent.mkdir(parents=True, exist_ok=True)
     data_dir = Path(tempfile.mkdtemp(prefix="airport3-mihomo-"))
     probe_cfg = data_dir / "probe.yaml"
-    def write_probe_config():
+    def valid_batch(batch):
         probe_cfg.write_text(yaml.safe_dump({
             "mixed-port": 17890,
             "allow-lan": False,
             "mode": "rule",
             "log-level": "error",
             "external-controller": "127.0.0.1:19090",
-            "proxies": proxies,
+            "proxies": batch,
         }, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
-
-    # Public aggregation feeds can contain syntactically invalid credentials/fields.
-    # Let Mihomo itself identify and exclude invalid entries before starting the probe.
-    for _ in range(300):
-        write_probe_config()
         check = subprocess.run([str(args.mihomo), "-t", "-f", str(probe_cfg), "-d", str(data_dir)],
                                capture_output=True, text=True)
         if check.returncode == 0:
-            break
+            return batch
         diagnostic = check.stdout + "\n" + check.stderr
-        match = re.search(r"proxy\s+(\d+):", diagnostic, re.IGNORECASE)
-        if not match:
-            raise RuntimeError(f"Mihomo configuration validation failed: {diagnostic[-4000:]}")
-        bad_index = int(match.group(1)) - 1
-        if bad_index < 0 or bad_index >= len(proxies):
-            raise RuntimeError(f"Mihomo reported invalid proxy index {bad_index + 1} for {len(proxies)} entries: {diagnostic[-2000:]}")
-        bad = proxies.pop(bad_index)
-        names.discard(bad["name"])
-        print(f"Excluded Mihomo-invalid proxy: {bad.get('name')} ({diagnostic.strip()[-300:]})", flush=True)
-    else:
-        raise RuntimeError("Too many invalid proxy entries; aborting without publishing.")
+        if len(batch) == 1:
+            print(f"Excluded Mihomo-invalid proxy: {batch[0].get('name')} ({diagnostic.strip()[-300:]})", flush=True)
+            return []
+        middle = len(batch) // 2
+        return valid_batch(batch[:middle]) + valid_batch(batch[middle:])
+
+    # Public aggregation feeds can contain malformed credentials/fields. Validate bounded
+    # batches using Mihomo itself, recursively isolating bad entries without repeatedly parsing
+    # the entire 10k+ candidate list.
+    mihomo_valid = []
+    batch_size = 256
+    for offset in range(0, len(proxies), batch_size):
+        mihomo_valid.extend(valid_batch(proxies[offset:offset + batch_size]))
+    removed = len(proxies) - len(mihomo_valid)
+    proxies = mihomo_valid
+    names = {p["name"] for p in proxies}
+    if removed:
+        print(f"Excluded {removed} Mihomo-invalid proxies; {len(proxies)} candidates remain.", flush=True)
     if not proxies:
         raise SystemExit("No Mihomo-valid candidate proxies; keeping prior publication.")
+    probe_cfg.write_text(yaml.safe_dump({
+        "mixed-port": 17890,
+        "allow-lan": False,
+        "mode": "rule",
+        "log-level": "error",
+        "external-controller": "127.0.0.1:19090",
+        "proxies": proxies,
+    }, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
     print(f"Mihomo config validation passed for {len(proxies)} candidates.", flush=True)
 
     log_path = data_dir / "mihomo.log"
