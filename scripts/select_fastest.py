@@ -3,6 +3,7 @@
 import argparse
 import concurrent.futures
 import json
+import re
 import statistics
 import subprocess
 import tempfile
@@ -65,14 +66,40 @@ def main():
     args.report.parent.mkdir(parents=True, exist_ok=True)
     data_dir = Path(tempfile.mkdtemp(prefix="airport3-mihomo-"))
     probe_cfg = data_dir / "probe.yaml"
-    probe_cfg.write_text(yaml.safe_dump({
-        "mixed-port": 17890,
-        "allow-lan": False,
-        "mode": "rule",
-        "log-level": "error",
-        "external-controller": "127.0.0.1:19090",
-        "proxies": proxies,
-    }, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+    def write_probe_config():
+        probe_cfg.write_text(yaml.safe_dump({
+            "mixed-port": 17890,
+            "allow-lan": False,
+            "mode": "rule",
+            "log-level": "error",
+            "external-controller": "127.0.0.1:19090",
+            "proxies": proxies,
+        }, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+
+    # Public aggregation feeds can contain syntactically invalid credentials/fields.
+    # Let Mihomo itself identify and exclude invalid entries before starting the probe.
+    for _ in range(300):
+        write_probe_config()
+        check = subprocess.run([str(args.mihomo), "-t", "-f", str(probe_cfg), "-d", str(data_dir)],
+                               capture_output=True, text=True)
+        if check.returncode == 0:
+            break
+        diagnostic = check.stdout + "\n" + check.stderr
+        match = re.search(r"proxy\s+(\d+):", diagnostic, re.IGNORECASE)
+        if not match:
+            raise RuntimeError(f"Mihomo configuration validation failed: {diagnostic[-4000:]}")
+        bad_index = int(match.group(1)) - 1
+        if bad_index < 0 or bad_index >= len(proxies):
+            raise RuntimeError(f"Mihomo reported invalid proxy index {bad_index + 1} for {len(proxies)} entries: {diagnostic[-2000:]}")
+        bad = proxies.pop(bad_index)
+        names.discard(bad["name"])
+        print(f"Excluded Mihomo-invalid proxy: {bad.get('name')} ({diagnostic.strip()[-300:]})", flush=True)
+    else:
+        raise RuntimeError("Too many invalid proxy entries; aborting without publishing.")
+    if not proxies:
+        raise SystemExit("No Mihomo-valid candidate proxies; keeping prior publication.")
+    print(f"Mihomo config validation passed for {len(proxies)} candidates.", flush=True)
+
     log_path = data_dir / "mihomo.log"
     log = log_path.open("w", encoding="utf-8")
     proc = subprocess.Popen([str(args.mihomo), "-f", str(probe_cfg), "-d", str(data_dir)],
