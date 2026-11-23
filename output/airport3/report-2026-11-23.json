@@ -1,0 +1,468 @@
+{
+  "mihomo_version": "v1.19.34",
+  "target": "https://www.gstatic.com/generate_204",
+  "timeout_ms": 5000,
+  "input_count": 17285,
+  "first_pass_count": 1684,
+  "first_failed_count": 15601,
+  "stability_shortlist": 150,
+  "stable_3_of_3": 147,
+  "selected_count": 50,
+  "median_latency_ms": {
+    "min": 31,
+    "max": 60
+  },
+  "selected": [
+    {
+      "name": "[300.7ms +/-7ms] 4Jadi-ef83b9ffbb",
+      "median_ms": 31,
+      "samples_ms": [
+        30,
+        31,
+        37
+      ]
+    },
+    {
+      "name": "🇺🇸 US-@VPNine1 8",
+      "median_ms": 36,
+      "samples_ms": [
+        34,
+        36,
+        36
+      ]
+    },
+    {
+      "name": "vmess-1853348260",
+      "median_ms": 37,
+      "samples_ms": [
+        38,
+        37,
+        35
+      ]
+    },
+    {
+      "name": "🇺🇸 [OpenRay] US-16159 By EbraSha",
+      "median_ms": 38,
+      "samples_ms": [
+        37,
+        43,
+        38
+      ]
+    },
+    {
+      "name": "shadowsocks-1827963904",
+      "median_ms": 41,
+      "samples_ms": [
+        45,
+        41,
+        39
+      ]
+    },
+    {
+      "name": "REvil12",
+      "median_ms": 42,
+      "samples_ms": [
+        182,
+        42,
+        42
+      ]
+    },
+    {
+      "name": "REvil73 2",
+      "median_ms": 43,
+      "samples_ms": [
+        167,
+        43,
+        42
+      ]
+    },
+    {
+      "name": "REvil54 2",
+      "median_ms": 44,
+      "samples_ms": [
+        174,
+        44,
+        43
+      ]
+    },
+    {
+      "name": "REvil61",
+      "median_ms": 46,
+      "samples_ms": [
+        189,
+        46,
+        42
+      ]
+    },
+    {
+      "name": "REvil75",
+      "median_ms": 47,
+      "samples_ms": [
+        141,
+        42,
+        47
+      ]
+    },
+    {
+      "name": "vless-1853340740",
+      "median_ms": 47,
+      "samples_ms": [
+        44,
+        52,
+        47
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.198:23576 39",
+      "median_ms": 47,
+      "samples_ms": [
+        45,
+        68,
+        47
+      ]
+    },
+    {
+      "name": "REvil11 2",
+      "median_ms": 48,
+      "samples_ms": [
+        183,
+        43,
+        48
+      ]
+    },
+    {
+      "name": "REvil82",
+      "median_ms": 48,
+      "samples_ms": [
+        163,
+        38,
+        48
+      ]
+    },
+    {
+      "name": "REvil44",
+      "median_ms": 49,
+      "samples_ms": [
+        178,
+        49,
+        42
+      ]
+    },
+    {
+      "name": "REvil51",
+      "median_ms": 49,
+      "samples_ms": [
+        165,
+        40,
+        49
+      ]
+    },
+    {
+      "name": "REvil56 2",
+      "median_ms": 49,
+      "samples_ms": [
+        184,
+        49,
+        48
+      ]
+    },
+    {
+      "name": "US_53_@Surfboardv2ray",
+      "median_ms": 49,
+      "samples_ms": [
+        48,
+        49,
+        70
+      ]
+    },
+    {
+      "name": "US_9_@Surfboardv2ray",
+      "median_ms": 49,
+      "samples_ms": [
+        46,
+        55,
+        49
+      ]
+    },
+    {
+      "name": "🆔ar14n24b VL-TCP- XX 345ms",
+      "median_ms": 49,
+      "samples_ms": [
+        44,
+        52,
+        49
+      ]
+    },
+    {
+      "name": "77",
+      "median_ms": 50,
+      "samples_ms": [
+        49,
+        50,
+        65
+      ]
+    },
+    {
+      "name": "REvil49",
+      "median_ms": 50,
+      "samples_ms": [
+        175,
+        44,
+        50
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.219:23576 12",
+      "median_ms": 50,
+      "samples_ms": [
+        43,
+        51,
+        50
+      ]
+    },
+    {
+      "name": "3@oneclickvpnkeys",
+      "median_ms": 52,
+      "samples_ms": [
+        46,
+        52,
+        63
+      ]
+    },
+    {
+      "name": "REvil30",
+      "median_ms": 52,
+      "samples_ms": [
+        128,
+        52,
+        51
+      ]
+    },
+    {
+      "name": "REvil54",
+      "median_ms": 52,
+      "samples_ms": [
+        179,
+        52,
+        47
+      ]
+    },
+    {
+      "name": "vless-1853340423",
+      "median_ms": 52,
+      "samples_ms": [
+        46,
+        52,
+        62
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.195:23576 10",
+      "median_ms": 52,
+      "samples_ms": [
+        44,
+        52,
+        55
+      ]
+    },
+    {
+      "name": "15.204.97.197:23576",
+      "median_ms": 53,
+      "samples_ms": [
+        44,
+        61,
+        53
+      ]
+    },
+    {
+      "name": "144",
+      "median_ms": 54,
+      "samples_ms": [
+        45,
+        54,
+        58
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.214:23576 36",
+      "median_ms": 54,
+      "samples_ms": [
+        49,
+        54,
+        59
+      ]
+    },
+    {
+      "name": "EPODONIOS 6",
+      "median_ms": 55,
+      "samples_ms": [
+        46,
+        59,
+        55
+      ]
+    },
+    {
+      "name": "REvil67",
+      "median_ms": 55,
+      "samples_ms": [
+        61,
+        55,
+        49
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.198:23576 23",
+      "median_ms": 55,
+      "samples_ms": [
+        46,
+        58,
+        55
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.216:23576 13",
+      "median_ms": 56,
+      "samples_ms": [
+        49,
+        65,
+        56
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.219:23576 36",
+      "median_ms": 56,
+      "samples_ms": [
+        44,
+        64,
+        56
+      ]
+    },
+    {
+      "name": "Channel 3",
+      "median_ms": 57,
+      "samples_ms": [
+        49,
+        63,
+        57
+      ]
+    },
+    {
+      "name": "vless-1853340242",
+      "median_ms": 57,
+      "samples_ms": [
+        46,
+        67,
+        57
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.195:23576 35",
+      "median_ms": 57,
+      "samples_ms": [
+        56,
+        62,
+        57
+      ]
+    },
+    {
+      "name": "hysteria2-1853166912",
+      "median_ms": 58,
+      "samples_ms": [
+        58,
+        71,
+        34
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.195:23576 3",
+      "median_ms": 58,
+      "samples_ms": [
+        49,
+        58,
+        65
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.216:23576 23",
+      "median_ms": 58,
+      "samples_ms": [
+        48,
+        70,
+        58
+      ]
+    },
+    {
+      "name": "b2n.ir/v2ray-configs | 659",
+      "median_ms": 59,
+      "samples_ms": [
+        62,
+        59,
+        59
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.206:23576 16",
+      "median_ms": 59,
+      "samples_ms": [
+        48,
+        68,
+        59
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.206:23576 38",
+      "median_ms": 59,
+      "samples_ms": [
+        47,
+        59,
+        60
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.214:23576 12",
+      "median_ms": 59,
+      "samples_ms": [
+        48,
+        68,
+        59
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | 15.204.97.214:23576 43",
+      "median_ms": 59,
+      "samples_ms": [
+        46,
+        62,
+        59
+      ]
+    },
+    {
+      "name": "🇺🇸 United States - Hillsboro | ww13.levikogjgfdd.ir:23576 10",
+      "median_ms": 59,
+      "samples_ms": [
+        48,
+        59,
+        68
+      ]
+    },
+    {
+      "name": "211598",
+      "median_ms": 60,
+      "samples_ms": [
+        47,
+        60,
+        63
+      ]
+    },
+    {
+      "name": "[374.5ms +/-5ms] vless-1853340740",
+      "median_ms": 60,
+      "samples_ms": [
+        48,
+        60,
+        68
+      ]
+    }
+  ],
+  "elapsed_seconds": 279.4
+}
