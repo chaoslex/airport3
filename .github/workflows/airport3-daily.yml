@@ -1,9 +1,6 @@
 name: Airport 3 daily discovery, validation, and publish
 
 on:
-  schedule:
-    # 07:00 Asia/Shanghai (UTC+08:00); GitHub may start scheduled runs later under load.
-    - cron: '0 23 * * *'
   workflow_dispatch:
 
 permissions:
