@@ -125,10 +125,14 @@ def main():
         else:
             raise RuntimeError("Mihomo controller did not become ready.")
         loaded = get_json(API + "/proxies", timeout=60).get("proxies", {})
-        missing = [n for n in names if n not in loaded]
+        missing = sorted(n for n in names if n not in loaded)
         if missing:
-            raise RuntimeError(f"Mihomo did not load {len(missing)} of {len(names)} candidate proxies.")
-        print(f"Mihomo {version.get('version')} loaded {len(names)} nodes; testing {URL} with {TIMEOUT_MS} ms timeout.", flush=True)
+            print(f"Excluded {len(missing)} config-valid candidates not loaded by Mihomo.", flush=True)
+            names.difference_update(missing)
+            proxies = [p for p in proxies if p["name"] in names]
+        if not names:
+            raise RuntimeError("Mihomo loaded no candidate proxies; keeping prior publication.")
+        print(f"Mihomo {version.get('version')} loaded {len(names)} candidates; testing {URL} with {TIMEOUT_MS} ms timeout.", flush=True)
 
         def probe(name):
             endpoint = API + "/proxies/" + urllib.parse.quote(name, safe="") + "/delay?timeout=5000&url=" + urllib.parse.quote(URL, safe="")
@@ -188,7 +192,8 @@ def main():
         args.output.write_text(yaml.safe_dump(output, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
         report = {
             "mihomo_version": version.get("version"), "target": URL, "timeout_ms": TIMEOUT_MS,
-            "input_count": len(names), "first_pass_count": len(passing),
+            "input_count": len(mihomo_valid), "mihomo_unloaded_count": len(missing),
+            "probe_candidate_count": len(names), "first_pass_count": len(passing),
             "first_failed_count": len(first) - len(passing), "stability_shortlist": len(shortlist),
             "stable_3_of_3": len(stable), "selected_count": len(selected),
             "median_latency_ms": {"min": min(r["median_ms"] for r in selected), "max": max(r["median_ms"] for r in selected)},
