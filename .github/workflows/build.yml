@@ -1,4 +1,4 @@
-name: Build, Test & Publish
+name: Build, Test & Docker Smoke
 
 on:
   push:
@@ -96,29 +96,6 @@ jobs:
           docker restart proxynodehub-ci
           wait_ready
           node tests/http-smoke.mjs
-      - name: Publish tested image to Docker Hub
-        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/v'))
-        shell: bash
-        env:
-          DOCKERHUB_USERNAME: ${{ vars.DOCKERHUB_USERNAME }}
-          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          : "${DOCKERHUB_USERNAME:?Set the DOCKERHUB_USERNAME repository variable}"
-          : "${DOCKERHUB_TOKEN:?Set the DOCKERHUB_TOKEN repository secret}"
-          image="$DOCKERHUB_USERNAME/proxynodehub"
-          printf '%s' "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-          docker tag proxynodehub:ci "$image:sha-$GITHUB_SHA"
-          docker push "$image:sha-$GITHUB_SHA"
-          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
-            tag="$GITHUB_REF_NAME"
-          else
-            tag=latest
-          fi
-          docker tag proxynodehub:ci "$image:$tag"
-          docker push "$image:$tag"
-          printf 'Published `%s:sha-%s` and `%s:%s` after all tests passed.\n' \
-            "$image" "$GITHUB_SHA" "$image" "$tag" >> "$GITHUB_STEP_SUMMARY"
       - name: Cleanup
         if: always()
         run: |

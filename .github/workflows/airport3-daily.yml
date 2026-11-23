@@ -1,0 +1,126 @@
+name: Airport 3 daily discovery, validation, and publish
+
+on:
+  schedule:
+    # 07:00 Asia/Shanghai (UTC+08:00); GitHub may start scheduled runs later under load.
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: airport3-daily
+  cancel-in-progress: false
+
+jobs:
+  discover-test-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build ProxyNodeHub Web discovery engine
+        run: dotnet publish web/ProxyNodeHub.Web.csproj -c Release -o "$RUNNER_TEMP/proxynodehub-publish"
+      - name: Run one fresh ProxyNodeHub discovery
+        shell: bash
+        env:
+          GH_API_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          data="$RUNNER_TEMP/airport3-discovery-data"
+          mkdir -p "$data"
+          password="$(openssl rand -hex 24)"
+          ASPNETCORE_URLS=http://127.0.0.1:8388 \
+            DATA_DIR="$data" ADMIN_PASSWORD="$password" \
+            GITHUB_TOKEN="$GH_API_TOKEN" REFRESH_HOURS=24 REPO_COUNT=10 \
+            INACTIVE_DAYS=30 AUTO_REFRESH=true \
+            dotnet "$RUNNER_TEMP/proxynodehub-publish/ProxyNodeHub.Web.dll" \
+            >"$RUNNER_TEMP/airport3-discovery.log" 2>&1 &
+          echo $! > "$RUNNER_TEMP/airport3-discovery.pid"
+          ready=0
+          for i in $(seq 1 90); do
+            if curl -fsS http://127.0.0.1:8388/live >/dev/null; then ready=1; break; fi
+            sleep 2
+          done
+          if [ "$ready" != 1 ]; then cat "$RUNNER_TEMP/airport3-discovery.log"; exit 1; fi
+          ok=0
+          for i in $(seq 1 450); do
+            code="$(curl -sS -o "$RUNNER_TEMP/subscriptions.txt" -w '%{http_code}' http://127.0.0.1:8388/subscriptions.txt || true)"
+            if [ "$code" = 200 ] && [ -s "$RUNNER_TEMP/subscriptions.txt" ]; then ok=1; break; fi
+            if ! kill -0 "$(cat "$RUNNER_TEMP/airport3-discovery.pid")" 2>/dev/null; then cat "$RUNNER_TEMP/airport3-discovery.log"; exit 1; fi
+            sleep 2
+          done
+          if [ "$ok" != 1 ]; then tail -120 "$RUNNER_TEMP/airport3-discovery.log"; exit 1; fi
+          echo "Discovered $(wc -l < "$RUNNER_TEMP/subscriptions.txt") public source URLs."
+          cat "$RUNNER_TEMP/subscriptions.txt"
+      - name: Install pinned subscription converter and Mihomo
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/tools" .tmp/site/airport3 output/airport3
+          curl -fsSL --retry 3 https://github.com/Jungley8/subconverter-ng/releases/download/v0.16.0/subconverter-ng_0.16.0_linux_amd64.tar.gz -o "$RUNNER_TEMP/subconverter.tar.gz"
+          echo 'ac158e00bd94c8b87951f202ad4d5cb028c059625f92610a8dcda290c49ba193  '"$RUNNER_TEMP/subconverter.tar.gz" | sha256sum -c -
+          tar -xzf "$RUNNER_TEMP/subconverter.tar.gz" -C "$RUNNER_TEMP/tools"
+          curl -fsSL --retry 3 https://github.com/MetaCubeX/mihomo/releases/download/v1.19.34/mihomo-linux-amd64-v1-v1.19.34.gz -o "$RUNNER_TEMP/mihomo.gz"
+          echo '0c07340a01408d033dda4088ea2a4c1e4d82aeed7b2f84f7c046e93b6ff3290c  '"$RUNNER_TEMP/mihomo.gz" | sha256sum -c -
+          gzip -dc "$RUNNER_TEMP/mihomo.gz" > "$RUNNER_TEMP/tools/mihomo"
+          chmod +x "$RUNNER_TEMP/tools/mihomo"
+          python3 -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+      - name: Convert public sources and select the fastest stable nodes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, pathlib, subprocess
+          root = pathlib.Path(os.environ["RUNNER_TEMP"])
+          urls = [x.strip() for x in (root / "subscriptions.txt").read_text().splitlines() if x.strip()]
+          if not urls:
+              raise SystemExit("No discovered subscription sources; retaining last published file.")
+          subprocess.run([
+              str(root / "tools/subconverter-ng"), "convert", "--url", "|".join(urls),
+              "--target", "clash", "--dedup", "--timeout", "45s", "-o", ".tmp/candidates.yaml"
+          ], check=True)
+          PY
+          python3 scripts/select_fastest.py \
+            --input .tmp/candidates.yaml \
+            --mihomo "$RUNNER_TEMP/tools/mihomo" \
+            --output .tmp/site/airport3/alexfree-$(TZ=Asia/Shanghai date +%F)-机场3.yaml \
+            --report .tmp/site/airport3/report.json
+          "$RUNNER_TEMP/tools/mihomo" -t -f ".tmp/site/airport3/alexfree-$(TZ=Asia/Shanghai date +%F)-机场3.yaml"
+          cp .tmp/site/airport3/alexfree-$(TZ=Asia/Shanghai date +%F)-机场3.yaml output/airport3/
+          cp .tmp/site/airport3/report.json output/airport3/report-$(TZ=Asia/Shanghai date +%F).json
+          filename="alexfree-$(TZ=Asia/Shanghai date +%F)-机场3.yaml"
+          printf '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>机场3订阅</title><main><h1>机场3 · 每日筛测订阅</h1><p>今日最新文件：<a href="airport3/%s">%s</a></p><p>基于公开来源，用 Mihomo 对每个节点请求 gstatic generate_204，5秒超时；候选前150名再测三轮，仅保留三轮全通节点，按三轮中位延迟排序，最多50个。</p><p>测量来自 GitHub 托管的运行环境，不保证你的手机网络可连接；免费节点可能随时失效。</p></main></html>\n' "$filename" "$filename" > .tmp/site/index.html
+          echo "Published candidate: .tmp/site/airport3/$filename"
+          if [ "$(jq -r .selected_count .tmp/site/airport3/report.json)" -lt 1 ]; then exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add output/airport3
+          if ! git diff --cached --quiet; then
+            git commit -m "airport3: publish $(TZ=Asia/Shanghai date +%F) validated subscription [skip ci]"
+            git push
+          fi
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .tmp/site
+      - name: Deploy Airport 3 Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Stop discovery service
+        if: always()
+        shell: bash
+        run: |
+          if [ -f "$RUNNER_TEMP/airport3-discovery.pid" ]; then kill "$(cat "$RUNNER_TEMP/airport3-discovery.pid")" 2>/dev/null || true; fi

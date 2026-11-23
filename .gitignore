@@ -35,3 +35,10 @@ secrets/
 # 本地执行记录（不属于发布源码）
 .ai/
 .codex-tasks/
+
+# Daily Airport 3 build workspace
+.tmp/
+
+# Python bytecode
+__pycache__/
+*.py[cod]

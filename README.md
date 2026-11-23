@@ -1,3 +1,13 @@
+# Airport 3 deployment
+
+This repository contains the upstream ProxyNodeHub source plus a daily Airport 3 workflow. At 07:00 Asia/Shanghai (GitHub scheduled jobs can start late), it runs ProxyNodeHub discovery against public GitHub sources, converts discovered feeds to Clash, tests candidates on a GitHub-hosted runner with Mihomo against `https://www.gstatic.com/generate_204` (5-second timeout), re-tests the first 150 passing candidates twice, and publishes up to 50 nodes that pass all three rounds, ranked by median latency. Failed runs leave the prior Pages publication untouched.
+
+The daily YAML is published at [Airport 3 Pages](https://chaoslex.github.io/airport3/); each dated file uses `alexfree-YYYY-MM-DD-机场3.yaml`. This is a static daily snapshot, not the ProxyNodeHub admin Web dashboard. Runner results are not a mainland-mobile reachability guarantee; free public nodes can stop working at any time. No personal feeds, credentials or user-provided secrets are stored in the repository.
+
+The original ProxyNodeHub project documentation follows below.
+
+---
+
 <div align="center">
 
 # ProxyNodeHub
