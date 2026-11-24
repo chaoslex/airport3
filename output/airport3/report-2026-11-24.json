@@ -2,469 +2,469 @@
   "mihomo_version": "v1.19.34",
   "target": "https://www.gstatic.com/generate_204",
   "timeout_ms": 5000,
-  "input_count": 10033,
+  "input_count": 28834,
   "mihomo_unloaded_count": 1,
-  "probe_candidate_count": 10032,
-  "first_pass_count": 1228,
-  "first_failed_count": 8804,
+  "probe_candidate_count": 28833,
+  "first_pass_count": 1126,
+  "first_failed_count": 27707,
   "stability_shortlist": 150,
-  "stable_3_of_3": 144,
+  "stable_3_of_3": 137,
   "selected_count": 50,
   "median_latency_ms": {
-    "min": 56,
-    "max": 132
+    "min": 22,
+    "max": 70
   },
   "selected": [
     {
-      "name": "🇺🇸 US 23",
-      "median_ms": 56,
+      "name": "[419.8ms +/-2ms]",
+      "median_ms": 22,
       "samples_ms": [
-        56,
-        55,
-        65
+        20,
+        22,
+        22
       ]
     },
     {
-      "name": "🇺🇸 US 26",
-      "median_ms": 61,
+      "name": "[250.6ms +/-0ms] shadowsocks-1875129452",
+      "median_ms": 26,
       "samples_ms": [
-        63,
-        56,
-        61
+        22,
+        26,
+        44
       ]
     },
     {
-      "name": "NiREvil-247",
-      "median_ms": 66,
+      "name": "[462.5ms +/-0ms] 4Jadi-edf2067336",
+      "median_ms": 26,
       "samples_ms": [
-        167,
-        62,
-        66
+        28,
+        26,
+        22
       ]
     },
     {
-      "name": "UNKNOWN 81",
-      "median_ms": 66,
+      "name": "By EbraSha 8",
+      "median_ms": 27,
       "samples_ms": [
-        67,
-        66,
-        62
+        27,
+        24,
+        33
       ]
     },
     {
-      "name": "NiREvil-337",
-      "median_ms": 71,
+      "name": "filembad-485",
+      "median_ms": 29,
       "samples_ms": [
-        198,
-        64,
-        71
-      ]
-    },
-    {
-      "name": "NiREvil-484",
-      "median_ms": 71,
-      "samples_ms": [
-        188,
-        71,
-        62
-      ]
-    },
-    {
-      "name": "NiREvil-187",
-      "median_ms": 72,
-      "samples_ms": [
-        165,
-        55,
-        72
-      ]
-    },
-    {
-      "name": "REvil60",
-      "median_ms": 75,
-      "samples_ms": [
-        147,
-        56,
-        75
-      ]
-    },
-    {
-      "name": "🇺🇸 US | @Raydikalx | 882A7F",
-      "median_ms": 76,
-      "samples_ms": [
-        64,
-        76,
-        113
-      ]
-    },
-    {
-      "name": "REvil27",
-      "median_ms": 79,
-      "samples_ms": [
-        178,
-        63,
-        79
-      ]
-    },
-    {
-      "name": "NiREvil-447",
-      "median_ms": 80,
-      "samples_ms": [
-        170,
-        80,
-        67
+        29,
+        24,
+        31
       ]
     },
     {
       "name": "REvil31",
-      "median_ms": 81,
+      "median_ms": 40,
       "samples_ms": [
-        81,
-        115,
+        108,
+        40,
+        40
+      ]
+    },
+    {
+      "name": "REvil16 2",
+      "median_ms": 42,
+      "samples_ms": [
+        158,
+        42,
+        40
+      ]
+    },
+    {
+      "name": "REvil86",
+      "median_ms": 42,
+      "samples_ms": [
+        166,
+        42,
+        42
+      ]
+    },
+    {
+      "name": "REvil80 2",
+      "median_ms": 43,
+      "samples_ms": [
+        180,
+        40,
+        43
+      ]
+    },
+    {
+      "name": "🇺🇸 US-23.150.152.38-0165",
+      "median_ms": 43,
+      "samples_ms": [
+        42,
+        43,
+        51
+      ]
+    },
+    {
+      "name": "REvil42 3",
+      "median_ms": 44,
+      "samples_ms": [
+        172,
+        44,
+        39
+      ]
+    },
+    {
+      "name": "🇺🇸 US-95.215.201.18-0191",
+      "median_ms": 44,
+      "samples_ms": [
+        44,
+        47,
+        22
+      ]
+    },
+    {
+      "name": "REvil20 2",
+      "median_ms": 45,
+      "samples_ms": [
+        59,
+        41,
+        45
+      ]
+    },
+    {
+      "name": "REvil26",
+      "median_ms": 45,
+      "samples_ms": [
+        186,
+        45,
+        38
+      ]
+    },
+    {
+      "name": "[258.4ms +/-5ms]",
+      "median_ms": 45,
+      "samples_ms": [
+        37,
+        45,
+        54
+      ]
+    },
+    {
+      "name": "REvil33",
+      "median_ms": 47,
+      "samples_ms": [
+        163,
+        47,
+        40
+      ]
+    },
+    {
+      "name": "REvil74 2",
+      "median_ms": 47,
+      "samples_ms": [
+        179,
+        43,
+        47
+      ]
+    },
+    {
+      "name": "[312.3ms +/-4ms] 4Nika-dd2345695a",
+      "median_ms": 48,
+      "samples_ms": [
+        52,
+        41,
+        48
+      ]
+    },
+    {
+      "name": "REvil66",
+      "median_ms": 49,
+      "samples_ms": [
+        171,
+        49,
+        46
+      ]
+    },
+    {
+      "name": "REvil46",
+      "median_ms": 50,
+      "samples_ms": [
+        183,
+        50,
+        50
+      ]
+    },
+    {
+      "name": "REvil46 2",
+      "median_ms": 50,
+      "samples_ms": [
+        183,
+        50,
+        41
+      ]
+    },
+    {
+      "name": "🇺🇸 US-107.151.182.253-0869",
+      "median_ms": 50,
+      "samples_ms": [
+        50,
+        50,
+        53
+      ]
+    },
+    {
+      "name": "NiREvil-444",
+      "median_ms": 51,
+      "samples_ms": [
+        174,
+        41,
+        51
+      ]
+    },
+    {
+      "name": "REvil19",
+      "median_ms": 51,
+      "samples_ms": [
+        168,
+        51,
+        41
+      ]
+    },
+    {
+      "name": "REvil28",
+      "median_ms": 51,
+      "samples_ms": [
+        185,
+        40,
+        51
+      ]
+    },
+    {
+      "name": "REvil77",
+      "median_ms": 51,
+      "samples_ms": [
+        139,
+        51,
+        41
+      ]
+    },
+    {
+      "name": "REvil8",
+      "median_ms": 51,
+      "samples_ms": [
+        179,
+        50,
+        51
+      ]
+    },
+    {
+      "name": "@freenetvt 2",
+      "median_ms": 52,
+      "samples_ms": [
+        158,
+        52,
+        41
+      ]
+    },
+    {
+      "name": "REvil12",
+      "median_ms": 53,
+      "samples_ms": [
+        70,
+        53,
+        43
+      ]
+    },
+    {
+      "name": "REvil36",
+      "median_ms": 53,
+      "samples_ms": [
+        53,
+        50,
+        53
+      ]
+    },
+    {
+      "name": "@freenetvt 3",
+      "median_ms": 54,
+      "samples_ms": [
+        54,
+        45,
+        54
+      ]
+    },
+    {
+      "name": "REvil43 2",
+      "median_ms": 54,
+      "samples_ms": [
+        54,
+        63,
+        46
+      ]
+    },
+    {
+      "name": "REvil72 2",
+      "median_ms": 55,
+      "samples_ms": [
+        61,
+        55,
+        53
+      ]
+    },
+    {
+      "name": "@freenetvt",
+      "median_ms": 56,
+      "samples_ms": [
+        156,
+        47,
+        56
+      ]
+    },
+    {
+      "name": "NiREvil-472",
+      "median_ms": 56,
+      "samples_ms": [
+        184,
+        56,
+        52
+      ]
+    },
+    {
+      "name": "REvil73",
+      "median_ms": 57,
+      "samples_ms": [
+        66,
+        56,
+        57
+      ]
+    },
+    {
+      "name": "[249.9ms +/-3ms] http-138.199.35.204",
+      "median_ms": 58,
+      "samples_ms": [
+        55,
+        58,
+        67
+      ]
+    },
+    {
+      "name": "REvil48",
+      "median_ms": 59,
+      "samples_ms": [
+        59,
+        69,
+        49
+      ]
+    },
+    {
+      "name": "REvil54",
+      "median_ms": 59,
+      "samples_ms": [
+        87,
+        54,
+        59
+      ]
+    },
+    {
+      "name": "REvil69",
+      "median_ms": 59,
+      "samples_ms": [
+        59,
+        111,
+        45
+      ]
+    },
+    {
+      "name": "REvil56",
+      "median_ms": 61,
+      "samples_ms": [
+        64,
+        57,
+        61
+      ]
+    },
+    {
+      "name": "[251.9ms +/-3ms] http-138.199.35.201",
+      "median_ms": 61,
+      "samples_ms": [
+        61,
+        56,
         75
       ]
     },
     {
-      "name": "REvil43",
-      "median_ms": 82,
+      "name": "[291.4ms +/-1ms] http-138.199.35.220",
+      "median_ms": 61,
       "samples_ms": [
-        198,
-        82,
+        61,
+        67,
+        56
+      ]
+    },
+    {
+      "name": "[252.4ms +/-0ms] http-138.199.35.206",
+      "median_ms": 63,
+      "samples_ms": [
+        58,
+        65,
+        63
+      ]
+    },
+    {
+      "name": "REvil72 3",
+      "median_ms": 66,
+      "samples_ms": [
+        66,
+        48,
         69
       ]
     },
     {
-      "name": "NiREvil-23",
-      "median_ms": 88,
+      "name": "[327.5ms +/-0ms] http-172.64.69.89",
+      "median_ms": 66,
       "samples_ms": [
-        167,
-        83,
-        88
+        65,
+        66,
+        70
       ]
     },
     {
-      "name": "REvil67",
-      "median_ms": 88,
+      "name": "🇮🇷 [255.8ms +/-1ms] 4FreeIran-4bfa3c38dd",
+      "median_ms": 66,
       "samples_ms": [
-        173,
-        67,
-        88
+        66,
+        64,
+        78
       ]
     },
     {
-      "name": "NiREvil-311",
-      "median_ms": 93,
+      "name": "[292.2ms +/-1ms] http-172.64.68.89",
+      "median_ms": 67,
       "samples_ms": [
-        93,
-        129,
-        58
-      ]
-    },
-    {
-      "name": "NiREvil-459",
-      "median_ms": 94,
-      "samples_ms": [
-        190,
-        56,
-        94
-      ]
-    },
-    {
-      "name": "🇺🇸 US 32",
-      "median_ms": 96,
-      "samples_ms": [
-        96,
-        86,
-        96
-      ]
-    },
-    {
-      "name": "🇺🇸 US 21",
-      "median_ms": 98,
-      "samples_ms": [
-        84,
-        150,
-        98
-      ]
-    },
-    {
-      "name": "🇺🇸 US 88",
-      "median_ms": 102,
-      "samples_ms": [
-        102,
-        94,
-        115
-      ]
-    },
-    {
-      "name": "🇺🇸 US 39",
-      "median_ms": 103,
-      "samples_ms": [
-        103,
-        94,
-        104
-      ]
-    },
-    {
-      "name": "🇺🇸 US 72",
-      "median_ms": 103,
-      "samples_ms": [
-        154,
-        103,
-        97
-      ]
-    },
-    {
-      "name": "🇺🇸 US 46",
-      "median_ms": 105,
-      "samples_ms": [
-        111,
-        105,
-        102
-      ]
-    },
-    {
-      "name": "🇺🇸 US 47",
-      "median_ms": 105,
-      "samples_ms": [
-        96,
-        105,
-        113
-      ]
-    },
-    {
-      "name": "🇺🇸 United States - Chicago | 216.152.155.23:443 8",
-      "median_ms": 106,
-      "samples_ms": [
-        77,
-        106,
-        198
-      ]
-    },
-    {
-      "name": "🇺🇸 US 59",
-      "median_ms": 108,
-      "samples_ms": [
-        110,
-        103,
-        108
-      ]
-    },
-    {
-      "name": "🇺🇸 US 57",
-      "median_ms": 110,
-      "samples_ms": [
-        110,
-        103,
-        128
-      ]
-    },
-    {
-      "name": "NiREvil-136",
-      "median_ms": 111,
-      "samples_ms": [
-        149,
-        111,
-        109
-      ]
-    },
-    {
-      "name": "NiREvil-157",
-      "median_ms": 111,
-      "samples_ms": [
-        147,
-        111,
-        87
-      ]
-    },
-    {
-      "name": "NiREvil-64",
-      "median_ms": 113,
-      "samples_ms": [
-        194,
-        80,
-        113
-      ]
-    },
-    {
-      "name": "NiREvil-180",
-      "median_ms": 114,
-      "samples_ms": [
-        153,
-        114,
-        74
-      ]
-    },
-    {
-      "name": "NiREvil-431",
-      "median_ms": 114,
-      "samples_ms": [
-        184,
-        114,
-        113
-      ]
-    },
-    {
-      "name": "🇨🇦 CA 15",
-      "median_ms": 114,
-      "samples_ms": [
-        114,
-        108,
-        118
-      ]
-    },
-    {
-      "name": "🇺🇸 US 19",
-      "median_ms": 114,
-      "samples_ms": [
+        71,
         63,
-        114,
-        148
+        67
       ]
     },
     {
-      "name": "NiREvil-18",
-      "median_ms": 116,
+      "name": "🇺🇸 US-137.184.89.151-0207",
+      "median_ms": 69,
       "samples_ms": [
-        195,
-        61,
-        116
+        69,
+        68,
+        77
       ]
     },
     {
-      "name": "NiREvil-309",
-      "median_ms": 116,
+      "name": "[277.1ms +/-4ms] Tel-@ProxyMtAlpha",
+      "median_ms": 70,
       "samples_ms": [
-        199,
-        116,
-        66
-      ]
-    },
-    {
-      "name": "🇨🇦 CA 5",
-      "median_ms": 116,
-      "samples_ms": [
-        116,
-        115,
-        137
-      ]
-    },
-    {
-      "name": "🇺🇸 US 18",
-      "median_ms": 118,
-      "samples_ms": [
-        118,
-        83,
-        140
-      ]
-    },
-    {
-      "name": "🇺🇸 US 50",
-      "median_ms": 119,
-      "samples_ms": [
-        128,
-        119,
-        81
-      ]
-    },
-    {
-      "name": "🇺🇸 US 73",
-      "median_ms": 121,
-      "samples_ms": [
-        129,
-        119,
-        121
-      ]
-    },
-    {
-      "name": "🇺🇸 US 68",
-      "median_ms": 122,
-      "samples_ms": [
-        144,
-        103,
-        122
-      ]
-    },
-    {
-      "name": "🇺🇸 US | @Raydikalx | 64D2F8",
-      "median_ms": 123,
-      "samples_ms": [
-        119,
-        163,
-        123
-      ]
-    },
-    {
-      "name": "🇺🇸 US 62",
-      "median_ms": 124,
-      "samples_ms": [
-        124,
-        117,
-        126
-      ]
-    },
-    {
-      "name": "🇺🇸 US 58",
-      "median_ms": 126,
-      "samples_ms": [
-        133,
-        122,
-        126
-      ]
-    },
-    {
-      "name": "🇺🇸 US 61",
-      "median_ms": 128,
-      "samples_ms": [
-        127,
-        128,
-        128
-      ]
-    },
-    {
-      "name": "🇺🇸 US 63",
-      "median_ms": 129,
-      "samples_ms": [
-        120,
-        129,
-        129
-      ]
-    },
-    {
-      "name": "🇨🇦 CA | @Raydikalx | 3037",
-      "median_ms": 130,
-      "samples_ms": [
-        133,
-        101,
-        130
-      ]
-    },
-    {
-      "name": "🇨🇦 CA | @Raydikalx | 0940F6",
-      "median_ms": 131,
-      "samples_ms": [
-        136,
-        127,
-        131
-      ]
-    },
-    {
-      "name": "🇺🇸 US | @Raydikalx | C3E30F",
-      "median_ms": 131,
-      "samples_ms": [
-        129,
-        166,
-        131
-      ]
-    },
-    {
-      "name": "🇺🇸 US 54",
-      "median_ms": 132,
-      "samples_ms": [
-        130,
-        132,
-        141
+        75,
+        70,
+        69
       ]
     }
   ],
-  "elapsed_seconds": 119.7
+  "elapsed_seconds": 434.3
 }
