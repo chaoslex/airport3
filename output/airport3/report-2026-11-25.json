@@ -1,0 +1,470 @@
+{
+  "mihomo_version": "v1.19.34",
+  "target": "https://www.gstatic.com/generate_204",
+  "timeout_ms": 5000,
+  "input_count": 12163,
+  "mihomo_unloaded_count": 2,
+  "probe_candidate_count": 12161,
+  "first_pass_count": 1009,
+  "first_failed_count": 11152,
+  "stability_shortlist": 150,
+  "stable_3_of_3": 148,
+  "selected_count": 50,
+  "median_latency_ms": {
+    "min": 39,
+    "max": 61
+  },
+  "selected": [
+    {
+      "name": "By EbraSha 13",
+      "median_ms": 39,
+      "samples_ms": [
+        38,
+        44,
+        39
+      ]
+    },
+    {
+      "name": "By EbraSha 206",
+      "median_ms": 40,
+      "samples_ms": [
+        40,
+        45,
+        35
+      ]
+    },
+    {
+      "name": "REvil83",
+      "median_ms": 42,
+      "samples_ms": [
+        176,
+        42,
+        41
+      ]
+    },
+    {
+      "name": "[366.2ms +/-1ms] @VPsave",
+      "median_ms": 42,
+      "samples_ms": [
+        33,
+        42,
+        45
+      ]
+    },
+    {
+      "name": "Ops",
+      "median_ms": 43,
+      "samples_ms": [
+        167,
+        40,
+        43
+      ]
+    },
+    {
+      "name": "REvil31 2",
+      "median_ms": 43,
+      "samples_ms": [
+        183,
+        40,
+        43
+      ]
+    },
+    {
+      "name": "REvil59",
+      "median_ms": 45,
+      "samples_ms": [
+        196,
+        45,
+        44
+      ]
+    },
+    {
+      "name": "NiREvil-17",
+      "median_ms": 46,
+      "samples_ms": [
+        190,
+        45,
+        46
+      ]
+    },
+    {
+      "name": "NiREvil-40F",
+      "median_ms": 46,
+      "samples_ms": [
+        178,
+        41,
+        46
+      ]
+    },
+    {
+      "name": "REvil79 2",
+      "median_ms": 46,
+      "samples_ms": [
+        190,
+        42,
+        46
+      ]
+    },
+    {
+      "name": "NiREvil-53",
+      "median_ms": 47,
+      "samples_ms": [
+        170,
+        47,
+        46
+      ]
+    },
+    {
+      "name": "REvil13",
+      "median_ms": 47,
+      "samples_ms": [
+        182,
+        47,
+        47
+      ]
+    },
+    {
+      "name": "151",
+      "median_ms": 49,
+      "samples_ms": [
+        47,
+        49,
+        64
+      ]
+    },
+    {
+      "name": "REvil31",
+      "median_ms": 49,
+      "samples_ms": [
+        188,
+        49,
+        47
+      ]
+    },
+    {
+      "name": "NiREvil-61",
+      "median_ms": 50,
+      "samples_ms": [
+        194,
+        50,
+        47
+      ]
+    },
+    {
+      "name": "REvil54",
+      "median_ms": 50,
+      "samples_ms": [
+        167,
+        48,
+        50
+      ]
+    },
+    {
+      "name": "@SylphNet",
+      "median_ms": 51,
+      "samples_ms": [
+        47,
+        54,
+        51
+      ]
+    },
+    {
+      "name": "@tootffarangi 4",
+      "median_ms": 51,
+      "samples_ms": [
+        46,
+        58,
+        51
+      ]
+    },
+    {
+      "name": "NiREvil-35",
+      "median_ms": 51,
+      "samples_ms": [
+        158,
+        51,
+        43
+      ]
+    },
+    {
+      "name": "NiREvil-18",
+      "median_ms": 52,
+      "samples_ms": [
+        182,
+        47,
+        52
+      ]
+    },
+    {
+      "name": "NiREvil-299",
+      "median_ms": 52,
+      "samples_ms": [
+        201,
+        44,
+        52
+      ]
+    },
+    {
+      "name": "NiREvil-99",
+      "median_ms": 52,
+      "samples_ms": [
+        185,
+        52,
+        48
+      ]
+    },
+    {
+      "name": "REvil41",
+      "median_ms": 52,
+      "samples_ms": [
+        193,
+        51,
+        52
+      ]
+    },
+    {
+      "name": "REvil63 3",
+      "median_ms": 52,
+      "samples_ms": [
+        183,
+        44,
+        52
+      ]
+    },
+    {
+      "name": "166",
+      "median_ms": 53,
+      "samples_ms": [
+        46,
+        55,
+        53
+      ]
+    },
+    {
+      "name": "@chillguy_vpn 7",
+      "median_ms": 53,
+      "samples_ms": [
+        46,
+        56,
+        53
+      ]
+    },
+    {
+      "name": "NiREvil-270",
+      "median_ms": 53,
+      "samples_ms": [
+        170,
+        52,
+        53
+      ]
+    },
+    {
+      "name": "🆔ar14n24b VL-TCP- XX 345ms",
+      "median_ms": 54,
+      "samples_ms": [
+        47,
+        76,
+        54
+      ]
+    },
+    {
+      "name": "15.204.97.209:23576 2",
+      "median_ms": 55,
+      "samples_ms": [
+        49,
+        55,
+        62
+      ]
+    },
+    {
+      "name": "@V2ray_Alpha",
+      "median_ms": 55,
+      "samples_ms": [
+        49,
+        55,
+        58
+      ]
+    },
+    {
+      "name": "@filembad 5",
+      "median_ms": 55,
+      "samples_ms": [
+        46,
+        55,
+        61
+      ]
+    },
+    {
+      "name": "NiREvil-371",
+      "median_ms": 55,
+      "samples_ms": [
+        119,
+        55,
+        47
+      ]
+    },
+    {
+      "name": "REvil23 2",
+      "median_ms": 55,
+      "samples_ms": [
+        205,
+        55,
+        55
+      ]
+    },
+    {
+      "name": "221340",
+      "median_ms": 56,
+      "samples_ms": [
+        50,
+        56,
+        63
+      ]
+    },
+    {
+      "name": "@i10VPN¹⁰",
+      "median_ms": 56,
+      "samples_ms": [
+        48,
+        56,
+        60
+      ]
+    },
+    {
+      "name": "NiREvil-193",
+      "median_ms": 56,
+      "samples_ms": [
+        132,
+        45,
+        56
+      ]
+    },
+    {
+      "name": "REvil57",
+      "median_ms": 56,
+      "samples_ms": [
+        200,
+        45,
+        56
+      ]
+    },
+    {
+      "name": "[584.3ms +/-1ms] vless-1853340740",
+      "median_ms": 56,
+      "samples_ms": [
+        56,
+        59,
+        56
+      ]
+    },
+    {
+      "name": "@filembad",
+      "median_ms": 57,
+      "samples_ms": [
+        47,
+        63,
+        57
+      ]
+    },
+    {
+      "name": "NiREvil-440",
+      "median_ms": 57,
+      "samples_ms": [
+        190,
+        46,
+        57
+      ]
+    },
+    {
+      "name": "NiREvil-9",
+      "median_ms": 58,
+      "samples_ms": [
+        185,
+        57,
+        58
+      ]
+    },
+    {
+      "name": "[395.6ms +/-1ms] vless-1853340242",
+      "median_ms": 58,
+      "samples_ms": [
+        48,
+        58,
+        69
+      ]
+    },
+    {
+      "name": "@FXxNET 5",
+      "median_ms": 59,
+      "samples_ms": [
+        46,
+        59,
+        69
+      ]
+    },
+    {
+      "name": "[320.7ms +/-1ms] shadowsocks-1827146224",
+      "median_ms": 60,
+      "samples_ms": [
+        56,
+        60,
+        63
+      ]
+    },
+    {
+      "name": "unnamed-vless-15.204.97.197-23576",
+      "median_ms": 60,
+      "samples_ms": [
+        50,
+        60,
+        60
+      ]
+    },
+    {
+      "name": "تو 2",
+      "median_ms": 60,
+      "samples_ms": [
+        47,
+        62,
+        60
+      ]
+    },
+    {
+      "name": "15.204.97.209:23576",
+      "median_ms": 61,
+      "samples_ms": [
+        52,
+        63,
+        61
+      ]
+    },
+    {
+      "name": "@FXxNET 2",
+      "median_ms": 61,
+      "samples_ms": [
+        48,
+        61,
+        63
+      ]
+    },
+    {
+      "name": "US_75_@Surfboardv2ray",
+      "median_ms": 61,
+      "samples_ms": [
+        50,
+        64,
+        61
+      ]
+    },
+    {
+      "name": "[85061]",
+      "median_ms": 61,
+      "samples_ms": [
+        48,
+        61,
+        66
+      ]
+    }
+  ],
+  "elapsed_seconds": 246.7
+}

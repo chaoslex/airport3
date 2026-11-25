@@ -1,0 +1,805 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+- name: By EbraSha 13
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  alterId: 0
+  cipher: auto
+  network: tcp
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: By EbraSha 206
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  alterId: 0
+  cipher: auto
+  network: raw
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: REvil83
+  type: wireguard
+  server: 162.159.192.1
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: MA7Swo8IhKktkyur61+8uj25F4ueq1nbHdpOqua85lE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 52
+  - 247
+  - 177
+  udp: true
+- name: '[366.2ms +/-1ms] @VPsave'
+  type: ss
+  server: 38.143.66.146
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: Ops
+  type: wireguard
+  server: 162.159.192.14
+  port: 4177
+  ip: 172.16.0.2
+  mtu: 1380
+  persistent-keepalive: 25
+  private-key: 4AnPXcw8kmCcY6hB4BC5CS1BrVYjP3O1+NXrtm5TdXs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 8
+  - 132
+  - 119
+  udp: true
+- name: REvil31 2
+  type: wireguard
+  server: 162.159.192.7
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: aFkXVcKwDraCrTbfN2mNQ0SaKYZ9DO854dYZ/U4rBX0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 121
+  - 90
+  - 47
+  udp: true
+- name: REvil59
+  type: wireguard
+  server: 162.159.192.2
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: EHGSBx1fPk0GR1lV8jirQcOOAvBEScCwPdbWh6DVDHA=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 129
+  - 202
+  - 80
+  udp: true
+- name: NiREvil-17
+  type: wireguard
+  server: 188.114.97.227
+  port: 7103
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: CFwUVklqGTjY8ulHvVWzyQMAvjBlEcwy1YLxxZ3hEmY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 201
+  - 87
+  - 200
+  udp: true
+- name: NiREvil-40F
+  type: wireguard
+  server: 8.6.112.193
+  port: 8742
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: WDTGYgmQIqsU+xiBtRPjTxxcLYZOOtrCePgInf8ZA30=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 120
+  - 112
+  - 131
+  udp: true
+- name: REvil79 2
+  type: wireguard
+  server: 162.159.192.2
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: EMXKaGh4Ds89P7mWv4Jh3XoVZulobkVg7m80Jw6BrnY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 190
+  - 85
+  - 2
+  udp: true
+- name: NiREvil-53
+  type: wireguard
+  server: 8.6.112.238
+  port: 891
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: gPPwwNTGa90xhCIhIVaSQ/oYxqohqjKJ6q1oVib3yko=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 80
+  - 59
+  - 40
+  udp: true
+- name: REvil13
+  type: wireguard
+  server: 162.159.192.1
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: uOq+CSwipIpOo8uxWoHQQXlaaWribcv+c5AZFlpUU1Y=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 136
+  - 10
+  - 76
+  udp: true
+- name: '151'
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: REvil31
+  type: wireguard
+  server: 162.159.192.7
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: WMwQ/nxzxzCS42FmLM6TzkPKfDN4zPbUXZLagzIwH0E=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 131
+  - 54
+  - 32
+  udp: true
+- name: NiREvil-61
+  type: wireguard
+  server: 8.6.112.206
+  port: 8742
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: kOH5vgOwh9ifsB/tTAgoOjW/02SgvpVKgog7ynk1m10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 111
+  - 24
+  - 156
+  udp: true
+- name: REvil54
+  type: wireguard
+  server: 162.159.192.1
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: KHUM+B0gkpc2HcRqdZBt4iEH6Cf6sBjFfHBttFDHtlM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 8
+  - 48
+  - 119
+  udp: true
+- name: '@SylphNet'
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@tootffarangi 4'
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: NiREvil-35
+  type: wireguard
+  server: 188.114.97.13
+  port: 1002
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: QCvuSNKfmqYIVQw4BIEX/tSSOhhN5uDpAOzTW/h4okY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 253
+  - 111
+  - 113
+  udp: true
+- name: NiREvil-18
+  type: wireguard
+  server: 8.6.112.249
+  port: 939
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: CItzlhi34lByi7hccik7tHYCP1y6cPnJylMDXaRvrEM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 171
+  - 105
+  - 152
+  udp: true
+- name: NiREvil-299
+  type: wireguard
+  server: 8.6.112.136
+  port: 880
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d11:a9e0:ded:7833:af34
+  mtu: 1300
+  private-key: QFVPEny9z5oWuwf6KL+thqR0YH7V/jakbWTn34lJi2E=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-99
+  type: wireguard
+  server: 8.47.69.6
+  port: 945
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:856e:d1a5:f4af:16c9:248c
+  mtu: 1300
+  private-key: /2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil41
+  type: wireguard
+  server: 162.159.192.4
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: yB9pOnuPZXaYTmwXwFPW3mkQ/t12bfHxiaNdAK1qzV0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 187
+  - 5
+  - 232
+  udp: true
+- name: REvil63 3
+  type: wireguard
+  server: 162.159.192.3
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: wHaS7ucekrYlh+lhJEuyj+PT6uRPc4QnvFy8fY38t2g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 237
+  - 181
+  - 44
+  udp: true
+- name: '166'
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: raw
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@chillguy_vpn 7'
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: NiREvil-270
+  type: wireguard
+  server: 8.47.69.56
+  port: 942
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e63:fa7b:97ce:8e3c:5890
+  mtu: 1300
+  private-key: AOVWgdXUZhKdgp+XlMi+y4s3avh+8+B7aI1I7psCSEE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🆔ar14n24b VL-TCP- XX 345ms
+  type: vless
+  server: ww13.levikogjgfdd.ir
+  port: 23576
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 15.204.97.209:23576 2
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@V2ray_Alpha'
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@filembad 5'
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: NiREvil-371
+  type: wireguard
+  server: 8.6.112.18
+  port: 5279
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: 8PTB3BVod2OxOMb7KcMs4/Wg113xjKWb0wjqsHpsOlk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil23 2
+  type: wireguard
+  server: 162.159.192.1
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: AJKDU8KNLSrhF/5LpUkmj5LTkHa7ZFFbnUe8ITwnKVk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 157
+  - 228
+  - 156
+  udp: true
+- name: '221340'
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@i10VPN¹⁰'
+  type: vless
+  server: 15.204.97.216
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: NiREvil-193
+  type: wireguard
+  server: 8.6.112.104
+  port: 1843
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8348:6519:212d:5ac2:41c7
+  mtu: 1300
+  private-key: eCA4Abg68way6qIjF7t6jXWw9AH9m1aUlT75lcvNjVQ=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil57
+  type: wireguard
+  server: 162.159.192.4
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: mIMKCyfLAPgdk7HYYTTVry8nYEiBk9ENPGxPYeablXY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 4
+  - 145
+  - 245
+  udp: true
+- name: '[584.3ms +/-1ms] vless-1853340740'
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+    support-x25519mlkem768: true
+  servername: fuck.rkn
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@filembad'
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: NiREvil-440
+  type: wireguard
+  server: 8.6.112.56
+  port: 2408
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:a3f5:b4eb:4451:e39b
+  mtu: 1300
+  private-key: oJFqaSDKct8x8dmuUjmvxOjuD7eUcGqiQ9Hcdw/2C24=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-9
+  type: wireguard
+  server: 8.6.112.245
+  port: 939
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: 4FLFnClfDQJU8AEBVoF2g1hn9kx+XRGU/Y487dbL03o=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 101
+  - 127
+  - 88
+  udp: true
+- name: '[395.6ms +/-1ms] vless-1853340242'
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+    support-x25519mlkem768: true
+  servername: fuck.rkn
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@FXxNET 5'
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '[320.7ms +/-1ms] shadowsocks-1827146224'
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: unnamed-vless-15.204.97.197-23576
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: تو 2
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 15.204.97.209:23576
+  type: vless
+  server: 15.204.97.209
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: raw
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '@FXxNET 2'
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: US_75_@Surfboardv2ray
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '[85061]'
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: raw
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  tls: true
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - By EbraSha 13
+  - By EbraSha 206
+  - REvil83
+  - '[366.2ms +/-1ms] @VPsave'
+  - Ops
+  - REvil31 2
+  - REvil59
+  - NiREvil-17
+  - NiREvil-40F
+  - REvil79 2
+  - NiREvil-53
+  - REvil13
+  - '151'
+  - REvil31
+  - NiREvil-61
+  - REvil54
+  - '@SylphNet'
+  - '@tootffarangi 4'
+  - NiREvil-35
+  - NiREvil-18
+  - NiREvil-299
+  - NiREvil-99
+  - REvil41
+  - REvil63 3
+  - '166'
+  - '@chillguy_vpn 7'
+  - NiREvil-270
+  - 🆔ar14n24b VL-TCP- XX 345ms
+  - 15.204.97.209:23576 2
+  - '@V2ray_Alpha'
+  - '@filembad 5'
+  - NiREvil-371
+  - REvil23 2
+  - '221340'
+  - '@i10VPN¹⁰'
+  - NiREvil-193
+  - REvil57
+  - '[584.3ms +/-1ms] vless-1853340740'
+  - '@filembad'
+  - NiREvil-440
+  - NiREvil-9
+  - '[395.6ms +/-1ms] vless-1853340242'
+  - '@FXxNET 5'
+  - '[320.7ms +/-1ms] shadowsocks-1827146224'
+  - unnamed-vless-15.204.97.197-23576
+  - تو 2
+  - 15.204.97.209:23576
+  - '@FXxNET 2'
+  - US_75_@Surfboardv2ray
+  - '[85061]'
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
