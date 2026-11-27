@@ -1,0 +1,795 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+- name: By EbraSha 79
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: 129.146.77.248
+    path: /cctv13.m3u8
+- name: By EbraSha 7
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    path: /cctv13.m3u8
+- name: NiREvil-80F
+  type: wireguard
+  server: 8.39.125.178
+  port: 7156
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ipv6: 2606:4700:110:84b5:5c59:34e5:c03e:56bb
+  mtu: 1300
+  private-key: kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil22 2
+  type: wireguard
+  server: 162.159.192.5
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: oMROzxFpdoA1UVBjZZdSrJVD91w+voUH8tcbXLDfdWg=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 184
+  - 19
+  - 178
+  udp: true
+- name: NiREvil-158
+  type: wireguard
+  server: 188.114.97.83
+  port: 946
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.3
+  mtu: 1120
+  private-key: KHKQFgTB6mLTK4BK130AMIXOClMi9NKVvGsHJ5WmM3A=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-188
+  type: wireguard
+  server: 8.6.112.18
+  port: 8742
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: 8PTB3BVod2OxOMb7KcMs4/Wg113xjKWb0wjqsHpsOlk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: '[279.5ms +/-1ms]'
+  type: ss
+  server: 108.181.9.202
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: G5p6ww4o67HB
+  udp: true
+- name: '[333.0ms +/-6ms] 4Nika-dd2345695a'
+  type: ss
+  server: 23.150.152.38
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-23.150.152.38-0119
+  type: ss
+  server: 23.150.152.38
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: REvil48 2
+  type: wireguard
+  server: 162.159.192.5
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: wEiCjOtWmkxQmuJkg2ZS78etsGElnB8t3PJ0i2f7jEQ=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 111
+  - 200
+  - 14
+  udp: true
+- name: NiREvil-344
+  type: wireguard
+  server: 8.6.112.195
+  port: 939
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a82:2f25:1439:61f:a69b
+  mtu: 1300
+  private-key: 4ImOGWaIXEatKByW/Uq+xZAu4AIrO9rhwg9cdF6s5nQ=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🇺🇸 US-95.215.201.18-0106
+  type: ss
+  server: 95.215.201.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: REvil42 2
+  type: wireguard
+  server: 162.159.192.1
+  port: 500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: EBYLnWquNHZqEH99Vvo/6rzHRR4YENxOyxOB9mx3RWY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 36
+  - 175
+  - 97
+  udp: true
+- name: NiREvil-376
+  type: wireguard
+  server: 8.6.112.186
+  port: 943
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:836e:79a6:a79c:7b7d:782b
+  mtu: 1300
+  private-key: wGJxFQ/hpWvGHdf0oz+u/9eYWEkLS/9aDlrG0VVuh24=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-430
+  type: wireguard
+  server: 8.6.112.168
+  port: 1387
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e53:259d:1506:28e1:695
+  mtu: 1300
+  private-key: 2KC4GKGhC0GV+uaco/HIuXNYxsw+W9trd3zYMOv3Nk4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-461
+  type: wireguard
+  server: 8.6.112.199
+  port: 890
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8afe:e60f:264e:3c88:d85b
+  mtu: 1300
+  private-key: AMcuKgrLnWZcBM9Wf8zhybSZaNEAVOxaBGM8z30kyXE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-49
+  type: wireguard
+  server: 188.114.97.38
+  port: 891
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: cPbnxWuM1LyksyZAyOfsh9fIMC4PGuGSmUZWFD6Yr00=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 190
+  - 8
+  - 55
+  udp: true
+- name: NiREvil-62
+  type: wireguard
+  server: 188.114.97.141
+  port: 988
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: mJ8TH2tdNTGWpKGAH1YMHfd7SiYRWneyDWhCQNCT02g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 8
+  - 9
+  - 35
+  udp: true
+- name: '[309.4ms +/-0ms] shadowsocks-1875129452'
+  type: ss
+  server: 95.215.201.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[315.5ms +/-2ms] 4Nika-2851c90315'
+  type: hysteria2
+  server: 172.87.24.53
+  port: 8443
+  password: fce629d692a7b1ad71a17dae29d8b3c6
+  skip-cert-verify: true
+  sni: hy2k2p.local
+- name: NiREvil-308
+  type: wireguard
+  server: 8.6.112.81
+  port: 1070
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d78:40ef:27da:adad:b3dd
+  mtu: 1300
+  private-key: 6MJbT54j3RRWRxDc2M0bBC1ytqlgPF8qmIuQjEhSOGE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-422
+  type: wireguard
+  server: 8.6.112.36
+  port: 3138
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8131:bd4:66a4:a308:861b
+  mtu: 1300
+  private-key: UIQGkxLtPnwJPY7LlaUkazKHmtKbQ5RGO1XEELttH2E=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-455
+  type: wireguard
+  server: 8.6.112.155
+  port: 1843
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:82ca:5aa:a2d9:6776:ed83
+  mtu: 1300
+  private-key: yKsMCPKm94mZplGJW7hbFkuDccipW9l2A7flLdHnJGE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil10
+  type: wireguard
+  server: 162.159.192.5
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: kHqIbTiP3uGRHOdn6SOZBLm6oZgXU2Ls8KxJ97fGwnE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 166
+  - 34
+  - 66
+  udp: true
+- name: REvil20
+  type: wireguard
+  server: 162.159.192.3
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: YMtmXyeFPOEBDw6Vntr4Zfigk10bVYuWdsO1XpLth00=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 235
+  - 200
+  - 94
+  udp: true
+- name: NiREvil-385
+  type: wireguard
+  server: 8.6.112.176
+  port: 3476
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8428:f953:580b:3fdf:52e
+  mtu: 1300
+  private-key: wHc52FofePnlG5R0h6p4RTDvGHYcye69XaxCTqfsdXM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: 🇺🇸 US-173.244.56.6-0094
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: NiREvil-198
+  type: wireguard
+  server: 8.6.112.46
+  port: 3854
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8417:b2c1:d2b7:c027:95a5
+  mtu: 1300
+  private-key: GJ2XqTK6G65QRIBL8rRW17jfwt7Pi5uHaNGRiNWdCGE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil69 4
+  type: wireguard
+  server: 162.159.192.5
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: 8CcEhnchRxR8JMVofTWdO7BtpXx0QLVINfBzWwoZtns=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 184
+  - 96
+  - 98
+  udp: true
+- name: NiREvil-273
+  type: wireguard
+  server: 8.6.112.220
+  port: 939
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8abd:6ed3:39b3:7d6c:246
+  mtu: 1300
+  private-key: sNaufviJQ+jzvD0cN+j2jZg+es2aAizn+46vmnLg8XY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: '[292.6ms +/-0ms] shadowsocks-1827146375'
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[322.6ms +/-1ms] shadowsocks-1827146667'
+  type: ss
+  server: 173.244.56.9
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-173.244.56.9-0089
+  type: ss
+  server: 173.244.56.9
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: NiREvil-253
+  type: wireguard
+  server: 8.6.112.230
+  port: 928
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:88c6:6e2d:597e:fa54:f54f
+  mtu: 1300
+  private-key: EF2YPbbmUP+bJjd33I/rN7ABTcH0kXrBvfiwZg6eMUA=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil27
+  type: wireguard
+  server: 162.159.192.1
+  port: 4500
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: KAaJEux0uUKUIWvbOO2SqHXRZ2q+7SmeYDpPL8U50X4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 239
+  - 39
+  - 240
+  udp: true
+- name: REvil52
+  type: wireguard
+  server: 162.159.192.2
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: 0LziGZNOeGZqEB2vAY7H6tbSRbPcMISmGrJTGVNE3k8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 186
+  - 138
+  - 39
+  udp: true
+- name: NiREvil-409
+  type: wireguard
+  server: 8.6.112.35
+  port: 2408
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:87a0:a957:885b:7ae6:bde6
+  mtu: 1300
+  private-key: aPVJHE55rNESeQDlSLpC3W5rcrWrfdpnMAco3t5WI1M=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-17
+  type: wireguard
+  server: 188.114.97.227
+  port: 7103
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: CFwUVklqGTjY8ulHvVWzyQMAvjBlEcwy1YLxxZ3hEmY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 201
+  - 87
+  - 200
+  udp: true
+- name: NiREvil-290
+  type: wireguard
+  server: 8.6.112.195
+  port: 894
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8cb6:abe7:1968:730d:7ed5
+  mtu: 1300
+  private-key: SCokp6bJgFQok8xenoVs+11ddQGTqOS/jS1XGlHrfGM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-293
+  type: wireguard
+  server: 8.6.112.47
+  port: 4198
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: wFh/joQAOjHdEkdmvvTV77lWivefHgT9cOLmmTXNCmA=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: '[291.5ms +/-1ms] http-138.199.35.220'
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  password: 'null'
+  skip-cert-verify: true
+  tls: true
+  username: 'null'
+- name: NiREvil-28
+  type: wireguard
+  server: 8.6.112.62
+  port: 1070
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827
+  mtu: 1300
+  private-key: KIt9mEFuWEUA84x/32JEyRci1xEb8mI6VAQt2jS7jU4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 104
+  - 44
+  - 127
+  udp: true
+- name: NiREvil-302
+  type: wireguard
+  server: 8.6.112.122
+  port: 890
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d1a:88b0:2764:a769:f989
+  mtu: 1300
+  private-key: aJkg3p9qmYdLsGwXnPNVOqY0qzpuiVqLeaO+6+2NJ3s=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-387
+  type: wireguard
+  server: 8.6.112.97
+  port: 894
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8f9c:b381:1e92:625d:19a8
+  mtu: 1300
+  private-key: UAGdoPNnnTFOgCy0r2ioHDNXGxfPbW775er5cZu/Gk0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-445
+  type: wireguard
+  server: 8.6.112.234
+  port: 934
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:85a2:ab50:6d18:c3b3:7add
+  mtu: 1300
+  private-key: KMN0Kj6MGyllAwfPZ8tiatDN+jnbF4anXFLX/85OIXM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: REvil31 2
+  type: wireguard
+  server: 162.159.192.6
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: MNtOs8cjdGF8ZhFdLI5t1NNF9Z5l5CKRVc+GlpiIL24=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 79
+  - 160
+  - 203
+  udp: true
+- name: REvil41
+  type: wireguard
+  server: 162.159.192.4
+  port: 2408
+  ip: 172.16.0.2
+  mtu: 1280
+  persistent-keepalive: 5
+  private-key: yB9pOnuPZXaYTmwXwFPW3mkQ/t12bfHxiaNdAK1qzV0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 187
+  - 5
+  - 232
+  udp: true
+- name: '[346.5ms +/-0ms] http-138.199.35.196'
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: NiREvil-206
+  type: wireguard
+  server: 8.6.112.46
+  port: 7281
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:814f:176c:c873:86de:5721
+  mtu: 1300
+  private-key: OEpk1kBrnejLV0Y9TJ/QNkLTuYAWwaSHKT7eWMoCQUY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+- name: NiREvil-488
+  type: wireguard
+  server: 8.6.112.176
+  port: 5279
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  - 208.67.222.222
+  - 2606:4700:4700::1111
+  ip: 172.16.0.2
+  mtu: 1300
+  private-key: wFh/joQAOjHdEkdmvvTV77lWivefHgT9cOLmmTXNCmA=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  udp: true
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - By EbraSha 79
+  - By EbraSha 7
+  - NiREvil-80F
+  - REvil22 2
+  - NiREvil-158
+  - NiREvil-188
+  - '[279.5ms +/-1ms]'
+  - '[333.0ms +/-6ms] 4Nika-dd2345695a'
+  - 🇺🇸 US-23.150.152.38-0119
+  - REvil48 2
+  - NiREvil-344
+  - 🇺🇸 US-95.215.201.18-0106
+  - REvil42 2
+  - NiREvil-376
+  - NiREvil-430
+  - NiREvil-461
+  - NiREvil-49
+  - NiREvil-62
+  - '[309.4ms +/-0ms] shadowsocks-1875129452'
+  - '[315.5ms +/-2ms] 4Nika-2851c90315'
+  - NiREvil-308
+  - NiREvil-422
+  - NiREvil-455
+  - REvil10
+  - REvil20
+  - NiREvil-385
+  - 🇺🇸 US-173.244.56.6-0094
+  - NiREvil-198
+  - REvil69 4
+  - NiREvil-273
+  - '[292.6ms +/-0ms] shadowsocks-1827146375'
+  - '[322.6ms +/-1ms] shadowsocks-1827146667'
+  - 🇺🇸 US-173.244.56.9-0089
+  - NiREvil-253
+  - REvil27
+  - REvil52
+  - NiREvil-409
+  - NiREvil-17
+  - NiREvil-290
+  - NiREvil-293
+  - '[291.5ms +/-1ms] http-138.199.35.220'
+  - NiREvil-28
+  - NiREvil-302
+  - NiREvil-387
+  - NiREvil-445
+  - REvil31 2
+  - REvil41
+  - '[346.5ms +/-0ms] http-138.199.35.196'
+  - NiREvil-206
+  - NiREvil-488
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,PROXY

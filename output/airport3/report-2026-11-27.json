@@ -1,0 +1,470 @@
+{
+  "mihomo_version": "v1.19.34",
+  "target": "https://www.gstatic.com/generate_204",
+  "timeout_ms": 5000,
+  "input_count": 12275,
+  "mihomo_unloaded_count": 1,
+  "probe_candidate_count": 12274,
+  "first_pass_count": 934,
+  "first_failed_count": 11340,
+  "stability_shortlist": 150,
+  "stable_3_of_3": 144,
+  "selected_count": 50,
+  "median_latency_ms": {
+    "min": 26,
+    "max": 60
+  },
+  "selected": [
+    {
+      "name": "By EbraSha 79",
+      "median_ms": 26,
+      "samples_ms": [
+        26,
+        34,
+        25
+      ]
+    },
+    {
+      "name": "By EbraSha 7",
+      "median_ms": 29,
+      "samples_ms": [
+        29,
+        31,
+        26
+      ]
+    },
+    {
+      "name": "NiREvil-80F",
+      "median_ms": 41,
+      "samples_ms": [
+        71,
+        40,
+        41
+      ]
+    },
+    {
+      "name": "REvil22 2",
+      "median_ms": 41,
+      "samples_ms": [
+        159,
+        41,
+        41
+      ]
+    },
+    {
+      "name": "NiREvil-158",
+      "median_ms": 44,
+      "samples_ms": [
+        178,
+        44,
+        43
+      ]
+    },
+    {
+      "name": "NiREvil-188",
+      "median_ms": 44,
+      "samples_ms": [
+        129,
+        43,
+        44
+      ]
+    },
+    {
+      "name": "[279.5ms +/-1ms]",
+      "median_ms": 45,
+      "samples_ms": [
+        45,
+        44,
+        51
+      ]
+    },
+    {
+      "name": "[333.0ms +/-6ms] 4Nika-dd2345695a",
+      "median_ms": 45,
+      "samples_ms": [
+        45,
+        44,
+        48
+      ]
+    },
+    {
+      "name": "🇺🇸 US-23.150.152.38-0119",
+      "median_ms": 46,
+      "samples_ms": [
+        43,
+        54,
+        46
+      ]
+    },
+    {
+      "name": "REvil48 2",
+      "median_ms": 47,
+      "samples_ms": [
+        56,
+        44,
+        47
+      ]
+    },
+    {
+      "name": "NiREvil-344",
+      "median_ms": 48,
+      "samples_ms": [
+        105,
+        40,
+        48
+      ]
+    },
+    {
+      "name": "🇺🇸 US-95.215.201.18-0106",
+      "median_ms": 48,
+      "samples_ms": [
+        48,
+        19,
+        59
+      ]
+    },
+    {
+      "name": "REvil42 2",
+      "median_ms": 49,
+      "samples_ms": [
+        176,
+        49,
+        42
+      ]
+    },
+    {
+      "name": "NiREvil-376",
+      "median_ms": 50,
+      "samples_ms": [
+        186,
+        50,
+        48
+      ]
+    },
+    {
+      "name": "NiREvil-430",
+      "median_ms": 50,
+      "samples_ms": [
+        162,
+        41,
+        50
+      ]
+    },
+    {
+      "name": "NiREvil-461",
+      "median_ms": 50,
+      "samples_ms": [
+        176,
+        50,
+        36
+      ]
+    },
+    {
+      "name": "NiREvil-49",
+      "median_ms": 50,
+      "samples_ms": [
+        166,
+        50,
+        50
+      ]
+    },
+    {
+      "name": "NiREvil-62",
+      "median_ms": 50,
+      "samples_ms": [
+        178,
+        50,
+        44
+      ]
+    },
+    {
+      "name": "[309.4ms +/-0ms] shadowsocks-1875129452",
+      "median_ms": 50,
+      "samples_ms": [
+        52,
+        50,
+        20
+      ]
+    },
+    {
+      "name": "[315.5ms +/-2ms] 4Nika-2851c90315",
+      "median_ms": 50,
+      "samples_ms": [
+        68,
+        50,
+        50
+      ]
+    },
+    {
+      "name": "NiREvil-308",
+      "median_ms": 51,
+      "samples_ms": [
+        181,
+        43,
+        51
+      ]
+    },
+    {
+      "name": "NiREvil-422",
+      "median_ms": 51,
+      "samples_ms": [
+        181,
+        51,
+        37
+      ]
+    },
+    {
+      "name": "NiREvil-455",
+      "median_ms": 51,
+      "samples_ms": [
+        172,
+        39,
+        51
+      ]
+    },
+    {
+      "name": "REvil10",
+      "median_ms": 51,
+      "samples_ms": [
+        149,
+        51,
+        43
+      ]
+    },
+    {
+      "name": "REvil20",
+      "median_ms": 51,
+      "samples_ms": [
+        167,
+        42,
+        51
+      ]
+    },
+    {
+      "name": "NiREvil-385",
+      "median_ms": 52,
+      "samples_ms": [
+        164,
+        43,
+        52
+      ]
+    },
+    {
+      "name": "🇺🇸 US-173.244.56.6-0094",
+      "median_ms": 52,
+      "samples_ms": [
+        52,
+        50,
+        56
+      ]
+    },
+    {
+      "name": "NiREvil-198",
+      "median_ms": 53,
+      "samples_ms": [
+        119,
+        43,
+        53
+      ]
+    },
+    {
+      "name": "REvil69 4",
+      "median_ms": 53,
+      "samples_ms": [
+        53,
+        42,
+        57
+      ]
+    },
+    {
+      "name": "NiREvil-273",
+      "median_ms": 54,
+      "samples_ms": [
+        71,
+        47,
+        54
+      ]
+    },
+    {
+      "name": "[292.6ms +/-0ms] shadowsocks-1827146375",
+      "median_ms": 54,
+      "samples_ms": [
+        50,
+        56,
+        54
+      ]
+    },
+    {
+      "name": "[322.6ms +/-1ms] shadowsocks-1827146667",
+      "median_ms": 54,
+      "samples_ms": [
+        48,
+        58,
+        54
+      ]
+    },
+    {
+      "name": "🇺🇸 US-173.244.56.9-0089",
+      "median_ms": 54,
+      "samples_ms": [
+        48,
+        58,
+        54
+      ]
+    },
+    {
+      "name": "NiREvil-253",
+      "median_ms": 55,
+      "samples_ms": [
+        181,
+        55,
+        42
+      ]
+    },
+    {
+      "name": "REvil27",
+      "median_ms": 55,
+      "samples_ms": [
+        55,
+        44,
+        69
+      ]
+    },
+    {
+      "name": "REvil52",
+      "median_ms": 55,
+      "samples_ms": [
+        183,
+        41,
+        55
+      ]
+    },
+    {
+      "name": "NiREvil-409",
+      "median_ms": 56,
+      "samples_ms": [
+        162,
+        56,
+        42
+      ]
+    },
+    {
+      "name": "NiREvil-17",
+      "median_ms": 57,
+      "samples_ms": [
+        54,
+        60,
+        57
+      ]
+    },
+    {
+      "name": "NiREvil-290",
+      "median_ms": 57,
+      "samples_ms": [
+        126,
+        57,
+        39
+      ]
+    },
+    {
+      "name": "NiREvil-293",
+      "median_ms": 57,
+      "samples_ms": [
+        92,
+        57,
+        46
+      ]
+    },
+    {
+      "name": "[291.5ms +/-1ms] http-138.199.35.220",
+      "median_ms": 58,
+      "samples_ms": [
+        58,
+        68,
+        57
+      ]
+    },
+    {
+      "name": "NiREvil-28",
+      "median_ms": 59,
+      "samples_ms": [
+        59,
+        1045,
+        55
+      ]
+    },
+    {
+      "name": "NiREvil-302",
+      "median_ms": 59,
+      "samples_ms": [
+        186,
+        59,
+        37
+      ]
+    },
+    {
+      "name": "NiREvil-387",
+      "median_ms": 59,
+      "samples_ms": [
+        167,
+        59,
+        43
+      ]
+    },
+    {
+      "name": "NiREvil-445",
+      "median_ms": 59,
+      "samples_ms": [
+        74,
+        48,
+        59
+      ]
+    },
+    {
+      "name": "REvil31 2",
+      "median_ms": 59,
+      "samples_ms": [
+        63,
+        59,
+        57
+      ]
+    },
+    {
+      "name": "REvil41",
+      "median_ms": 59,
+      "samples_ms": [
+        69,
+        59,
+        55
+      ]
+    },
+    {
+      "name": "[346.5ms +/-0ms] http-138.199.35.196",
+      "median_ms": 59,
+      "samples_ms": [
+        59,
+        64,
+        58
+      ]
+    },
+    {
+      "name": "NiREvil-206",
+      "median_ms": 60,
+      "samples_ms": [
+        106,
+        60,
+        43
+      ]
+    },
+    {
+      "name": "NiREvil-488",
+      "median_ms": 60,
+      "samples_ms": [
+        71,
+        41,
+        60
+      ]
+    }
+  ],
+  "elapsed_seconds": 260.9
+}
